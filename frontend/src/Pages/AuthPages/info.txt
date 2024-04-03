@@ -1,0 +1,3 @@
+Deci in acest folder vom crea paginile:
+Login.ts
+Register.ts

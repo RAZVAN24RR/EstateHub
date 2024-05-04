@@ -1,16 +1,18 @@
 import React from "react";
-
-//citeste ce inseamna routing pe o aplicatie ts/js/React.
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css";
+import Login from "./Pages/AuthPages/Login";
+import Register from "./Pages/AuthPages/Register";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Aici trebuie sa scrii cod, Adelin :)).</p>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Register" element={<Register />} />
+      </Routes>
+    </Router>
   );
 }
 

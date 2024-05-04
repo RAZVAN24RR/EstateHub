@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Logo from "../assets/ApiPulse.png";
+import Logo from "../../assets/Estatehub.webp";
 
 interface LoginUser {
   email: string;
@@ -49,7 +49,7 @@ const Login: React.FC<{}> = () => {
               </div>
 
               <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl">
-                Sign in to APIPulse
+                Sign in to EstateHub
               </h2>
               <p className="mt-2 text-base text-gray-600">
                 Start for free today{" "}
@@ -124,11 +124,10 @@ const Login: React.FC<{}> = () => {
 
               <div className="w-full max-w-md mx-auto xl:max-w-xl">
                 <h3 className="text-2xl font-bold text-center text-black">
-                  Start monitoring your website endpoints now
+                  Start monitoring the real estate market now!
                 </h3>
                 <p className="leading-relaxed text-center text-gray-500 mt-2.5">
-                  Monitor your website endpoints and get notified when they are
-                  down. Start for free today.
+                  Publish your ad and you can explore the market.
                 </p>
 
                 <div className="flex items-center justify-center mt-10 space-x-3">

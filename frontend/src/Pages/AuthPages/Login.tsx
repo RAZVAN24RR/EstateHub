@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Logo from "../../assets/Estatehub.webp";
+import axiosInstanceToApi from "../../api/networking";
 
 interface LoginUser {
   email: string;
@@ -28,9 +29,21 @@ const Login: React.FC<{}> = () => {
     }));
   };
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    console.log("Submitted user data:", user);
+    try {
+      const token = await axiosInstanceToApi.post("/session/", {
+        email: user.email,
+        password: user.password,
+      });
+      if (token.data) {
+        console.log(token.data);
+      } else {
+        console.log(token.data);
+      }
+    } catch (err) {
+      console.log(err);
+    }
   };
 
   return (

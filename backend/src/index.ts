@@ -1,11 +1,22 @@
-import * as http from "http";
+import express, { Request, Response } from "express";
+import cors from "cors";
+import bodyParser from "body-parser";
 
-const server = http.createServer((req, res) => {
-  res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end("Hello World\n");
+import router from "./api/routes";
+
+const app = express();
+const port = 5000;
+const baseApp = `/api/v1`;
+
+app.use(cors());
+app.use(bodyParser.json());
+
+app.use(`${baseApp}`, router);
+
+app.get("/hi", (req, res) => {
+  res.status(200).send("hi");
 });
 
-const PORT = 3000;
-server.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+app.listen(port, () => {
+  console.log(`Server running on http://localhost:${port}`);
 });

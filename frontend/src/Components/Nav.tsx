@@ -1,8 +1,10 @@
 import React from "react";
 import Footer from "../Components/Footer";
 import Logo from "../assets/logo.png";
+import { useNavigate } from "react-router-dom";
 
 const Nav: React.FC<{}> = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className="py-12 bg-gradient-to-r from-blue-600 to-[#111827]">
@@ -16,7 +18,7 @@ const Nav: React.FC<{}> = () => {
               <ul className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 xl:justify-end">
                 <li>
                   <a
-                    href="#"
+                    href="/About"
                     title=""
                     className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
@@ -27,6 +29,7 @@ const Nav: React.FC<{}> = () => {
 
                 <li>
                   <a
+                  href="/PrivacyPolicy"
                     title=""
                     className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
@@ -37,11 +40,12 @@ const Nav: React.FC<{}> = () => {
 
                 <li>
                   <a
+                    href="/Account"
                     title=""
                     className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
                     {" "}
-                    Support{" "}
+                    Account{" "}
                   </a>
                 </li>
               </ul>

@@ -6,6 +6,9 @@ import Login from "./Pages/AuthPages/Login";
 import Register from "./Pages/AuthPages/Register";
 import Home from "./Pages/Home";
 import PresPage from "./Pages/PresPage";
+import Account from "./Pages/Account";
+import About from "./Pages/About";
+import PrivacyPolicy from "./Pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
         <Route path="/Login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/Home/:token" element={<Home />} />
+        <Route path="/Account" element={<Account />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
       </Routes>
     </Router>
   );

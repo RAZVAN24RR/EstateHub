@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Logo from "../../assets/Estatehub.webp";
 import axiosInstanceToApi from "../../api/networking";
+import { useNavigate } from "react-router-dom";
+import Footer from "../../Components/Footer";
 
 interface LoginUser {
   email: string;
@@ -14,6 +16,8 @@ const Login: React.FC<{}> = () => {
     email: "",
     password: "",
   });
+
+  const navigate = useNavigate();
 
   const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setUser((prev) => ({
@@ -37,7 +41,8 @@ const Login: React.FC<{}> = () => {
         password: user.password,
       });
       if (token.data) {
-        console.log(token.data);
+        localStorage.setItem("jwt", token.data);
+        navigate(`/Home/${token.data}`);
       } else {
         console.log(token.data);
       }
@@ -153,6 +158,7 @@ const Login: React.FC<{}> = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/Estatehub.webp";
+import Footer from "../../Components/Footer";
 
 const Register: React.FC<{}> = () => {
   return (
@@ -143,6 +144,7 @@ const Register: React.FC<{}> = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };

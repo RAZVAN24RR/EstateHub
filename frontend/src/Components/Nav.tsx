@@ -18,6 +18,15 @@ const Nav: React.FC<{}> = () => {
               <ul className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 xl:justify-end">
                 <li>
                   <a
+                    title=""
+                    className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  >
+                    {" "}
+                    Log out{" "}
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="/About"
                     title=""
                     className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
@@ -26,10 +35,18 @@ const Nav: React.FC<{}> = () => {
                     About{" "}
                   </a>
                 </li>
-
                 <li>
                   <a
-                  href="/PrivacyPolicy"
+                    title=""
+                    className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  >
+                    {" "}
+                    HOME{" "}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/PrivacyPolicy"
                     title=""
                     className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >

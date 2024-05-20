@@ -2,51 +2,13 @@ import React from "react";
 import Logo from "../assets/Estatehub.webp";
 import Footer from "../Components/Footer";
 import Back from "../assets/back.png";
+import Nav from "../Components/Nav";
 
 const PresPage: React.FC<{}> = () => {
   return (
     <>
       <div className="bg-gradient-to-b from-[#101212] relative to-[#111827]">
-        <header className="absolute inset-x-0 top-0 z-10 w-full">
-          <div className="px-4 mx-auto sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-16 lg:h-20">
-              <div className="flex-shrink-0">
-                <a href="#" title="" className="flex">
-                  <img className="w-auto h-8" src={Logo} alt="" />
-                </a>
-              </div>
-
-              <div className=" lg:flex lg:items-center lg:justify-center lg:space-x-10">
-                <h2 className="text-base text-white transition-all duration-200 hover:text-opacity-80 ml-3">
-                  {"   "}
-                  EstateHub{" "}
-                </h2>
-              </div>
-
-              <div className="lg:flex lg:items-center lg:justify-end lg:space-x-6 sm:ml-auto">
-                <a
-                  href="/Login"
-                  title=""
-                  className="text-base text-white transition-all duration-200 lg:inline-flex hover:text-opacity-80 mr-4"
-                >
-                  {" "}
-                  Log in{" "}
-                </a>
-
-                <a
-                  href="/Register"
-                  title=""
-                  className="inline-flex items-center justify-center px-3 sm:px-5 py-2.5 text-sm sm:text-base font-semibold transition-all duration-200 text-white bg-white/20 hover:bg-white/40 focus:bg-white/40 rounded-lg"
-                  role="button"
-                >
-                  {" "}
-                  Register for free{" "}
-                </a>
-              </div>
-            </div>
-          </div>
-        </header>
-
+        <Nav type="unregistered" logo={true} />
         <section className="relative lg:min-h-[1000px] pt-24 pb-10 sm:pt-32 sm:pb-16 lg:pb-24">
           <div className="absolute inset-x-0 bottom-0 z-10 hidden lg:flex">
             <img className="hidden w-full lg:block" src={Back} alt="" />

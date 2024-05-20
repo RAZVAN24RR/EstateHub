@@ -5,17 +5,18 @@ import Logo from "../../assets/Estatehub.webp";
 import axiosInstanceToApi from "../../api/networking";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../Components/Footer";
-
-interface LoginUser {
-  email: string;
-  password: string;
-}
+import UserInterfaceLogin from "../../Interfaces/UserInterfaceLogin";
+import Loader from "../../Components/Loader";
+import Nav from "../../Components/Nav";
+import Alert from "../../Components/Alert";
 
 const Login: React.FC<{}> = () => {
-  const [user, setUser] = useState<LoginUser>({
+  const [loading, setLoading] = useState<Boolean>(false);
+  const [user, setUser] = useState<UserInterfaceLogin>({
     email: "",
     password: "",
   });
+  const [showAlert, setShowAlert] = useState<Boolean>(false);
 
   const navigate = useNavigate();
 
@@ -36,24 +37,29 @@ const Login: React.FC<{}> = () => {
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     try {
-      const token = await axiosInstanceToApi.post("/session/", {
+      setLoading(true);
+      const response = await axiosInstanceToApi.post("/session/", {
         email: user.email,
         password: user.password,
       });
-      if (token.data) {
-        localStorage.setItem("jwt", token.data);
-        navigate(`/Home/${token.data}`);
+      setLoading(false);
+      if (response.data) {
+        localStorage.setItem("jwt", response.data);
+        navigate(`/Home/${response.data}`);
       } else {
-        console.log(token.data);
+        setShowAlert(true);
       }
     } catch (err) {
       console.log(err);
     }
   };
 
+  if (loading) return <Loader />;
+
   return (
     <>
       <section className="bg-white">
+        <Nav type="unregistered" logo={false} />
         <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen">
           <div className="flex items-center justify-center px-4 py-10 bg-white sm:px-6 lg:px-8 sm:py-16 lg:py-24">
             <div className="xl:w-full xl:max-w-sm 2xl:max-w-md xl:mx-auto">
@@ -78,7 +84,12 @@ const Login: React.FC<{}> = () => {
                   Create an account
                 </Link>
               </p>
-
+              {showAlert && (
+                <Alert
+                  message="Error...Please try again."
+                  onClose={() => setShowAlert(false)}
+                />
+              )}
               <form onSubmit={handleSubmit} method="POST" className="mt-8">
                 <div className="space-y-5">
                   <div>

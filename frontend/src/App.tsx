@@ -18,7 +18,7 @@ function App() {
         <Route path="/Login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/Home/:token" element={<Home />} />
-        <Route path="/Account" element={<Account />} />
+        <Route path="/Account/:token" element={<Account />} />
         <Route path="/About" element={<About />} />
         <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
       </Routes>

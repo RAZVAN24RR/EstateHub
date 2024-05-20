@@ -6,7 +6,12 @@ import Nav from "../Components/Nav";
 const About: React.FC<{}> = () => {
   return (
     <>
-      <Nav />
+      <Nav
+        type={
+          localStorage.getItem("jwt") !== null ? "registered" : "unregistered"
+        }
+        logo={true}
+      />
       <div>About this app</div>
     </>
   );

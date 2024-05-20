@@ -6,7 +6,12 @@ import Nav from "../Components/Nav";
 const PrivacyPolicy: React.FC<{}> = () => {
   return (
     <>
-      <Nav />
+      <Nav
+        type={
+          localStorage.getItem("jwt") !== null ? "registered" : "unregistered"
+        }
+        logo={true}
+      />
       <div>Privacy policy of this app</div>
     </>
   );

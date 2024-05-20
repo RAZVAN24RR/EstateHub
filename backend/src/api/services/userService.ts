@@ -2,10 +2,10 @@ import * as userDal from "../../db/dal/user";
 import { GetAllUsersFilters } from "../../db/dal/types";
 import User, { UserInput, UserOutput } from "../../db/models/User";
 const bcrypt = require("bcrypt");
-const { SALT } = require("../../konst.js");
+const { SALT_ROUNDS } = require("../../konst.js");
 
 const create = (payload: UserInput): Promise<UserOutput> => {
-  payload.password = bcrypt.hashSync(payload.password, SALT);
+  payload.password = bcrypt.hashSync(payload.password, 10);
   const ok = userDal.create(payload);
   return ok;
 };

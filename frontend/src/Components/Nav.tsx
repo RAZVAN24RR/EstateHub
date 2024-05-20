@@ -29,12 +29,12 @@ const Nav: React.FC<NavProps> = (type) => {
                 <ul className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 xl:justify-end">
                   <li>
                     <a
+                      href={`/Home/${localStorage.getItem("jwt")}`}
                       title=""
-                      onClick={logOut}
-                      className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80 cursor-pointer"
+                      className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                     >
                       {" "}
-                      Log out{" "}
+                      HOME{" "}
                     </a>
                   </li>
                   <li>
@@ -47,16 +47,7 @@ const Nav: React.FC<NavProps> = (type) => {
                       About{" "}
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href={`/Home/${localStorage.getItem("jwt")}`}
-                      title=""
-                      className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
-                    >
-                      {" "}
-                      HOME{" "}
-                    </a>
-                  </li>
+
                   <li>
                     <a
                       href="/PrivacyPolicy"
@@ -76,6 +67,16 @@ const Nav: React.FC<NavProps> = (type) => {
                     >
                       {" "}
                       Account{" "}
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      title=""
+                      onClick={logOut}
+                      className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80 cursor-pointer"
+                    >
+                      {" "}
+                      Log out{" "}
                     </a>
                   </li>
                 </ul>

@@ -3,7 +3,7 @@ import Footer from "../Components/Footer";
 import LogoImg from "../assets/Estatehub.webp";
 import Nav from "../Components/Nav";
 
-const PrivacyPolicy: React.FC<{}> = () => {
+const AddAd: React.FC<{}> = () => {
   return (
     <>
       <Nav
@@ -12,10 +12,9 @@ const PrivacyPolicy: React.FC<{}> = () => {
         }
         logo={true}
       />
-      <div>Privacy policy of this app</div>
-      <Footer />
+      <div>Add</div>
     </>
   );
 };
 
-export default PrivacyPolicy;
+export default AddAd;

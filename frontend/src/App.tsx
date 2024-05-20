@@ -9,6 +9,7 @@ import PresPage from "./Pages/PresPage";
 import Account from "./Pages/Account";
 import About from "./Pages/About";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
+import AddAd from "./Pages/AddAd";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Account/:token" element={<Account />} />
         <Route path="/About" element={<About />} />
         <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/AddAd/:token" element={<AddAd />} />
       </Routes>
     </Router>
   );

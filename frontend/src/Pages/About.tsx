@@ -13,6 +13,7 @@ const About: React.FC<{}> = () => {
         logo={true}
       />
       <div>About this app</div>
+      <Footer />
     </>
   );
 };

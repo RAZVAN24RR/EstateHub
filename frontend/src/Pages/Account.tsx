@@ -13,13 +13,16 @@ const Account: React.FC<{}> = () => {
     email: "",
     createdAt: "",
     updatedAt: "",
+    isAdmin: false,
   });
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await axiosInstanceToApi.get(`/user/2`);
+        const response = await axiosInstanceToApi.get(
+          `/user/${localStorage.getItem("jwt")}`
+        );
         console.log(response.data);
         if (response.status === 200) {
           setUser(response.data);

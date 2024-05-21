@@ -1,9 +1,49 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Footer from "../Components/Footer";
 import Nav from "../Components/Nav";
 import Logo from "../assets/logo.png";
+import { useNavigate } from "react-router-dom";
+import DataUserInterface from "../Interfaces/DataUserInterface";
+import axiosInstanceToApi from "../api/networking";
+import Loader from "../Components/Loader";
 
 const Home: React.FC<{}> = () => {
+  const [loading, setLoading] = useState<Boolean>(true);
+  const [user, setUser] = useState<DataUserInterface>({
+    name: "",
+    email: "",
+    createdAt: "",
+    updatedAt: "",
+    isAdmin: false,
+  });
+  const navigate = useNavigate();
+  const handleAddAd = () => {
+    navigate(`/AddAd/${localStorage.getItem("jwt")}`);
+  };
+
+  const handleAddAdmin = () => {
+    navigate(`/AddAdmin/${localStorage.getItem("jwt")}`);
+  };
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        setLoading(true);
+        const response = await axiosInstanceToApi.get(
+          `/user/${localStorage.getItem("jwt")}`
+        );
+        console.log(response.data);
+        if (response.status === 200) {
+          setUser(response.data);
+          setLoading(false);
+        }
+      } catch (err) {
+        console.log(err);
+      }
+    };
+    fetchData();
+  }, []);
+
   return (
     <>
       <Nav type="registered" logo={true} />
@@ -74,7 +114,40 @@ const Home: React.FC<{}> = () => {
           </div>
         </div>
       </section>
-
+      <div className="bg-gray-100 sectionMain ">
+        {user.isAdmin && (
+          <button
+            onClick={handleAddAdmin}
+            type="submit"
+            className="inline-flex items-center justify-center w-auto px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 bg-indigo-600 border border-transparent rounded-md sm:ml-4 sm:mt-0 sm:w-auto hover:bg-indigo-700 focus:bg-indigo-700"
+          >
+            <svg
+              className="w-5 h-5 mr-3 -ml-1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+              fill="currentColor"
+            >
+              <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+            </svg>
+            Admin
+          </button>
+        )}
+        <button
+          onClick={handleAddAd}
+          type="submit"
+          className="inline-flex items-center justify-center w-auto px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 bg-indigo-600 border border-transparent rounded-md sm:ml-4 sm:mt-0 sm:w-auto hover:bg-indigo-700 focus:bg-indigo-700"
+        >
+          Add Ad
+          <svg
+            className="w-5 h-5 ml-3 -mr-1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+            fill="currentColor"
+          >
+            <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+          </svg>
+        </button>
+      </div>
       <Footer />
     </>
   );

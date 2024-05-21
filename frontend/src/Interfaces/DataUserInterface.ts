@@ -3,4 +3,5 @@ export default interface DataUserInterface {
   email: string;
   createdAt: string;
   updatedAt: string;
+  isAdmin: boolean;
 }

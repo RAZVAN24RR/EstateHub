@@ -50,3 +50,11 @@
   border-top-color: #3498db;
   animation: spin 1s linear infinite;
 }
+.sectionMain {
+  width: 100%;
+  height: auto;
+  margin-top: -5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

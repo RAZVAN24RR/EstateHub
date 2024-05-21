@@ -10,6 +10,8 @@ import Account from "./Pages/Account";
 import About from "./Pages/About";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import AddAd from "./Pages/AddAd";
+import AddDetail from "./Pages/AddDetail";
+import AddAdmin from "./Pages/AddAdmin";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
         <Route path="/AddAd/:token" element={<AddAd />} />
+        <Route path="/AddDetail/:id/:token" element={<AddDetail />} />
+        <Route path="/AddAdmin/:token" element={<AddAdmin />} />
       </Routes>
     </Router>
   );

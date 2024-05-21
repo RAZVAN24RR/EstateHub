@@ -34,6 +34,10 @@ module.exports = {
         allowNull: true,
         type: Sequelize.DATE,
       },
+      isAdmin: {
+        allowNull: false,
+        type: Sequelize.BOOLEAN,
+      },
     });
   },
 

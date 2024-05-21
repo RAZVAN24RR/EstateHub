@@ -1,7 +1,7 @@
 import { DataTypes, Model, Optional } from "sequelize";
 import sequelizeDB from "../config";
 
-interface UserAtributes {
+interface UserAttributes {
   id: number;
   name: string;
   email: string;
@@ -9,16 +9,18 @@ interface UserAtributes {
   createdAt?: Date;
   updatedAt?: Date;
   deletedAt?: Date;
+  isAdmin: boolean; // Make isAdmin non-optional
 }
 
-export interface UserInput extends Optional<UserAtributes, "id"> {}
-export interface UserOutput extends Required<UserAtributes> {}
+export interface UserInput extends Optional<UserAttributes, "id"> {}
+export interface UserOutput extends Required<UserAttributes> {}
 
-class User extends Model<UserAtributes, UserInput> implements UserAtributes {
+class User extends Model<UserAttributes, UserInput> implements UserAttributes {
   public id!: number;
   public name!: string;
   public email!: string;
   public password!: string;
+  public isAdmin!: boolean; // Make isAdmin non-optional
 
   // timestamps!
   public readonly createdAt!: Date;
@@ -44,6 +46,11 @@ User.init(
     password: {
       type: DataTypes.STRING,
       allowNull: false,
+    },
+    isAdmin: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      // defaultValue: false, // Provide a default value
     },
   },
   {

@@ -3,8 +3,8 @@ import { GetAllUsersFilters } from "../../db/dal/types";
 import { UserInput, UserOutput } from "../../db/models/User";
 var jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
-const { JWT_SECRET } = require("../../konst.js");
-const { SALT } = require("../../konst.js");
+import { JWT_SECRET } from "../../konst";
+
 import UserLogInInterface from "../../Interfaces/UserLogInInterface";
 import userService from "./userService";
 

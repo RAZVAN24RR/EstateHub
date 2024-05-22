@@ -43,6 +43,10 @@ module.exports = {
         type: Sequelize.DATE,
         allowNull: true,
       },
+      image: {
+        allowNull: false,
+        type: Sequelize.TEXT("long"),
+      },
     });
   },
 

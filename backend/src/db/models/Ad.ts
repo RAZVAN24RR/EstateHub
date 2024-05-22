@@ -1,26 +1,26 @@
 import { DataTypes, Model, Optional } from "sequelize";
 import sequelizeDB from "../config";
 
-interface UserAttributes {
+interface AdAttributes {
   id: number;
   name: string;
-  email: string;
-  password: string;
+  userId: number;
+  m2: number;
+  address: string;
   createdAt?: Date;
   updatedAt?: Date;
   deletedAt?: Date;
-  isAdmin: boolean; // Make isAdmin non-optional
 }
 
-export interface UserInput extends Optional<UserAttributes, "id"> {}
-export interface UserOutput extends Required<UserAttributes> {}
+export interface AdInput extends Optional<AdAttributes, "id"> {}
+export interface AdOutput extends Required<AdAttributes> {}
 
-class User extends Model<UserAttributes, UserInput> implements UserAttributes {
+class Ad extends Model<AdAttributes, AdInput> implements AdAttributes {
   public id!: number;
   public name!: string;
-  public email!: string;
-  public password!: string;
-  public isAdmin!: boolean; // Make isAdmin non-optional
+  public userId!: number;
+  public m2!: number;
+  public address!: string;
 
   // timestamps!
   public readonly createdAt!: Date;
@@ -28,7 +28,7 @@ class User extends Model<UserAttributes, UserInput> implements UserAttributes {
   public readonly deletedAt!: Date;
 }
 
-User.init(
+Ad.init(
   {
     id: {
       type: DataTypes.INTEGER.UNSIGNED,
@@ -39,18 +39,17 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    email: {
-      type: DataTypes.STRING,
+    userId: {
+      type: DataTypes.INTEGER,
       allowNull: false,
     },
-    password: {
-      type: DataTypes.STRING,
+    m2: {
+      type: DataTypes.INTEGER,
       allowNull: false,
     },
-    isAdmin: {
-      type: DataTypes.BOOLEAN,
+    address: {
+      type: DataTypes.STRING,
       allowNull: false,
-      defaultValue: true, // Provide a default value
     },
   },
   {
@@ -60,4 +59,4 @@ User.init(
   }
 );
 
-export default User;
+export default Ad;

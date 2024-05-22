@@ -187,10 +187,11 @@ const Home: React.FC<{}> = () => {
       <div style={{ paddingTop: "4%" }} className="bg-gray-100"></div>
       <div className="grid grid-cols-1 bg-gray-100 gap-6 mt-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         {ads?.map((item, index) => {
+          console.log(item.image);
           return (
             <section key={index} className="bg-white rounded-lg shadow-md p-6">
               <img
-                src="image_url"
+                src={item.image}
                 alt="Ad Image"
                 className="w-full h-48 object-cover rounded-t-lg"
               />

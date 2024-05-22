@@ -4,6 +4,7 @@ export default interface AdsInterface {
   userId: number;
   m2: number;
   address: string;
+  image: string;
   createdAt?: Date;
   updatedAt?: Date;
   deletedAt?: Date;

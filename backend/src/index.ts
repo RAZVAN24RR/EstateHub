@@ -1,6 +1,7 @@
 import express, { Request, Response } from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
+const helmet = require("helmet");
 
 import router from "./api/routes";
 
@@ -14,7 +15,9 @@ app.use(
     methods: ["GET", "POST", "DELETE", "PUT", "PATCH"],
   })
 );
-app.use(bodyParser.json());
+app.use(helmet());
+app.use(express.json({ limit: "50mb" }));
+app.use(bodyParser.json({ limit: "50mb" }));
 
 app.use(`${baseApp}`, router);
 

@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, FormEvent } from "react";
 import Footer from "../Components/Footer";
 import Nav from "../Components/Nav";
-import Logo from "../assets/logo.png";
 import { useNavigate } from "react-router-dom";
 import DataUserInterface from "../Interfaces/DataUserInterface";
 import axiosInstanceToApi from "../api/networking";
 import Loader from "../Components/Loader";
 import AdsInterface from "../Interfaces/AdsInterface";
+import { Link } from "react-router-dom";
 
 const Home: React.FC<{}> = () => {
   const [loading, setLoading] = useState<Boolean>(true);
@@ -18,7 +18,10 @@ const Home: React.FC<{}> = () => {
     isAdmin: false,
   });
   const [ads, setAds] = useState<AdsInterface[]>();
+  const [searchTerm, setSearchTerm] = useState<string>("");
+  const [searchResults, setSearchResults] = useState<AdsInterface[]>([]);
   const navigate = useNavigate();
+
   const handleAddAd = () => {
     navigate(`/AddAd/${localStorage.getItem("jwt")}`);
   };
@@ -34,7 +37,7 @@ const Home: React.FC<{}> = () => {
         const response = await axiosInstanceToApi.get(
           `/user/${localStorage.getItem("jwt")}`
         );
-        console.log(response.data);
+
         if (response.status === 200) {
           setUser(response.data);
           setLoading(false);
@@ -54,7 +57,6 @@ const Home: React.FC<{}> = () => {
         setAds(response.data);
       }
       setLoading(false);
-      console.log(response.data);
     } catch (err) {
       console.log(err);
     }
@@ -66,13 +68,30 @@ const Home: React.FC<{}> = () => {
 
   const handleDelete = async (id: number) => {
     try {
-      console.log("aaa");
       setLoading(true);
       const response = await axiosInstanceToApi.delete(`/ad/deleteAd/${id}`);
       if (response.status === 200) {
         await fetchData2();
       }
       setLoading(false);
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  const handleSearch = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    try {
+      const response = await axiosInstanceToApi.get(
+        `/ad/getAdByName/${searchTerm}`,
+        {
+          params: { name: searchTerm },
+        }
+      );
+      if (response.status === 200) {
+        setSearchResults(response.data);
+        console.log(response.data);
+      }
     } catch (err) {
       console.log(err);
     }
@@ -94,39 +113,68 @@ const Home: React.FC<{}> = () => {
             </p>
           </div>
 
-          <form action="#" method="POST" className="max-w-xl mx-auto mt-12">
-            <div className="flex flex-col items-center sm:flex-row sm:justify-center">
-              <div className="flex-1 w-full min-w-0 px-4 sm:px-0">
-                <input
-                  type="text"
-                  name="name"
-                  id="nameIc"
-                  placeholder="What are you looking for?"
-                  className="block w-full px-4 py-4 text-base text-black placeholder-gray-500 transition-all duration-200 border-transparent rounded-md caret-indigo-600 focus:border-indigo-600 focus:ring-1 focus:ring-indigo-600"
-                  required
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="inline-flex items-center justify-center w-auto px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 bg-indigo-600 border border-transparent rounded-md sm:ml-4 sm:mt-0 sm:w-auto hover:bg-indigo-700 focus:bg-indigo-700"
-              >
-                Search
-                <svg
-                  className="w-5 h-5 ml-3 -mr-1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+          <div>
+            <form onSubmit={handleSearch} className="max-w-xl mx-auto mt-12">
+              <div className="flex flex-col items-center sm:flex-row sm:justify-center">
+                <div className="flex-1 w-full min-w-0 px-4 sm:px-0">
+                  <input
+                    type="text"
+                    name="name"
+                    id="nameIc"
+                    placeholder="What are you looking for?"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    className="block w-full px-4 py-4 text-base text-black placeholder-gray-500 transition-all duration-200 border-transparent rounded-md caret-indigo-600 focus:border-indigo-600 focus:ring-1 focus:ring-indigo-600"
+                    required
                   />
-                </svg>
-              </button>
+                </div>
+                <button
+                  type="submit"
+                  className="inline-flex items-center justify-center w-auto px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 bg-indigo-600 border border-transparent rounded-md sm:ml-4 sm:mt-0 sm:w-auto hover:bg-indigo-700 focus:bg-indigo-700"
+                >
+                  Search
+                  <svg
+                    className="w-5 h-5 ml-3 -mr-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </form>
+            <div className="max-w-xl mx-auto mt-2">
+              {searchResults.length > 0 && (
+                <>
+                  <h1
+                    style={{
+                      paddingLeft: "5px",
+                      marginBottom: "1%",
+                      marginTop: "2%",
+                    }}
+                  >
+                    Results:
+                  </h1>
+                  {searchResults?.map((item, index) => (
+                    <Link
+                      to={`/AddDetail/${item.id}/${localStorage.getItem(
+                        "jwt"
+                      )}`}
+                      key={index}
+                      className="block p-4 mb-4 transition-all duration-200 border rounded-md shadow-sm hover:bg-gray-200 hover:border-indigo-600"
+                    >
+                      {item.name} - {item.m2} - {item.address}
+                    </Link>
+                  ))}
+                </>
+              )}
             </div>
-          </form>
+          </div>
 
           <div className="flex items-center justify-center px-8 mt-8 sm:px-0">
             <svg
@@ -137,15 +185,16 @@ const Home: React.FC<{}> = () => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
                 d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
               />
             </svg>
             <span className="ml-2 text-sm text-gray-600">
               {" "}
-              Your data is complely secured with us. We don’t share with anyone.{" "}
+              Your data is completely secured with us. We don’t share with
+              anyone.{" "}
             </span>
           </div>
         </div>
@@ -184,10 +233,9 @@ const Home: React.FC<{}> = () => {
           </svg>
         </button>
       </div>
-      <div style={{ paddingTop: "4%" }} className="bg-gray-100"></div>
+      <div style={{ paddingTop: "2%" }} className="bg-gray-100"></div>
       <div className="grid grid-cols-1 bg-gray-100 gap-6 mt-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         {ads?.map((item, index) => {
-          console.log(item.image);
           return (
             <section key={index} className="bg-white rounded-lg shadow-md p-6">
               <img
@@ -218,6 +266,27 @@ const Home: React.FC<{}> = () => {
         })}
       </div>
       <div style={{ paddingBottom: "4%" }} className="bg-gray-100"></div>
+      {searchResults.length > 0 && (
+        <div className="mt-6 bg-white rounded-lg shadow-md p-6 max-w-xl mx-auto">
+          <h3 className="text-xl font-bold text-gray-900">Search Results</h3>
+          {searchResults.map((item, index) => (
+            <div key={index} className="mt-4">
+              <img
+                src={item.image}
+                alt="Search Result Image"
+                className="w-full h-48 object-cover rounded-t-lg"
+              />
+              <div className="mt-2">
+                <h4 className="text-lg font-semibold text-gray-900">
+                  {item.name}
+                </h4>
+                <p className="mt-1 text-gray-600">{item.address}</p>
+                <p className="mt-1 text-gray-600">{item.m2} m²</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
       <Footer />
     </div>
   );

@@ -24,4 +24,18 @@ adRouter.delete("/deleteAd/:id", async (req: Request, res: Response) => {
   else return res.status(400).send(false);
 });
 
+adRouter.get("/getAdById/:id", async (req: Request, res: Response) => {
+  const id = req.params.id;
+  const isDeleted = await adService.getAdByid(id);
+  if (isDeleted) return res.status(200).send(true);
+  else return res.status(400).send(false);
+});
+
+adRouter.get("/getAdByName/:name", async (req: Request, res: Response) => {
+  const name = req.params.name;
+  const response = await adService.getAdsByName(name);
+  if (response) return res.status(200).send(response);
+  else return res.status(400).send(false);
+});
+
 export default adRouter;

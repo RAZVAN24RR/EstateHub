@@ -18,10 +18,22 @@ const deleteAdByid = (id: string): Promise<boolean> => {
   return ok;
 };
 
+const getAdByid = (id: string): Promise<AdOutput> => {
+  const ok = adDal.getAdById(id);
+  return ok;
+};
+
+const getAdsByName = (name: string): Promise<AdOutput[]> => {
+  const ok = adDal.getAdsByName(name);
+  return ok;
+};
+
 const adService = {
   create,
   getAllAds,
   deleteAdByid,
+  getAdByid,
+  getAdsByName,
 };
 
 export default adService;

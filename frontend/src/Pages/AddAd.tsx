@@ -13,6 +13,7 @@ const AddAd: React.FC<{}> = () => {
         logo={true}
       />
       <div>Add</div>
+      <Footer />
     </>
   );
 };

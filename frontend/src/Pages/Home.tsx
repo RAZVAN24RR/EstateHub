@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import DataUserInterface from "../Interfaces/DataUserInterface";
 import axiosInstanceToApi from "../api/networking";
 import Loader from "../Components/Loader";
+import AdsInterface from "../Interfaces/AdsInterface";
 
 const Home: React.FC<{}> = () => {
   const [loading, setLoading] = useState<Boolean>(true);
@@ -16,6 +17,7 @@ const Home: React.FC<{}> = () => {
     updatedAt: "",
     isAdmin: false,
   });
+  const [ads, setAds] = useState<AdsInterface[]>();
   const navigate = useNavigate();
   const handleAddAd = () => {
     navigate(`/AddAd/${localStorage.getItem("jwt")}`);
@@ -26,7 +28,7 @@ const Home: React.FC<{}> = () => {
   };
 
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchData1 = async () => {
       try {
         setLoading(true);
         const response = await axiosInstanceToApi.get(
@@ -41,11 +43,29 @@ const Home: React.FC<{}> = () => {
         console.log(err);
       }
     };
-    fetchData();
+    fetchData1();
+  }, []);
+  useEffect(() => {
+    const fetchData2 = async () => {
+      try {
+        setLoading(true);
+        const response = await axiosInstanceToApi.get(`/ad/ads`);
+        if (response.status === 200) {
+          setAds(response.data);
+        }
+        setLoading(false);
+        console.log(response.data);
+      } catch (err) {
+        console.log(err);
+      }
+    };
+    fetchData2();
   }, []);
 
+  if (loading) return <Loader />;
+
   return (
-    <>
+    <div className="bg-gray-100">
       <Nav type="registered" logo={true} />
       <section className="py-10 bg-gray-100 sm:py-16 lg:py-24">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
@@ -148,8 +168,38 @@ const Home: React.FC<{}> = () => {
           </svg>
         </button>
       </div>
+      <div style={{ paddingTop: "4%" }} className="bg-gray-100"></div>
+      <div className="grid grid-cols-1 bg-gray-100 gap-6 mt-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        {ads?.map((item, index) => {
+          return (
+            <section key={index} className="bg-white rounded-lg shadow-md p-6">
+              <img
+                src="image_url"
+                alt="Ad Image"
+                className="w-full h-48 object-cover rounded-t-lg"
+              />
+              <div className="mt-4">
+                <h3 className="text-xl font-bold text-gray-900">{item.name}</h3>
+                <p className="mt-2 text-gray-600">{item.address}</p>
+                <p className="mt-1 text-gray-600">{item.m2} m²</p>
+              </div>
+              <div className="mt-6 flex justify-between">
+                {user?.isAdmin && (
+                  <button className="px-4 py-2 text-white bg-red-600 rounded-md hover:bg-red-700">
+                    Delete
+                  </button>
+                )}
+                <button className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700">
+                  Details
+                </button>
+              </div>
+            </section>
+          );
+        })}
+      </div>
+      <div style={{ paddingBottom: "4%" }} className="bg-gray-100"></div>
       <Footer />
-    </>
+    </div>
   );
 };
 

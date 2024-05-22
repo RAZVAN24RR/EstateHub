@@ -45,22 +45,38 @@ const Home: React.FC<{}> = () => {
     };
     fetchData1();
   }, []);
-  useEffect(() => {
-    const fetchData2 = async () => {
-      try {
-        setLoading(true);
-        const response = await axiosInstanceToApi.get(`/ad/ads`);
-        if (response.status === 200) {
-          setAds(response.data);
-        }
-        setLoading(false);
-        console.log(response.data);
-      } catch (err) {
-        console.log(err);
+
+  const fetchData2 = async () => {
+    try {
+      setLoading(true);
+      const response = await axiosInstanceToApi.get(`/ad/ads`);
+      if (response.status === 200) {
+        setAds(response.data);
       }
-    };
+      setLoading(false);
+      console.log(response.data);
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  useEffect(() => {
     fetchData2();
   }, []);
+
+  const handleDelete = async (id: number) => {
+    try {
+      console.log("aaa");
+      setLoading(true);
+      const response = await axiosInstanceToApi.delete(`/ad/deleteAd/${id}`);
+      if (response.status === 200) {
+        await fetchData2();
+      }
+      setLoading(false);
+    } catch (err) {
+      console.log(err);
+    }
+  };
 
   if (loading) return <Loader />;
 
@@ -185,7 +201,10 @@ const Home: React.FC<{}> = () => {
               </div>
               <div className="mt-6 flex justify-between">
                 {user?.isAdmin && (
-                  <button className="px-4 py-2 text-white bg-red-600 rounded-md hover:bg-red-700">
+                  <button
+                    onClick={() => handleDelete(item.id)}
+                    className="px-4 py-2 text-white bg-red-600 rounded-md hover:bg-red-700"
+                  >
                     Delete
                   </button>
                 )}

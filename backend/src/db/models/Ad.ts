@@ -8,6 +8,8 @@ interface AdAttributes {
   m2: number;
   address: string;
   image: string; // Adăugăm câmpul `image`
+  description: string;
+  price: string;
   createdAt?: Date;
   updatedAt?: Date;
   deletedAt?: Date;
@@ -23,6 +25,8 @@ class Ad extends Model<AdAttributes, AdInput> implements AdAttributes {
   public m2!: number;
   public address!: string;
   public image!: string; // Adăugăm câmpul `image`
+  public description!: string;
+  public price!: string;
 
   // timestamps!
   public readonly createdAt!: Date;
@@ -56,6 +60,15 @@ Ad.init(
     image: {
       type: DataTypes.TEXT("long"),
       allowNull: false,
+    },
+    description: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    price: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      defaultValue: "100",
     },
   },
   {

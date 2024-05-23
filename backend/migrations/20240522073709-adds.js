@@ -47,6 +47,14 @@ module.exports = {
         allowNull: false,
         type: Sequelize.TEXT("long"),
       },
+      description: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      price: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
     });
   },
 

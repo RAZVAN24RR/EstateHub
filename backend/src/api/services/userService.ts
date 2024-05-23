@@ -17,8 +17,8 @@ const createAdmin = (payload: UserInput): Promise<UserOutput> => {
   return ok;
 };
 
-const getById = (id: number): Promise<UserOutput> => {
-  const ok = userDal.getById(id);
+const getById = async (id: number): Promise<UserOutput> => {
+  const ok = await userDal.getById(id);
   return ok;
 };
 

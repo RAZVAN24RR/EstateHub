@@ -16,6 +16,7 @@ userRouter.get("/:id", async (req: Request, res: Response) => {
     createdAt: dataFormat(result.createdAt),
     updatedAt: dataFormat(result.updatedAt),
     isAdmin: result.isAdmin,
+    image: result.image,
   });
 });
 userRouter.delete("/:id", async (req: Request, res: Response) => {

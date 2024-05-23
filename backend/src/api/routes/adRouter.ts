@@ -26,8 +26,8 @@ adRouter.delete("/deleteAd/:id", async (req: Request, res: Response) => {
 
 adRouter.get("/getAdById/:id", async (req: Request, res: Response) => {
   const id = req.params.id;
-  const isDeleted = await adService.getAdByid(id);
-  if (isDeleted) return res.status(200).send(true);
+  const response = await adService.getAdByid(id);
+  if (response) return res.status(200).send(response);
   else return res.status(400).send(false);
 });
 

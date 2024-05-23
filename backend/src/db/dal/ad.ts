@@ -16,17 +16,13 @@ export const getAdById = async (id: string): Promise<AdOutput> => {
 };
 
 export const getAdsByName = async (name: string): Promise<AdOutput[]> => {
-  const ads = await Ad.findAll({
+  let ads = await Ad.findAll({
     where: {
       name: {
         [Op.like]: `%${name}%`, // Folosește LIKE pentru a căuta toate anunțurile care conțin `name`
       },
     },
   });
-
-  if (!ads || ads.length === 0) {
-    throw new Error("No ads found");
-  }
 
   return ads;
 };

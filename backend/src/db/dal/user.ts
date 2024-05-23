@@ -10,6 +10,7 @@ export const create = async (payload: UserInput): Promise<UserOutput> => {
 
 export const getById = async (id: number): Promise<UserOutput> => {
   const user = await User.findByPk(id);
+
   if (!user) {
     // @todo throw custom error
     throw new Error("not found");

@@ -10,6 +10,7 @@ interface UserAttributes {
   updatedAt?: Date;
   deletedAt?: Date;
   isAdmin: boolean; // Make isAdmin non-optional
+  image: string;
 }
 
 export interface UserInput extends Optional<UserAttributes, "id"> {}
@@ -21,6 +22,7 @@ class User extends Model<UserAttributes, UserInput> implements UserAttributes {
   public email!: string;
   public password!: string;
   public isAdmin!: boolean; // Make isAdmin non-optional
+  public image!: string;
 
   // timestamps!
   public readonly createdAt!: Date;
@@ -50,7 +52,11 @@ User.init(
     isAdmin: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
-      defaultValue: true, // Provide a default value
+      defaultValue: false, // Provide a default value
+    },
+    image: {
+      type: DataTypes.TEXT("long"),
+      allowNull: false,
     },
   },
   {

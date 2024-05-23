@@ -2,6 +2,16 @@ import Ad, { AdInput, AdOutput } from "../../db/models/Ad";
 import * as adDal from "../../db/dal/ad";
 import { decodeAndVerifyJWT } from "../../utils/decodeJWT";
 
+interface AdDetail {
+  name: string;
+  image: string;
+  m2: number;
+  nameProp: string;
+  idProp: string;
+  description: string;
+  price: string;
+}
+
 const create = (payload: AdInput): Promise<AdOutput> => {
   payload.userId = decodeAndVerifyJWT(String(payload.userId));
   const ok = adDal.create(payload);

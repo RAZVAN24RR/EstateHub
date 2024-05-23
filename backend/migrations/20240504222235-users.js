@@ -38,6 +38,10 @@ module.exports = {
         allowNull: false,
         type: Sequelize.BOOLEAN,
       },
+      image: {
+        allowNull: false,
+        type: Sequelize.TEXT("long"),
+      },
     });
   },
 

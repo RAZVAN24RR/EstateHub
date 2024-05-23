@@ -16,6 +16,7 @@ const Home: React.FC<{}> = () => {
     createdAt: "",
     updatedAt: "",
     isAdmin: false,
+    image: "",
   });
   const [ads, setAds] = useState<AdsInterface[]>();
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -257,7 +258,14 @@ const Home: React.FC<{}> = () => {
                     Delete
                   </button>
                 )}
-                <button className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700">
+                <button
+                  onClick={() =>
+                    navigate(
+                      `/AddDetail/${item.id}/${localStorage.getItem("jwt")}`
+                    )
+                  }
+                  className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700"
+                >
                   Details
                 </button>
               </div>

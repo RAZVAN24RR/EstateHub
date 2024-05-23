@@ -4,4 +4,5 @@ export default interface DataUserInterface {
   createdAt: string;
   updatedAt: string;
   isAdmin: boolean;
+  image: string;
 }

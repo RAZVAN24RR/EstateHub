@@ -12,6 +12,7 @@ const Account: React.FC<{}> = () => {
     name: "",
     email: "",
     createdAt: "",
+    image: "",
     updatedAt: "",
     isAdmin: false,
   });
@@ -50,6 +51,12 @@ const Account: React.FC<{}> = () => {
         <div className="max-w-lg mx-auto bg-white rounded-lg shadow-md overflow-hidden">
           <div className="p-4 py-4 bg-gradient-to-r from-blue-600 to-600 bg-blue-900 text-white text-center">
             <h2 className="text-2xl   font-semibold">Account Information</h2>
+
+            <img
+              src={user.image}
+              alt="Ad Image"
+              className="w-full h-48 object-cover rounded-t-lg mt-5"
+            />
           </div>
           <div className="p-6">
             <div className="mb-4">

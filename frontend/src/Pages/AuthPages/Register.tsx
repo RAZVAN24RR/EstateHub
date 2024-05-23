@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, ChangeEvent } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/Estatehub.webp";
 import Footer from "../../Components/Footer";
@@ -18,6 +18,7 @@ const Register: React.FC<{}> = () => {
     name: "",
     email: "",
     password: "",
+    image: "",
   });
 
   const signupUsers = async () => {
@@ -28,6 +29,7 @@ const Register: React.FC<{}> = () => {
         name: user.name,
         email: user.email,
         password: user.password,
+        image: user.image,
       });
       setLoading(false);
       if (response.status === 200) {
@@ -37,6 +39,20 @@ const Register: React.FC<{}> = () => {
       }
     } catch (err) {
       console.log(err);
+    }
+  };
+
+  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+    const { name, value, files } = e.target;
+    if (name === "image" && files && files[0]) {
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        setUser({
+          ...user,
+          image: reader.result as string,
+        });
+      };
+      reader.readAsDataURL(files[0]);
     }
   };
 
@@ -185,7 +201,20 @@ const Register: React.FC<{}> = () => {
                       />
                     </div>
                   </div>
-
+                  <div>
+                    <label className="text-base font-medium text-gray-900">
+                      Imagine
+                    </label>
+                    <div className="mt-2.5">
+                      <input
+                        type="file"
+                        name="image"
+                        id="image"
+                        onChange={handleChange}
+                        className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
+                      />
+                    </div>
+                  </div>
                   <div>
                     <button
                       type="submit"

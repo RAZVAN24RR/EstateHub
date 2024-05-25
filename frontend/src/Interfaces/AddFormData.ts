@@ -5,4 +5,6 @@ export default interface AddFormData {
   address: string;
   image: string | null;
   description: string;
+  floor: string;
+  rooms: string;
 }

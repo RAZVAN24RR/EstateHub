@@ -7,4 +7,6 @@ export default interface AddDetailInterface {
   image: string;
   description: string;
   price: string;
+  rooms: string;
+  floor: string;
 }

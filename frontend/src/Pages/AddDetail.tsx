@@ -22,6 +22,8 @@ const AddDetail: React.FC<{}> = () => {
     image: "",
     description: "",
     price: "",
+    floor: "",
+    rooms: "",
   });
 
   useEffect(() => {
@@ -103,7 +105,6 @@ const AddDetail: React.FC<{}> = () => {
                   style={{
                     width: "50px",
                     marginLeft: "auto",
-                    marginTop: "-7%",
                   }}
                 >
                   <button
@@ -138,6 +139,14 @@ const AddDetail: React.FC<{}> = () => {
                   <p className="text-gray-700 mb-2">
                     <strong>Area: </strong>
                     {adDetail.m2} m²
+                  </p>
+                  <p className="text-gray-700 mb-2">
+                    <strong>Etaj: </strong>
+                    {adDetail.floor}
+                  </p>
+                  <p className="text-gray-700 mb-2">
+                    <strong>Numar camere: </strong>
+                    {adDetail.rooms}
                   </p>
                   <p className="text-gray-700 mb-2">
                     <strong>Owner: </strong>

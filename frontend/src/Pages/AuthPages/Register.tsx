@@ -30,6 +30,7 @@ const Register: React.FC<{}> = () => {
         email: user.email,
         password: user.password,
         image: user.image,
+        isAdmin: false,
       });
       setLoading(false);
       if (response.status === 200) {

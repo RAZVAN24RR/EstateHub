@@ -18,6 +18,8 @@ const AddAd: React.FC<{}> = () => {
     address: "",
     image: "",
     description: "",
+    floor: "",
+    rooms: "",
   });
 
   const navigate = useNavigate();
@@ -64,6 +66,8 @@ const AddAd: React.FC<{}> = () => {
       address: formData.address,
       image: formData.image,
       description: formData.description,
+      floor: formData.floor,
+      rooms: formData.rooms,
     };
 
     try {
@@ -187,6 +191,38 @@ const AddAd: React.FC<{}> = () => {
                   value={formData.description}
                   onChange={handleChange}
                   placeholder="Enter description"
+                  className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
+                />
+              </div>
+            </div>
+            <div>
+              <label className="text-base font-medium text-gray-900">
+                Numar camere
+              </label>
+              <div className="mt-2.5">
+                <input
+                  type="text"
+                  name="rooms"
+                  id="rooms"
+                  value={formData.rooms}
+                  onChange={handleChange}
+                  placeholder="Enter rooms"
+                  className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
+                />
+              </div>
+            </div>
+            <div>
+              <label className="text-base font-medium text-gray-900">
+                Etaj
+              </label>
+              <div className="mt-2.5">
+                <input
+                  type="text"
+                  name="floor"
+                  id="floor"
+                  value={formData.floor}
+                  onChange={handleChange}
+                  placeholder="Enter floor"
                   className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
                 />
               </div>

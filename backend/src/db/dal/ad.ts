@@ -11,6 +11,8 @@ export default class AdDetail {
   public nameProp!: string;
   public image!: string;
   public description!: string;
+  public floor!: string;
+  public rooms!: string;
   public price!: string;
 }
 
@@ -39,6 +41,8 @@ export const getAdById = async (id: string): Promise<AdDetail> => {
       address: ad.address,
       userId: ad.userId,
       description: ad.description,
+      floor: ad.floor,
+      rooms: ad.rooms,
       price: ad.price,
     };
   } catch (err) {

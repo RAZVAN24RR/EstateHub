@@ -1,11 +1,23 @@
 import Ad, { AdInput, AdOutput } from "../../db/models/Ad";
 import * as adDal from "../../db/dal/ad";
 import { decodeAndVerifyJWT } from "../../utils/decodeJWT";
+import { calcPrice } from "../../../calcPrice";
 import AdDetail from "../../db/dal/ad";
+import truncateToThreeDecimals from "../../utils/truncPrice";
 
-const create = (payload: AdInput): Promise<AdOutput> => {
-  payload.userId = decodeAndVerifyJWT(String(payload.userId));
-  const ok = adDal.create(payload);
+const create = async (payload: AdInput): Promise<AdOutput> => {
+  payload.userId = await decodeAndVerifyJWT(String(payload.userId));
+
+  const price = await calcPrice(
+    Number(payload.m2),
+    payload.description,
+    Number(payload.rooms),
+    Number(payload.floor)
+  );
+
+  payload.price = String(truncateToThreeDecimals(price));
+
+  const ok = await adDal.create(payload);
   return ok;
 };
 

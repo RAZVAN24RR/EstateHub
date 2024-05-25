@@ -9,6 +9,8 @@ interface AdAttributes {
   address: string;
   image: string; // Adăugăm câmpul `image`
   description: string;
+  rooms: string;
+  floor: string;
   price: string;
   createdAt?: Date;
   updatedAt?: Date;
@@ -24,6 +26,8 @@ class Ad extends Model<AdAttributes, AdInput> implements AdAttributes {
   public userId!: number;
   public m2!: number;
   public address!: string;
+  public floor!: string;
+  public rooms!: string;
   public image!: string; // Adăugăm câmpul `image`
   public description!: string;
   public price!: string;
@@ -65,10 +69,17 @@ Ad.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    floor: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    rooms: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     price: {
       type: DataTypes.STRING,
       allowNull: false,
-      defaultValue: "100",
     },
   },
   {

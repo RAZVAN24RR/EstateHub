@@ -51,6 +51,14 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
+      floor: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      rooms: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
       price: {
         type: Sequelize.STRING,
         allowNull: false,

@@ -52,7 +52,7 @@ User.init(
     isAdmin: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
-      defaultValue: false, // Provide a default value
+      defaultValue: false,
     },
     image: {
       type: DataTypes.TEXT("long"),

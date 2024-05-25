@@ -17,6 +17,7 @@ const AddAd: React.FC<{}> = () => {
     m2: "",
     address: "",
     image: "",
+    description: "",
   });
 
   const navigate = useNavigate();
@@ -48,7 +49,7 @@ const AddAd: React.FC<{}> = () => {
     } else {
       setFormData({
         ...formData,
-        [name]: name === "userId" || name === "m2" ? Number(value) : value,
+        [name]: name === "m2" ? Number(value) : value,
       });
     }
   };
@@ -62,6 +63,7 @@ const AddAd: React.FC<{}> = () => {
       m2: formData.m2,
       address: formData.address,
       image: formData.image,
+      description: formData.description,
     };
 
     try {
@@ -169,6 +171,22 @@ const AddAd: React.FC<{}> = () => {
                   value={formData.address}
                   onChange={handleChange}
                   placeholder="Enter address"
+                  className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
+                />
+              </div>
+            </div>
+            <div>
+              <label className="text-base font-medium text-gray-900">
+                Descriere
+              </label>
+              <div className="mt-2.5">
+                <input
+                  type="text"
+                  name="description"
+                  id="description"
+                  value={formData.description}
+                  onChange={handleChange}
+                  placeholder="Enter description"
                   className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
                 />
               </div>

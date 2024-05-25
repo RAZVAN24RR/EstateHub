@@ -47,10 +47,15 @@ const Account: React.FC<{}> = () => {
   return (
     <>
       <Nav type="registered" logo={true} />
-      <div className="container mx-auto p-4">
-        <div className="max-w-lg mx-auto bg-white rounded-lg shadow-md overflow-hidden">
-          <div className="p-4 py-4 bg-gradient-to-r from-blue-600 to-600 bg-blue-900 text-white text-center">
-            <h2 className="text-2xl   font-semibold">Account Information</h2>
+      <div className="container  mx-auto p-4" style={{ marginTop: "5%" }}>
+        <div className="max-w-lg mx-auto  bg-white rounded-lg shadow-md overflow-hidden ">
+          <div className="p-4 py-4 bg-white text-white text-3xl text-center">
+            <h2
+              className="text-2xl text-gray-600 font-semibold"
+              style={{ marginBottom: "20%", fontSize: "30px" }}
+            >
+              Account Information
+            </h2>
 
             <img
               src={user.image}
@@ -92,13 +97,9 @@ const Account: React.FC<{}> = () => {
               </p>
             </div>
           </div>
-          {/* <div className="p-4 bg-gray-50 text-center">
-            <button className="bg-blue-500 text-base font-semibold text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
-              Edit Information
-            </button>
-          </div> */}
         </div>
       </div>
+      <div style={{ marginTop: "5%" }}></div>
       <Footer />
     </>
   );

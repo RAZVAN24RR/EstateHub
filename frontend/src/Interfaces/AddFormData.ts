@@ -4,4 +4,5 @@ export default interface AddFormData {
   m2: number | "";
   address: string;
   image: string | null;
+  description: string;
 }

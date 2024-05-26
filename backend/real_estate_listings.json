@@ -1,0 +1,7002 @@
+[
+  {
+    "square_meters": 67,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 1,
+    "floor": 4,
+    "price": 54735
+  },
+  {
+    "square_meters": 52,
+    "description": "big bedroom with parking space",
+    "rooms": 2,
+    "floor": 5,
+    "price": 247917
+  },
+  {
+    "square_meters": 54,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 2,
+    "floor": 5,
+    "price": 169141
+  },
+  {
+    "square_meters": 115,
+    "description": "small living room and big bedroom",
+    "rooms": 4,
+    "floor": 9,
+    "price": 138287
+  },
+  {
+    "square_meters": 94,
+    "description": "parking space and big bedroom",
+    "rooms": 2,
+    "floor": 7,
+    "price": 57482
+  },
+  {
+    "square_meters": 47,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 4,
+    "floor": 3,
+    "price": 148956
+  },
+  {
+    "square_meters": 52,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 5,
+    "floor": 9,
+    "price": 56283
+  },
+  {
+    "square_meters": 111,
+    "description": "small living room, no balcony",
+    "rooms": 5,
+    "floor": 4,
+    "price": 175721
+  },
+  {
+    "square_meters": 81,
+    "description": "small living room and big TV",
+    "rooms": 2,
+    "floor": 7,
+    "price": 222952
+  },
+  {
+    "square_meters": 71,
+    "description": "small living room and big TV",
+    "rooms": 1,
+    "floor": 7,
+    "price": 263703
+  },
+  {
+    "square_meters": 52,
+    "description": "small living room with big TV",
+    "rooms": 5,
+    "floor": 10,
+    "price": 292069
+  },
+  {
+    "square_meters": 119,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 3,
+    "floor": 9,
+    "price": 244384
+  },
+  {
+    "square_meters": 40,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 5,
+    "floor": 5,
+    "price": 234635
+  },
+  {
+    "square_meters": 98,
+    "description": "big bedroom and parking space",
+    "rooms": 2,
+    "floor": 9,
+    "price": 87535
+  },
+  {
+    "square_meters": 97,
+    "description": "renovated bathroom and small living room",
+    "rooms": 1,
+    "floor": 2,
+    "price": 128452
+  },
+  {
+    "square_meters": 45,
+    "description": "small living room, no balcony",
+    "rooms": 3,
+    "floor": 4,
+    "price": 67816
+  },
+  {
+    "square_meters": 51,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 5,
+    "price": 108678
+  },
+  {
+    "square_meters": 73,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 5,
+    "floor": 4,
+    "price": 119633
+  },
+  {
+    "square_meters": 71,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 3,
+    "floor": 1,
+    "price": 285851
+  },
+  {
+    "square_meters": 50,
+    "description": "newly furnished with a big TV",
+    "rooms": 4,
+    "floor": 7,
+    "price": 76575
+  },
+  {
+    "square_meters": 108,
+    "description": "large living room and parking space",
+    "rooms": 3,
+    "floor": 4,
+    "price": 213174
+  },
+  {
+    "square_meters": 100,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 5,
+    "floor": 9,
+    "price": 101378
+  },
+  {
+    "square_meters": 65,
+    "description": "small living room and renovated bathroom",
+    "rooms": 3,
+    "floor": 5,
+    "price": 127891
+  },
+  {
+    "square_meters": 68,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 1,
+    "floor": 6,
+    "price": 255000
+  },
+  {
+    "square_meters": 69,
+    "description": "newly furnished with a big TV",
+    "rooms": 4,
+    "floor": 1,
+    "price": 219615
+  },
+  {
+    "square_meters": 77,
+    "description": "large living room and parking space",
+    "rooms": 3,
+    "floor": 2,
+    "price": 191232
+  },
+  {
+    "square_meters": 72,
+    "description": "renovated bathroom and big TV",
+    "rooms": 2,
+    "floor": 10,
+    "price": 165148
+  },
+  {
+    "square_meters": 52,
+    "description": "large living room and balcony",
+    "rooms": 2,
+    "floor": 2,
+    "price": 148113
+  },
+  {
+    "square_meters": 93,
+    "description": "newly furnished with a big TV",
+    "rooms": 1,
+    "floor": 3,
+    "price": 241848
+  },
+  {
+    "square_meters": 80,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 2,
+    "floor": 8,
+    "price": 275716
+  },
+  {
+    "square_meters": 92,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 3,
+    "price": 273241
+  },
+  {
+    "square_meters": 94,
+    "description": "renovated bathroom and small living room",
+    "rooms": 4,
+    "floor": 3,
+    "price": 227197
+  },
+  {
+    "square_meters": 66,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 1,
+    "floor": 2,
+    "price": 204646
+  },
+  {
+    "square_meters": 56,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 4,
+    "floor": 4,
+    "price": 102630
+  },
+  {
+    "square_meters": 78,
+    "description": "renovated bathroom and small living room",
+    "rooms": 1,
+    "floor": 1,
+    "price": 239346
+  },
+  {
+    "square_meters": 113,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 4,
+    "floor": 3,
+    "price": 293715
+  },
+  {
+    "square_meters": 64,
+    "description": "renovated bathroom and big TV",
+    "rooms": 4,
+    "floor": 5,
+    "price": 79202
+  },
+  {
+    "square_meters": 82,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 2,
+    "price": 144418
+  },
+  {
+    "square_meters": 67,
+    "description": "big bedroom with parking space",
+    "rooms": 3,
+    "floor": 6,
+    "price": 167708
+  },
+  {
+    "square_meters": 47,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 5,
+    "floor": 9,
+    "price": 240528
+  },
+  {
+    "square_meters": 53,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 9,
+    "price": 250173
+  },
+  {
+    "square_meters": 55,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 2,
+    "floor": 4,
+    "price": 267527
+  },
+  {
+    "square_meters": 72,
+    "description": "small living room and big TV",
+    "rooms": 5,
+    "floor": 4,
+    "price": 134416
+  },
+  {
+    "square_meters": 115,
+    "description": "big bedroom with parking space",
+    "rooms": 2,
+    "floor": 7,
+    "price": 278353
+  },
+  {
+    "square_meters": 104,
+    "description": "big bedroom with parking space",
+    "rooms": 4,
+    "floor": 2,
+    "price": 282386
+  },
+  {
+    "square_meters": 61,
+    "description": "large living room and parking space",
+    "rooms": 3,
+    "floor": 2,
+    "price": 193708
+  },
+  {
+    "square_meters": 63,
+    "description": "small living room and renovated bathroom",
+    "rooms": 1,
+    "floor": 4,
+    "price": 213052
+  },
+  {
+    "square_meters": 87,
+    "description": "small living room with big TV",
+    "rooms": 2,
+    "floor": 7,
+    "price": 78679
+  },
+  {
+    "square_meters": 106,
+    "description": "small living room and big bedroom",
+    "rooms": 4,
+    "floor": 2,
+    "price": 138396
+  },
+  {
+    "square_meters": 80,
+    "description": "big bedroom with parking space",
+    "rooms": 3,
+    "floor": 5,
+    "price": 187719
+  },
+  {
+    "square_meters": 43,
+    "description": "renovated bathroom and big TV",
+    "rooms": 5,
+    "floor": 5,
+    "price": 156708
+  },
+  {
+    "square_meters": 82,
+    "description": "renovated bathroom and small living room",
+    "rooms": 1,
+    "floor": 5,
+    "price": 271309
+  },
+  {
+    "square_meters": 47,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 4,
+    "floor": 3,
+    "price": 146226
+  },
+  {
+    "square_meters": 102,
+    "description": "small living room and big TV",
+    "rooms": 5,
+    "floor": 10,
+    "price": 88491
+  },
+  {
+    "square_meters": 67,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 5,
+    "floor": 6,
+    "price": 163915
+  },
+  {
+    "square_meters": 58,
+    "description": "small living room and big TV",
+    "rooms": 3,
+    "floor": 2,
+    "price": 238133
+  },
+  {
+    "square_meters": 112,
+    "description": "small living room and renovated bathroom",
+    "rooms": 4,
+    "floor": 5,
+    "price": 235375
+  },
+  {
+    "square_meters": 115,
+    "description": "small living room with big TV",
+    "rooms": 5,
+    "floor": 7,
+    "price": 58924
+  },
+  {
+    "square_meters": 103,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 8,
+    "price": 102202
+  },
+  {
+    "square_meters": 49,
+    "description": "small living room with big TV",
+    "rooms": 2,
+    "floor": 5,
+    "price": 285168
+  },
+  {
+    "square_meters": 81,
+    "description": "newly furnished with a big TV",
+    "rooms": 1,
+    "floor": 1,
+    "price": 121679
+  },
+  {
+    "square_meters": 113,
+    "description": "large living room and parking space",
+    "rooms": 2,
+    "floor": 1,
+    "price": 130454
+  },
+  {
+    "square_meters": 73,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 4,
+    "floor": 2,
+    "price": 284570
+  },
+  {
+    "square_meters": 50,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 1,
+    "floor": 8,
+    "price": 106925
+  },
+  {
+    "square_meters": 63,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 5,
+    "floor": 2,
+    "price": 201947
+  },
+  {
+    "square_meters": 110,
+    "description": "small living room and big TV",
+    "rooms": 4,
+    "floor": 4,
+    "price": 275689
+  },
+  {
+    "square_meters": 111,
+    "description": "parking space and big bedroom",
+    "rooms": 2,
+    "floor": 1,
+    "price": 238474
+  },
+  {
+    "square_meters": 63,
+    "description": "big bedroom and parking space",
+    "rooms": 4,
+    "floor": 9,
+    "price": 115717
+  },
+  {
+    "square_meters": 53,
+    "description": "small living room and big TV",
+    "rooms": 1,
+    "floor": 3,
+    "price": 62435
+  },
+  {
+    "square_meters": 56,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 6,
+    "price": 171984
+  },
+  {
+    "square_meters": 95,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 3,
+    "floor": 2,
+    "price": 175160
+  },
+  {
+    "square_meters": 55,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 7,
+    "price": 112867
+  },
+  {
+    "square_meters": 84,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 3,
+    "price": 256509
+  },
+  {
+    "square_meters": 52,
+    "description": "renovated bathroom and big TV",
+    "rooms": 2,
+    "floor": 6,
+    "price": 269074
+  },
+  {
+    "square_meters": 101,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 2,
+    "floor": 1,
+    "price": 275936
+  },
+  {
+    "square_meters": 65,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 4,
+    "floor": 7,
+    "price": 202054
+  },
+  {
+    "square_meters": 62,
+    "description": "big bedroom with parking space",
+    "rooms": 3,
+    "floor": 3,
+    "price": 137675
+  },
+  {
+    "square_meters": 106,
+    "description": "renovated bathroom and small living room",
+    "rooms": 2,
+    "floor": 7,
+    "price": 239899
+  },
+  {
+    "square_meters": 102,
+    "description": "small living room, no balcony",
+    "rooms": 3,
+    "floor": 9,
+    "price": 62287
+  },
+  {
+    "square_meters": 66,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 1,
+    "floor": 5,
+    "price": 210550
+  },
+  {
+    "square_meters": 114,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 3,
+    "floor": 4,
+    "price": 126290
+  },
+  {
+    "square_meters": 56,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 2,
+    "floor": 3,
+    "price": 285778
+  },
+  {
+    "square_meters": 73,
+    "description": "small living room with big TV",
+    "rooms": 1,
+    "floor": 4,
+    "price": 295205
+  },
+  {
+    "square_meters": 63,
+    "description": "big bedroom with parking space",
+    "rooms": 4,
+    "floor": 4,
+    "price": 234373
+  },
+  {
+    "square_meters": 41,
+    "description": "small living room and renovated bathroom",
+    "rooms": 2,
+    "floor": 7,
+    "price": 117865
+  },
+  {
+    "square_meters": 82,
+    "description": "renovated bathroom and small living room",
+    "rooms": 2,
+    "floor": 1,
+    "price": 121002
+  },
+  {
+    "square_meters": 76,
+    "description": "small living room and big bedroom",
+    "rooms": 2,
+    "floor": 1,
+    "price": 240524
+  },
+  {
+    "square_meters": 84,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 5,
+    "floor": 3,
+    "price": 289022
+  },
+  {
+    "square_meters": 75,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 4,
+    "floor": 3,
+    "price": 224997
+  },
+  {
+    "square_meters": 81,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 9,
+    "price": 196007
+  },
+  {
+    "square_meters": 40,
+    "description": "large living room and parking space",
+    "rooms": 1,
+    "floor": 4,
+    "price": 56702
+  },
+  {
+    "square_meters": 102,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 3,
+    "floor": 2,
+    "price": 111522
+  },
+  {
+    "square_meters": 92,
+    "description": "large living room and parking space",
+    "rooms": 1,
+    "floor": 3,
+    "price": 135274
+  },
+  {
+    "square_meters": 64,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 2,
+    "floor": 8,
+    "price": 51847
+  },
+  {
+    "square_meters": 106,
+    "description": "big bedroom with parking space",
+    "rooms": 2,
+    "floor": 9,
+    "price": 110386
+  },
+  {
+    "square_meters": 42,
+    "description": "renovated bathroom and small living room",
+    "rooms": 3,
+    "floor": 7,
+    "price": 187301
+  },
+  {
+    "square_meters": 113,
+    "description": "renovated bathroom and big TV",
+    "rooms": 3,
+    "floor": 7,
+    "price": 224935
+  },
+  {
+    "square_meters": 74,
+    "description": "newly furnished with a big TV",
+    "rooms": 4,
+    "floor": 1,
+    "price": 194215
+  },
+  {
+    "square_meters": 106,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 4,
+    "floor": 7,
+    "price": 199073
+  },
+  {
+    "square_meters": 81,
+    "description": "big bedroom and parking space",
+    "rooms": 4,
+    "floor": 3,
+    "price": 160969
+  },
+  {
+    "square_meters": 52,
+    "description": "big bedroom and parking space",
+    "rooms": 4,
+    "floor": 6,
+    "price": 213040
+  },
+  {
+    "square_meters": 113,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 6,
+    "price": 191843
+  },
+  {
+    "square_meters": 111,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 3,
+    "price": 158902
+  },
+  {
+    "square_meters": 64,
+    "description": "small living room with big TV",
+    "rooms": 5,
+    "floor": 10,
+    "price": 101648
+  },
+  {
+    "square_meters": 109,
+    "description": "small living room and renovated bathroom",
+    "rooms": 1,
+    "floor": 1,
+    "price": 110112
+  },
+  {
+    "square_meters": 80,
+    "description": "large living room and parking space",
+    "rooms": 3,
+    "floor": 3,
+    "price": 148633
+  },
+  {
+    "square_meters": 44,
+    "description": "newly furnished with a big TV",
+    "rooms": 5,
+    "floor": 5,
+    "price": 64029
+  },
+  {
+    "square_meters": 59,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 3,
+    "floor": 1,
+    "price": 277458
+  },
+  {
+    "square_meters": 85,
+    "description": "small living room, no balcony",
+    "rooms": 5,
+    "floor": 5,
+    "price": 264420
+  },
+  {
+    "square_meters": 97,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 4,
+    "price": 296567
+  },
+  {
+    "square_meters": 87,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 5,
+    "price": 195127
+  },
+  {
+    "square_meters": 104,
+    "description": "small living room and big TV",
+    "rooms": 3,
+    "floor": 10,
+    "price": 70792
+  },
+  {
+    "square_meters": 76,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 5,
+    "floor": 7,
+    "price": 146081
+  },
+  {
+    "square_meters": 49,
+    "description": "newly furnished with a big TV",
+    "rooms": 5,
+    "floor": 7,
+    "price": 258154
+  },
+  {
+    "square_meters": 64,
+    "description": "big bedroom and parking space",
+    "rooms": 5,
+    "floor": 6,
+    "price": 249791
+  },
+  {
+    "square_meters": 75,
+    "description": "big bedroom and parking space",
+    "rooms": 3,
+    "floor": 9,
+    "price": 190150
+  },
+  {
+    "square_meters": 47,
+    "description": "small living room and big TV",
+    "rooms": 4,
+    "floor": 6,
+    "price": 222365
+  },
+  {
+    "square_meters": 81,
+    "description": "small living room and big bedroom",
+    "rooms": 3,
+    "floor": 2,
+    "price": 279266
+  },
+  {
+    "square_meters": 68,
+    "description": "large living room and parking space",
+    "rooms": 4,
+    "floor": 1,
+    "price": 203236
+  },
+  {
+    "square_meters": 51,
+    "description": "small living room and renovated bathroom",
+    "rooms": 1,
+    "floor": 2,
+    "price": 180838
+  },
+  {
+    "square_meters": 42,
+    "description": "small living room with big TV",
+    "rooms": 5,
+    "floor": 2,
+    "price": 265684
+  },
+  {
+    "square_meters": 68,
+    "description": "small living room with big TV",
+    "rooms": 2,
+    "floor": 6,
+    "price": 55570
+  },
+  {
+    "square_meters": 80,
+    "description": "small living room with big TV",
+    "rooms": 1,
+    "floor": 2,
+    "price": 95338
+  },
+  {
+    "square_meters": 60,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 2,
+    "price": 78620
+  },
+  {
+    "square_meters": 104,
+    "description": "big bedroom and parking space",
+    "rooms": 3,
+    "floor": 6,
+    "price": 94340
+  },
+  {
+    "square_meters": 55,
+    "description": "small living room with big TV",
+    "rooms": 5,
+    "floor": 2,
+    "price": 171952
+  },
+  {
+    "square_meters": 77,
+    "description": "renovated bathroom and small living room",
+    "rooms": 4,
+    "floor": 10,
+    "price": 96329
+  },
+  {
+    "square_meters": 112,
+    "description": "large living room and parking space",
+    "rooms": 1,
+    "floor": 2,
+    "price": 215439
+  },
+  {
+    "square_meters": 83,
+    "description": "small living room, no balcony",
+    "rooms": 5,
+    "floor": 9,
+    "price": 271893
+  },
+  {
+    "square_meters": 96,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 2,
+    "floor": 7,
+    "price": 52753
+  },
+  {
+    "square_meters": 46,
+    "description": "small living room and big bedroom",
+    "rooms": 3,
+    "floor": 5,
+    "price": 211642
+  },
+  {
+    "square_meters": 62,
+    "description": "renovated bathroom and big TV",
+    "rooms": 3,
+    "floor": 9,
+    "price": 148328
+  },
+  {
+    "square_meters": 87,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 2,
+    "floor": 8,
+    "price": 50508
+  },
+  {
+    "square_meters": 68,
+    "description": "big bedroom and parking space",
+    "rooms": 3,
+    "floor": 4,
+    "price": 211172
+  },
+  {
+    "square_meters": 87,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 5,
+    "floor": 5,
+    "price": 122946
+  },
+  {
+    "square_meters": 43,
+    "description": "small living room and renovated bathroom",
+    "rooms": 1,
+    "floor": 5,
+    "price": 201512
+  },
+  {
+    "square_meters": 108,
+    "description": "small living room and renovated bathroom",
+    "rooms": 5,
+    "floor": 2,
+    "price": 63698
+  },
+  {
+    "square_meters": 68,
+    "description": "newly furnished with a big TV",
+    "rooms": 3,
+    "floor": 4,
+    "price": 120951
+  },
+  {
+    "square_meters": 73,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 1,
+    "price": 176276
+  },
+  {
+    "square_meters": 95,
+    "description": "small living room, no balcony",
+    "rooms": 3,
+    "floor": 4,
+    "price": 166245
+  },
+  {
+    "square_meters": 72,
+    "description": "big bedroom and parking space",
+    "rooms": 1,
+    "floor": 5,
+    "price": 246315
+  },
+  {
+    "square_meters": 69,
+    "description": "newly furnished with a big TV",
+    "rooms": 2,
+    "floor": 7,
+    "price": 299640
+  },
+  {
+    "square_meters": 50,
+    "description": "large living room and balcony",
+    "rooms": 3,
+    "floor": 4,
+    "price": 74701
+  },
+  {
+    "square_meters": 80,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 5,
+    "price": 286376
+  },
+  {
+    "square_meters": 117,
+    "description": "big bedroom and parking space",
+    "rooms": 1,
+    "floor": 9,
+    "price": 201748
+  },
+  {
+    "square_meters": 100,
+    "description": "renovated bathroom and small living room",
+    "rooms": 3,
+    "floor": 10,
+    "price": 221091
+  },
+  {
+    "square_meters": 84,
+    "description": "parking space and big bedroom",
+    "rooms": 5,
+    "floor": 4,
+    "price": 262737
+  },
+  {
+    "square_meters": 69,
+    "description": "small living room, no balcony",
+    "rooms": 5,
+    "floor": 4,
+    "price": 56931
+  },
+  {
+    "square_meters": 120,
+    "description": "newly furnished with a big TV",
+    "rooms": 2,
+    "floor": 9,
+    "price": 157683
+  },
+  {
+    "square_meters": 83,
+    "description": "small living room and renovated bathroom",
+    "rooms": 4,
+    "floor": 10,
+    "price": 82731
+  },
+  {
+    "square_meters": 73,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 2,
+    "floor": 7,
+    "price": 87282
+  },
+  {
+    "square_meters": 42,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 7,
+    "price": 50801
+  },
+  {
+    "square_meters": 100,
+    "description": "big bedroom with parking space",
+    "rooms": 5,
+    "floor": 3,
+    "price": 294491
+  },
+  {
+    "square_meters": 69,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 5,
+    "floor": 9,
+    "price": 281614
+  },
+  {
+    "square_meters": 44,
+    "description": "small living room and big bedroom",
+    "rooms": 3,
+    "floor": 5,
+    "price": 292764
+  },
+  {
+    "square_meters": 111,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 1,
+    "floor": 8,
+    "price": 216804
+  },
+  {
+    "square_meters": 77,
+    "description": "small living room and big TV",
+    "rooms": 5,
+    "floor": 9,
+    "price": 253069
+  },
+  {
+    "square_meters": 74,
+    "description": "small living room and renovated bathroom",
+    "rooms": 4,
+    "floor": 3,
+    "price": 170613
+  },
+  {
+    "square_meters": 49,
+    "description": "big bedroom with parking space",
+    "rooms": 3,
+    "floor": 3,
+    "price": 94483
+  },
+  {
+    "square_meters": 56,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 7,
+    "price": 257906
+  },
+  {
+    "square_meters": 115,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 6,
+    "price": 149111
+  },
+  {
+    "square_meters": 115,
+    "description": "large living room and parking space",
+    "rooms": 2,
+    "floor": 8,
+    "price": 250067
+  },
+  {
+    "square_meters": 54,
+    "description": "large living room and balcony",
+    "rooms": 3,
+    "floor": 10,
+    "price": 159246
+  },
+  {
+    "square_meters": 62,
+    "description": "parking space and big bedroom",
+    "rooms": 1,
+    "floor": 4,
+    "price": 291090
+  },
+  {
+    "square_meters": 61,
+    "description": "newly furnished with a big TV",
+    "rooms": 4,
+    "floor": 10,
+    "price": 158282
+  },
+  {
+    "square_meters": 72,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 6,
+    "price": 106697
+  },
+  {
+    "square_meters": 48,
+    "description": "large living room and parking space",
+    "rooms": 5,
+    "floor": 10,
+    "price": 99898
+  },
+  {
+    "square_meters": 70,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 6,
+    "price": 293116
+  },
+  {
+    "square_meters": 119,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 2,
+    "floor": 10,
+    "price": 213975
+  },
+  {
+    "square_meters": 79,
+    "description": "small living room, no balcony",
+    "rooms": 5,
+    "floor": 6,
+    "price": 147999
+  },
+  {
+    "square_meters": 43,
+    "description": "big bedroom with parking space",
+    "rooms": 4,
+    "floor": 5,
+    "price": 137273
+  },
+  {
+    "square_meters": 74,
+    "description": "big bedroom and parking space",
+    "rooms": 3,
+    "floor": 1,
+    "price": 264939
+  },
+  {
+    "square_meters": 53,
+    "description": "renovated bathroom and small living room",
+    "rooms": 5,
+    "floor": 8,
+    "price": 272275
+  },
+  {
+    "square_meters": 64,
+    "description": "large living room and parking space",
+    "rooms": 4,
+    "floor": 3,
+    "price": 74930
+  },
+  {
+    "square_meters": 119,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 4,
+    "floor": 1,
+    "price": 226737
+  },
+  {
+    "square_meters": 53,
+    "description": "big bedroom with parking space",
+    "rooms": 3,
+    "floor": 10,
+    "price": 190441
+  },
+  {
+    "square_meters": 70,
+    "description": "small living room and renovated bathroom",
+    "rooms": 5,
+    "floor": 3,
+    "price": 169935
+  },
+  {
+    "square_meters": 61,
+    "description": "big bedroom and parking space",
+    "rooms": 2,
+    "floor": 9,
+    "price": 233878
+  },
+  {
+    "square_meters": 57,
+    "description": "renovated bathroom and big TV",
+    "rooms": 1,
+    "floor": 3,
+    "price": 241626
+  },
+  {
+    "square_meters": 97,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 1,
+    "floor": 9,
+    "price": 194448
+  },
+  {
+    "square_meters": 52,
+    "description": "small living room and big bedroom",
+    "rooms": 2,
+    "floor": 3,
+    "price": 73708
+  },
+  {
+    "square_meters": 47,
+    "description": "renovated bathroom and small living room",
+    "rooms": 3,
+    "floor": 3,
+    "price": 137686
+  },
+  {
+    "square_meters": 120,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 5,
+    "floor": 9,
+    "price": 262883
+  },
+  {
+    "square_meters": 51,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 5,
+    "floor": 9,
+    "price": 114889
+  },
+  {
+    "square_meters": 79,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 3,
+    "floor": 9,
+    "price": 251426
+  },
+  {
+    "square_meters": 97,
+    "description": "big bedroom with parking space",
+    "rooms": 5,
+    "floor": 3,
+    "price": 202994
+  },
+  {
+    "square_meters": 53,
+    "description": "renovated bathroom and small living room",
+    "rooms": 2,
+    "floor": 6,
+    "price": 256563
+  },
+  {
+    "square_meters": 75,
+    "description": "small living room and renovated bathroom",
+    "rooms": 1,
+    "floor": 4,
+    "price": 132539
+  },
+  {
+    "square_meters": 89,
+    "description": "small living room with big TV",
+    "rooms": 5,
+    "floor": 5,
+    "price": 186326
+  },
+  {
+    "square_meters": 108,
+    "description": "large living room and balcony",
+    "rooms": 1,
+    "floor": 6,
+    "price": 157887
+  },
+  {
+    "square_meters": 48,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 4,
+    "price": 127024
+  },
+  {
+    "square_meters": 41,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 4,
+    "price": 104255
+  },
+  {
+    "square_meters": 68,
+    "description": "newly furnished with a big TV",
+    "rooms": 2,
+    "floor": 9,
+    "price": 172504
+  },
+  {
+    "square_meters": 45,
+    "description": "small living room and renovated bathroom",
+    "rooms": 2,
+    "floor": 9,
+    "price": 210069
+  },
+  {
+    "square_meters": 62,
+    "description": "small living room and renovated bathroom",
+    "rooms": 2,
+    "floor": 9,
+    "price": 235880
+  },
+  {
+    "square_meters": 117,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 5,
+    "floor": 6,
+    "price": 111292
+  },
+  {
+    "square_meters": 99,
+    "description": "small living room and renovated bathroom",
+    "rooms": 1,
+    "floor": 8,
+    "price": 228032
+  },
+  {
+    "square_meters": 42,
+    "description": "renovated bathroom and small living room",
+    "rooms": 2,
+    "floor": 2,
+    "price": 230364
+  },
+  {
+    "square_meters": 48,
+    "description": "parking space and big bedroom",
+    "rooms": 2,
+    "floor": 7,
+    "price": 193598
+  },
+  {
+    "square_meters": 40,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 4,
+    "floor": 10,
+    "price": 183837
+  },
+  {
+    "square_meters": 111,
+    "description": "small living room and big bedroom",
+    "rooms": 1,
+    "floor": 6,
+    "price": 202321
+  },
+  {
+    "square_meters": 83,
+    "description": "big bedroom and parking space",
+    "rooms": 4,
+    "floor": 3,
+    "price": 114559
+  },
+  {
+    "square_meters": 73,
+    "description": "small living room and renovated bathroom",
+    "rooms": 2,
+    "floor": 7,
+    "price": 63365
+  },
+  {
+    "square_meters": 113,
+    "description": "newly furnished with a big TV",
+    "rooms": 2,
+    "floor": 1,
+    "price": 52504
+  },
+  {
+    "square_meters": 55,
+    "description": "parking space and big bedroom",
+    "rooms": 3,
+    "floor": 7,
+    "price": 133465
+  },
+  {
+    "square_meters": 41,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 4,
+    "floor": 10,
+    "price": 111268
+  },
+  {
+    "square_meters": 64,
+    "description": "big bedroom with parking space",
+    "rooms": 4,
+    "floor": 2,
+    "price": 113344
+  },
+  {
+    "square_meters": 48,
+    "description": "renovated bathroom and big TV",
+    "rooms": 2,
+    "floor": 1,
+    "price": 233471
+  },
+  {
+    "square_meters": 78,
+    "description": "parking space and big bedroom",
+    "rooms": 5,
+    "floor": 9,
+    "price": 248382
+  },
+  {
+    "square_meters": 48,
+    "description": "big bedroom with parking space",
+    "rooms": 1,
+    "floor": 9,
+    "price": 197938
+  },
+  {
+    "square_meters": 100,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 3,
+    "floor": 8,
+    "price": 89346
+  },
+  {
+    "square_meters": 54,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 9,
+    "price": 270717
+  },
+  {
+    "square_meters": 88,
+    "description": "small living room and big TV",
+    "rooms": 1,
+    "floor": 6,
+    "price": 113196
+  },
+  {
+    "square_meters": 92,
+    "description": "newly furnished with a big TV",
+    "rooms": 3,
+    "floor": 9,
+    "price": 211086
+  },
+  {
+    "square_meters": 98,
+    "description": "large living room and balcony",
+    "rooms": 2,
+    "floor": 1,
+    "price": 254790
+  },
+  {
+    "square_meters": 45,
+    "description": "newly furnished with a big TV",
+    "rooms": 4,
+    "floor": 2,
+    "price": 289956
+  },
+  {
+    "square_meters": 56,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 3,
+    "floor": 5,
+    "price": 126769
+  },
+  {
+    "square_meters": 58,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 4,
+    "floor": 3,
+    "price": 97146
+  },
+  {
+    "square_meters": 56,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 5,
+    "price": 154801
+  },
+  {
+    "square_meters": 77,
+    "description": "big bedroom and parking space",
+    "rooms": 4,
+    "floor": 4,
+    "price": 229870
+  },
+  {
+    "square_meters": 117,
+    "description": "small living room and big bedroom",
+    "rooms": 3,
+    "floor": 5,
+    "price": 277354
+  },
+  {
+    "square_meters": 47,
+    "description": "small living room and renovated bathroom",
+    "rooms": 5,
+    "floor": 8,
+    "price": 125899
+  },
+  {
+    "square_meters": 47,
+    "description": "renovated bathroom and small living room",
+    "rooms": 2,
+    "floor": 5,
+    "price": 212636
+  },
+  {
+    "square_meters": 90,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 4,
+    "floor": 10,
+    "price": 146780
+  },
+  {
+    "square_meters": 106,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 9,
+    "price": 258103
+  },
+  {
+    "square_meters": 109,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 5,
+    "price": 124551
+  },
+  {
+    "square_meters": 49,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 3,
+    "floor": 8,
+    "price": 215269
+  },
+  {
+    "square_meters": 67,
+    "description": "small living room and renovated bathroom",
+    "rooms": 5,
+    "floor": 6,
+    "price": 69141
+  },
+  {
+    "square_meters": 57,
+    "description": "renovated bathroom and small living room",
+    "rooms": 5,
+    "floor": 4,
+    "price": 103410
+  },
+  {
+    "square_meters": 65,
+    "description": "large living room and parking space",
+    "rooms": 4,
+    "floor": 9,
+    "price": 254722
+  },
+  {
+    "square_meters": 109,
+    "description": "small living room and big bedroom",
+    "rooms": 4,
+    "floor": 8,
+    "price": 84610
+  },
+  {
+    "square_meters": 40,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 5,
+    "floor": 6,
+    "price": 191494
+  },
+  {
+    "square_meters": 107,
+    "description": "large living room and parking space",
+    "rooms": 2,
+    "floor": 2,
+    "price": 250404
+  },
+  {
+    "square_meters": 118,
+    "description": "small living room, no balcony",
+    "rooms": 2,
+    "floor": 2,
+    "price": 282655
+  },
+  {
+    "square_meters": 72,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 1,
+    "floor": 4,
+    "price": 263134
+  },
+  {
+    "square_meters": 117,
+    "description": "big bedroom with parking space",
+    "rooms": 4,
+    "floor": 3,
+    "price": 60196
+  },
+  {
+    "square_meters": 64,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 5,
+    "floor": 8,
+    "price": 127132
+  },
+  {
+    "square_meters": 96,
+    "description": "small living room and renovated bathroom",
+    "rooms": 3,
+    "floor": 1,
+    "price": 286155
+  },
+  {
+    "square_meters": 85,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 5,
+    "floor": 6,
+    "price": 148937
+  },
+  {
+    "square_meters": 58,
+    "description": "small living room with big TV",
+    "rooms": 1,
+    "floor": 4,
+    "price": 191988
+  },
+  {
+    "square_meters": 119,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 1,
+    "floor": 8,
+    "price": 162891
+  },
+  {
+    "square_meters": 93,
+    "description": "small living room and big TV",
+    "rooms": 3,
+    "floor": 1,
+    "price": 60255
+  },
+  {
+    "square_meters": 120,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 3,
+    "floor": 10,
+    "price": 195662
+  },
+  {
+    "square_meters": 92,
+    "description": "big bedroom and parking space",
+    "rooms": 4,
+    "floor": 4,
+    "price": 257030
+  },
+  {
+    "square_meters": 62,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 1,
+    "floor": 2,
+    "price": 93071
+  },
+  {
+    "square_meters": 110,
+    "description": "large living room and balcony",
+    "rooms": 4,
+    "floor": 4,
+    "price": 59296
+  },
+  {
+    "square_meters": 65,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 1,
+    "floor": 6,
+    "price": 53488
+  },
+  {
+    "square_meters": 107,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 1,
+    "floor": 8,
+    "price": 279074
+  },
+  {
+    "square_meters": 47,
+    "description": "renovated bathroom and big TV",
+    "rooms": 2,
+    "floor": 9,
+    "price": 108216
+  },
+  {
+    "square_meters": 85,
+    "description": "big bedroom and parking space",
+    "rooms": 5,
+    "floor": 10,
+    "price": 57547
+  },
+  {
+    "square_meters": 118,
+    "description": "big bedroom with parking space",
+    "rooms": 1,
+    "floor": 7,
+    "price": 109439
+  },
+  {
+    "square_meters": 60,
+    "description": "renovated bathroom and big TV",
+    "rooms": 4,
+    "floor": 8,
+    "price": 107545
+  },
+  {
+    "square_meters": 83,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 2,
+    "floor": 10,
+    "price": 142733
+  },
+  {
+    "square_meters": 99,
+    "description": "small living room and big TV",
+    "rooms": 1,
+    "floor": 6,
+    "price": 256286
+  },
+  {
+    "square_meters": 88,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 2,
+    "floor": 5,
+    "price": 131733
+  },
+  {
+    "square_meters": 50,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 5,
+    "price": 207265
+  },
+  {
+    "square_meters": 71,
+    "description": "small living room and big TV",
+    "rooms": 1,
+    "floor": 10,
+    "price": 171592
+  },
+  {
+    "square_meters": 46,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 2,
+    "floor": 6,
+    "price": 167202
+  },
+  {
+    "square_meters": 93,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 3,
+    "floor": 4,
+    "price": 246662
+  },
+  {
+    "square_meters": 108,
+    "description": "small living room and big bedroom",
+    "rooms": 5,
+    "floor": 10,
+    "price": 150270
+  },
+  {
+    "square_meters": 91,
+    "description": "renovated bathroom and big TV",
+    "rooms": 4,
+    "floor": 1,
+    "price": 227945
+  },
+  {
+    "square_meters": 100,
+    "description": "small living room and renovated bathroom",
+    "rooms": 5,
+    "floor": 6,
+    "price": 213915
+  },
+  {
+    "square_meters": 46,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 2,
+    "floor": 1,
+    "price": 230072
+  },
+  {
+    "square_meters": 46,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 5,
+    "floor": 1,
+    "price": 139826
+  },
+  {
+    "square_meters": 101,
+    "description": "big bedroom with parking space",
+    "rooms": 4,
+    "floor": 9,
+    "price": 87275
+  },
+  {
+    "square_meters": 45,
+    "description": "small living room with big TV",
+    "rooms": 4,
+    "floor": 10,
+    "price": 109997
+  },
+  {
+    "square_meters": 118,
+    "description": "small living room and renovated bathroom",
+    "rooms": 2,
+    "floor": 10,
+    "price": 264096
+  },
+  {
+    "square_meters": 41,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 4,
+    "floor": 7,
+    "price": 161143
+  },
+  {
+    "square_meters": 106,
+    "description": "big bedroom and parking space",
+    "rooms": 5,
+    "floor": 10,
+    "price": 115512
+  },
+  {
+    "square_meters": 97,
+    "description": "small living room with big TV",
+    "rooms": 1,
+    "floor": 3,
+    "price": 250291
+  },
+  {
+    "square_meters": 99,
+    "description": "newly furnished with a big TV",
+    "rooms": 2,
+    "floor": 4,
+    "price": 114614
+  },
+  {
+    "square_meters": 47,
+    "description": "renovated bathroom and small living room",
+    "rooms": 1,
+    "floor": 8,
+    "price": 50016
+  },
+  {
+    "square_meters": 43,
+    "description": "big bedroom with parking space",
+    "rooms": 3,
+    "floor": 5,
+    "price": 242334
+  },
+  {
+    "square_meters": 64,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 4,
+    "floor": 10,
+    "price": 226035
+  },
+  {
+    "square_meters": 95,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 5,
+    "price": 166333
+  },
+  {
+    "square_meters": 93,
+    "description": "large living room and balcony",
+    "rooms": 5,
+    "floor": 8,
+    "price": 193389
+  },
+  {
+    "square_meters": 81,
+    "description": "renovated bathroom and small living room",
+    "rooms": 4,
+    "floor": 8,
+    "price": 105208
+  },
+  {
+    "square_meters": 62,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 4,
+    "floor": 6,
+    "price": 177364
+  },
+  {
+    "square_meters": 63,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 3,
+    "floor": 9,
+    "price": 252114
+  },
+  {
+    "square_meters": 41,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 1,
+    "floor": 1,
+    "price": 264183
+  },
+  {
+    "square_meters": 95,
+    "description": "small living room and renovated bathroom",
+    "rooms": 1,
+    "floor": 8,
+    "price": 59455
+  },
+  {
+    "square_meters": 50,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 2,
+    "floor": 2,
+    "price": 266378
+  },
+  {
+    "square_meters": 91,
+    "description": "small living room and big TV",
+    "rooms": 1,
+    "floor": 1,
+    "price": 81966
+  },
+  {
+    "square_meters": 78,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 10,
+    "price": 160884
+  },
+  {
+    "square_meters": 67,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 1,
+    "floor": 2,
+    "price": 225093
+  },
+  {
+    "square_meters": 85,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 4,
+    "price": 92330
+  },
+  {
+    "square_meters": 63,
+    "description": "renovated bathroom and small living room",
+    "rooms": 3,
+    "floor": 1,
+    "price": 206297
+  },
+  {
+    "square_meters": 54,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 3,
+    "floor": 1,
+    "price": 249230
+  },
+  {
+    "square_meters": 61,
+    "description": "renovated bathroom and big TV",
+    "rooms": 4,
+    "floor": 7,
+    "price": 165820
+  },
+  {
+    "square_meters": 75,
+    "description": "big bedroom with parking space",
+    "rooms": 2,
+    "floor": 2,
+    "price": 257801
+  },
+  {
+    "square_meters": 63,
+    "description": "small living room with big TV",
+    "rooms": 4,
+    "floor": 4,
+    "price": 237664
+  },
+  {
+    "square_meters": 109,
+    "description": "big bedroom and parking space",
+    "rooms": 5,
+    "floor": 6,
+    "price": 120480
+  },
+  {
+    "square_meters": 83,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 4,
+    "floor": 5,
+    "price": 149243
+  },
+  {
+    "square_meters": 74,
+    "description": "renovated bathroom and big TV",
+    "rooms": 2,
+    "floor": 7,
+    "price": 120570
+  },
+  {
+    "square_meters": 66,
+    "description": "parking space and big bedroom",
+    "rooms": 5,
+    "floor": 5,
+    "price": 60202
+  },
+  {
+    "square_meters": 69,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 10,
+    "price": 275976
+  },
+  {
+    "square_meters": 62,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 5,
+    "price": 130453
+  },
+  {
+    "square_meters": 110,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 2,
+    "price": 93181
+  },
+  {
+    "square_meters": 91,
+    "description": "newly furnished with a big TV",
+    "rooms": 5,
+    "floor": 3,
+    "price": 222187
+  },
+  {
+    "square_meters": 80,
+    "description": "small living room with big TV",
+    "rooms": 5,
+    "floor": 3,
+    "price": 148131
+  },
+  {
+    "square_meters": 120,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 7,
+    "price": 194435
+  },
+  {
+    "square_meters": 74,
+    "description": "large living room and parking space",
+    "rooms": 2,
+    "floor": 2,
+    "price": 85056
+  },
+  {
+    "square_meters": 120,
+    "description": "renovated bathroom and big TV",
+    "rooms": 5,
+    "floor": 3,
+    "price": 90707
+  },
+  {
+    "square_meters": 76,
+    "description": "large living room and parking space",
+    "rooms": 3,
+    "floor": 4,
+    "price": 239546
+  },
+  {
+    "square_meters": 65,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 4,
+    "floor": 5,
+    "price": 201131
+  },
+  {
+    "square_meters": 111,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 8,
+    "price": 160106
+  },
+  {
+    "square_meters": 117,
+    "description": "small living room and renovated bathroom",
+    "rooms": 4,
+    "floor": 7,
+    "price": 107325
+  },
+  {
+    "square_meters": 85,
+    "description": "small living room with big TV",
+    "rooms": 1,
+    "floor": 4,
+    "price": 181227
+  },
+  {
+    "square_meters": 42,
+    "description": "renovated bathroom and small living room",
+    "rooms": 2,
+    "floor": 7,
+    "price": 254309
+  },
+  {
+    "square_meters": 113,
+    "description": "large living room and parking space",
+    "rooms": 4,
+    "floor": 2,
+    "price": 82103
+  },
+  {
+    "square_meters": 92,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 4,
+    "floor": 2,
+    "price": 166633
+  },
+  {
+    "square_meters": 110,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 1,
+    "floor": 3,
+    "price": 203075
+  },
+  {
+    "square_meters": 75,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 1,
+    "floor": 8,
+    "price": 279575
+  },
+  {
+    "square_meters": 99,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 4,
+    "floor": 7,
+    "price": 89364
+  },
+  {
+    "square_meters": 63,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 1,
+    "floor": 9,
+    "price": 221843
+  },
+  {
+    "square_meters": 71,
+    "description": "small living room and renovated bathroom",
+    "rooms": 1,
+    "floor": 2,
+    "price": 67794
+  },
+  {
+    "square_meters": 108,
+    "description": "small living room with big TV",
+    "rooms": 4,
+    "floor": 2,
+    "price": 113599
+  },
+  {
+    "square_meters": 93,
+    "description": "renovated bathroom and big TV",
+    "rooms": 5,
+    "floor": 7,
+    "price": 181583
+  },
+  {
+    "square_meters": 94,
+    "description": "small living room and renovated bathroom",
+    "rooms": 4,
+    "floor": 10,
+    "price": 262809
+  },
+  {
+    "square_meters": 78,
+    "description": "big bedroom and parking space",
+    "rooms": 2,
+    "floor": 4,
+    "price": 137817
+  },
+  {
+    "square_meters": 99,
+    "description": "large living room and balcony",
+    "rooms": 4,
+    "floor": 6,
+    "price": 169357
+  },
+  {
+    "square_meters": 99,
+    "description": "big bedroom and parking space",
+    "rooms": 5,
+    "floor": 4,
+    "price": 97324
+  },
+  {
+    "square_meters": 54,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 8,
+    "price": 76261
+  },
+  {
+    "square_meters": 58,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 2,
+    "floor": 1,
+    "price": 252012
+  },
+  {
+    "square_meters": 42,
+    "description": "renovated bathroom and big TV",
+    "rooms": 4,
+    "floor": 1,
+    "price": 213014
+  },
+  {
+    "square_meters": 98,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 1,
+    "floor": 8,
+    "price": 107098
+  },
+  {
+    "square_meters": 53,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 3,
+    "floor": 1,
+    "price": 126191
+  },
+  {
+    "square_meters": 99,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 6,
+    "price": 129662
+  },
+  {
+    "square_meters": 49,
+    "description": "small living room and renovated bathroom",
+    "rooms": 2,
+    "floor": 6,
+    "price": 260423
+  },
+  {
+    "square_meters": 96,
+    "description": "big bedroom with parking space",
+    "rooms": 1,
+    "floor": 7,
+    "price": 207754
+  },
+  {
+    "square_meters": 72,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 5,
+    "floor": 9,
+    "price": 298346
+  },
+  {
+    "square_meters": 120,
+    "description": "small living room and big TV",
+    "rooms": 2,
+    "floor": 6,
+    "price": 125219
+  },
+  {
+    "square_meters": 52,
+    "description": "parking space and big bedroom",
+    "rooms": 5,
+    "floor": 10,
+    "price": 151266
+  },
+  {
+    "square_meters": 113,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 2,
+    "price": 167435
+  },
+  {
+    "square_meters": 90,
+    "description": "newly furnished with a big TV",
+    "rooms": 2,
+    "floor": 3,
+    "price": 133879
+  },
+  {
+    "square_meters": 46,
+    "description": "large living room and balcony",
+    "rooms": 5,
+    "floor": 3,
+    "price": 263535
+  },
+  {
+    "square_meters": 74,
+    "description": "newly furnished with a big TV",
+    "rooms": 1,
+    "floor": 8,
+    "price": 81283
+  },
+  {
+    "square_meters": 97,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 4,
+    "floor": 9,
+    "price": 228347
+  },
+  {
+    "square_meters": 42,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 3,
+    "floor": 3,
+    "price": 64659
+  },
+  {
+    "square_meters": 109,
+    "description": "small living room, no balcony",
+    "rooms": 3,
+    "floor": 3,
+    "price": 138827
+  },
+  {
+    "square_meters": 88,
+    "description": "renovated bathroom and small living room",
+    "rooms": 3,
+    "floor": 3,
+    "price": 279801
+  },
+  {
+    "square_meters": 98,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 2,
+    "floor": 2,
+    "price": 74847
+  },
+  {
+    "square_meters": 111,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 1,
+    "floor": 10,
+    "price": 242062
+  },
+  {
+    "square_meters": 107,
+    "description": "big bedroom and parking space",
+    "rooms": 1,
+    "floor": 6,
+    "price": 73547
+  },
+  {
+    "square_meters": 91,
+    "description": "renovated bathroom and small living room",
+    "rooms": 2,
+    "floor": 2,
+    "price": 234185
+  },
+  {
+    "square_meters": 98,
+    "description": "small living room and big TV",
+    "rooms": 1,
+    "floor": 7,
+    "price": 246947
+  },
+  {
+    "square_meters": 120,
+    "description": "renovated bathroom and big TV",
+    "rooms": 2,
+    "floor": 3,
+    "price": 224058
+  },
+  {
+    "square_meters": 106,
+    "description": "renovated bathroom and big TV",
+    "rooms": 3,
+    "floor": 2,
+    "price": 197531
+  },
+  {
+    "square_meters": 53,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 2,
+    "floor": 2,
+    "price": 191464
+  },
+  {
+    "square_meters": 77,
+    "description": "small living room and renovated bathroom",
+    "rooms": 1,
+    "floor": 3,
+    "price": 254667
+  },
+  {
+    "square_meters": 60,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 1,
+    "price": 242201
+  },
+  {
+    "square_meters": 92,
+    "description": "small living room with big TV",
+    "rooms": 4,
+    "floor": 5,
+    "price": 101586
+  },
+  {
+    "square_meters": 66,
+    "description": "small living room and renovated bathroom",
+    "rooms": 3,
+    "floor": 9,
+    "price": 222366
+  },
+  {
+    "square_meters": 109,
+    "description": "small living room and renovated bathroom",
+    "rooms": 3,
+    "floor": 6,
+    "price": 85132
+  },
+  {
+    "square_meters": 65,
+    "description": "parking space and big bedroom",
+    "rooms": 5,
+    "floor": 8,
+    "price": 96278
+  },
+  {
+    "square_meters": 96,
+    "description": "big bedroom and parking space",
+    "rooms": 3,
+    "floor": 6,
+    "price": 217197
+  },
+  {
+    "square_meters": 91,
+    "description": "newly furnished with a big TV",
+    "rooms": 4,
+    "floor": 9,
+    "price": 82033
+  },
+  {
+    "square_meters": 89,
+    "description": "small living room, no balcony",
+    "rooms": 5,
+    "floor": 2,
+    "price": 256728
+  },
+  {
+    "square_meters": 62,
+    "description": "small living room and big bedroom",
+    "rooms": 2,
+    "floor": 2,
+    "price": 52862
+  },
+  {
+    "square_meters": 108,
+    "description": "small living room and big TV",
+    "rooms": 4,
+    "floor": 3,
+    "price": 215483
+  },
+  {
+    "square_meters": 94,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 3,
+    "floor": 7,
+    "price": 152414
+  },
+  {
+    "square_meters": 88,
+    "description": "big bedroom with parking space",
+    "rooms": 2,
+    "floor": 3,
+    "price": 243324
+  },
+  {
+    "square_meters": 95,
+    "description": "small living room and big bedroom",
+    "rooms": 2,
+    "floor": 2,
+    "price": 83120
+  },
+  {
+    "square_meters": 58,
+    "description": "large living room and balcony",
+    "rooms": 4,
+    "floor": 2,
+    "price": 62295
+  },
+  {
+    "square_meters": 40,
+    "description": "large living room and balcony",
+    "rooms": 3,
+    "floor": 2,
+    "price": 135944
+  },
+  {
+    "square_meters": 76,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 4,
+    "floor": 1,
+    "price": 73231
+  },
+  {
+    "square_meters": 94,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 2,
+    "floor": 10,
+    "price": 179192
+  },
+  {
+    "square_meters": 44,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 4,
+    "floor": 1,
+    "price": 244784
+  },
+  {
+    "square_meters": 119,
+    "description": "newly furnished with a big TV",
+    "rooms": 5,
+    "floor": 3,
+    "price": 240911
+  },
+  {
+    "square_meters": 95,
+    "description": "small living room, no balcony",
+    "rooms": 1,
+    "floor": 10,
+    "price": 238013
+  },
+  {
+    "square_meters": 74,
+    "description": "small living room and big bedroom",
+    "rooms": 3,
+    "floor": 7,
+    "price": 187681
+  },
+  {
+    "square_meters": 114,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 2,
+    "floor": 2,
+    "price": 103906
+  },
+  {
+    "square_meters": 117,
+    "description": "small living room and big bedroom",
+    "rooms": 5,
+    "floor": 1,
+    "price": 101248
+  },
+  {
+    "square_meters": 71,
+    "description": "large living room and balcony",
+    "rooms": 3,
+    "floor": 9,
+    "price": 104748
+  },
+  {
+    "square_meters": 87,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 3,
+    "floor": 6,
+    "price": 182192
+  },
+  {
+    "square_meters": 47,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 2,
+    "floor": 4,
+    "price": 66671
+  },
+  {
+    "square_meters": 85,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 4,
+    "floor": 4,
+    "price": 180741
+  },
+  {
+    "square_meters": 112,
+    "description": "small living room and big bedroom",
+    "rooms": 2,
+    "floor": 3,
+    "price": 129436
+  },
+  {
+    "square_meters": 92,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 2,
+    "floor": 8,
+    "price": 183742
+  },
+  {
+    "square_meters": 79,
+    "description": "small living room with big TV",
+    "rooms": 5,
+    "floor": 1,
+    "price": 96093
+  },
+  {
+    "square_meters": 56,
+    "description": "small living room and renovated bathroom",
+    "rooms": 2,
+    "floor": 5,
+    "price": 196632
+  },
+  {
+    "square_meters": 114,
+    "description": "small living room and renovated bathroom",
+    "rooms": 3,
+    "floor": 6,
+    "price": 285033
+  },
+  {
+    "square_meters": 79,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 1,
+    "floor": 8,
+    "price": 146254
+  },
+  {
+    "square_meters": 83,
+    "description": "parking space and big bedroom",
+    "rooms": 5,
+    "floor": 10,
+    "price": 74914
+  },
+  {
+    "square_meters": 100,
+    "description": "big bedroom and parking space",
+    "rooms": 4,
+    "floor": 2,
+    "price": 175097
+  },
+  {
+    "square_meters": 53,
+    "description": "small living room with big TV",
+    "rooms": 2,
+    "floor": 8,
+    "price": 115821
+  },
+  {
+    "square_meters": 77,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 5,
+    "floor": 7,
+    "price": 129753
+  },
+  {
+    "square_meters": 86,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 4,
+    "price": 109814
+  },
+  {
+    "square_meters": 90,
+    "description": "big bedroom and parking space",
+    "rooms": 5,
+    "floor": 1,
+    "price": 212129
+  },
+  {
+    "square_meters": 87,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 6,
+    "price": 67971
+  },
+  {
+    "square_meters": 106,
+    "description": "small living room and big TV",
+    "rooms": 4,
+    "floor": 1,
+    "price": 170035
+  },
+  {
+    "square_meters": 68,
+    "description": "small living room and big TV",
+    "rooms": 1,
+    "floor": 4,
+    "price": 148621
+  },
+  {
+    "square_meters": 79,
+    "description": "big bedroom with parking space",
+    "rooms": 4,
+    "floor": 3,
+    "price": 145426
+  },
+  {
+    "square_meters": 41,
+    "description": "small living room and big bedroom",
+    "rooms": 2,
+    "floor": 8,
+    "price": 242492
+  },
+  {
+    "square_meters": 116,
+    "description": "big bedroom and parking space",
+    "rooms": 3,
+    "floor": 6,
+    "price": 170279
+  },
+  {
+    "square_meters": 120,
+    "description": "small living room and renovated bathroom",
+    "rooms": 4,
+    "floor": 2,
+    "price": 88114
+  },
+  {
+    "square_meters": 50,
+    "description": "renovated bathroom and small living room",
+    "rooms": 2,
+    "floor": 9,
+    "price": 245112
+  },
+  {
+    "square_meters": 49,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 9,
+    "price": 139785
+  },
+  {
+    "square_meters": 98,
+    "description": "small living room, no balcony",
+    "rooms": 3,
+    "floor": 8,
+    "price": 142491
+  },
+  {
+    "square_meters": 101,
+    "description": "small living room with big TV",
+    "rooms": 2,
+    "floor": 6,
+    "price": 123797
+  },
+  {
+    "square_meters": 117,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 3,
+    "floor": 10,
+    "price": 295725
+  },
+  {
+    "square_meters": 73,
+    "description": "small living room, no balcony",
+    "rooms": 2,
+    "floor": 5,
+    "price": 159533
+  },
+  {
+    "square_meters": 102,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 5,
+    "floor": 10,
+    "price": 289569
+  },
+  {
+    "square_meters": 59,
+    "description": "large living room and parking space",
+    "rooms": 2,
+    "floor": 10,
+    "price": 285328
+  },
+  {
+    "square_meters": 75,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 3,
+    "price": 239648
+  },
+  {
+    "square_meters": 47,
+    "description": "renovated bathroom and big TV",
+    "rooms": 5,
+    "floor": 6,
+    "price": 72070
+  },
+  {
+    "square_meters": 45,
+    "description": "renovated bathroom and big TV",
+    "rooms": 4,
+    "floor": 7,
+    "price": 56909
+  },
+  {
+    "square_meters": 53,
+    "description": "big bedroom and parking space",
+    "rooms": 4,
+    "floor": 2,
+    "price": 78699
+  },
+  {
+    "square_meters": 71,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 2,
+    "floor": 1,
+    "price": 81353
+  },
+  {
+    "square_meters": 61,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 5,
+    "floor": 10,
+    "price": 234370
+  },
+  {
+    "square_meters": 66,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 1,
+    "price": 77910
+  },
+  {
+    "square_meters": 44,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 2,
+    "floor": 1,
+    "price": 208572
+  },
+  {
+    "square_meters": 78,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 5,
+    "floor": 8,
+    "price": 268256
+  },
+  {
+    "square_meters": 119,
+    "description": "renovated bathroom and big TV",
+    "rooms": 4,
+    "floor": 2,
+    "price": 140249
+  },
+  {
+    "square_meters": 55,
+    "description": "newly furnished with a big TV",
+    "rooms": 5,
+    "floor": 7,
+    "price": 294414
+  },
+  {
+    "square_meters": 57,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 8,
+    "price": 216046
+  },
+  {
+    "square_meters": 53,
+    "description": "big bedroom with parking space",
+    "rooms": 3,
+    "floor": 2,
+    "price": 108838
+  },
+  {
+    "square_meters": 49,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 5,
+    "floor": 3,
+    "price": 173285
+  },
+  {
+    "square_meters": 73,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 2,
+    "price": 133170
+  },
+  {
+    "square_meters": 90,
+    "description": "small living room and renovated bathroom",
+    "rooms": 2,
+    "floor": 10,
+    "price": 294648
+  },
+  {
+    "square_meters": 111,
+    "description": "renovated bathroom and big TV",
+    "rooms": 2,
+    "floor": 8,
+    "price": 238785
+  },
+  {
+    "square_meters": 114,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 1,
+    "floor": 1,
+    "price": 72243
+  },
+  {
+    "square_meters": 41,
+    "description": "renovated bathroom and big TV",
+    "rooms": 4,
+    "floor": 6,
+    "price": 252910
+  },
+  {
+    "square_meters": 66,
+    "description": "small living room and big TV",
+    "rooms": 2,
+    "floor": 10,
+    "price": 149659
+  },
+  {
+    "square_meters": 90,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 1,
+    "floor": 8,
+    "price": 225924
+  },
+  {
+    "square_meters": 92,
+    "description": "small living room, no balcony",
+    "rooms": 2,
+    "floor": 6,
+    "price": 178683
+  },
+  {
+    "square_meters": 42,
+    "description": "small living room, no balcony",
+    "rooms": 2,
+    "floor": 8,
+    "price": 144779
+  },
+  {
+    "square_meters": 74,
+    "description": "parking space and big bedroom",
+    "rooms": 5,
+    "floor": 6,
+    "price": 180400
+  },
+  {
+    "square_meters": 49,
+    "description": "large living room and balcony",
+    "rooms": 2,
+    "floor": 5,
+    "price": 137752
+  },
+  {
+    "square_meters": 77,
+    "description": "small living room and big TV",
+    "rooms": 4,
+    "floor": 2,
+    "price": 88830
+  },
+  {
+    "square_meters": 96,
+    "description": "renovated bathroom and small living room",
+    "rooms": 5,
+    "floor": 8,
+    "price": 92253
+  },
+  {
+    "square_meters": 58,
+    "description": "small living room and renovated bathroom",
+    "rooms": 5,
+    "floor": 9,
+    "price": 205058
+  },
+  {
+    "square_meters": 48,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 3,
+    "floor": 9,
+    "price": 71157
+  },
+  {
+    "square_meters": 57,
+    "description": "newly furnished with a big TV",
+    "rooms": 1,
+    "floor": 1,
+    "price": 266511
+  },
+  {
+    "square_meters": 68,
+    "description": "large living room and parking space",
+    "rooms": 3,
+    "floor": 10,
+    "price": 102259
+  },
+  {
+    "square_meters": 78,
+    "description": "renovated bathroom and small living room",
+    "rooms": 5,
+    "floor": 9,
+    "price": 103837
+  },
+  {
+    "square_meters": 58,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 4,
+    "floor": 10,
+    "price": 247711
+  },
+  {
+    "square_meters": 109,
+    "description": "big bedroom and parking space",
+    "rooms": 3,
+    "floor": 1,
+    "price": 59030
+  },
+  {
+    "square_meters": 75,
+    "description": "renovated bathroom and big TV",
+    "rooms": 4,
+    "floor": 1,
+    "price": 92239
+  },
+  {
+    "square_meters": 73,
+    "description": "large living room and parking space",
+    "rooms": 2,
+    "floor": 2,
+    "price": 102150
+  },
+  {
+    "square_meters": 57,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 5,
+    "floor": 10,
+    "price": 89483
+  },
+  {
+    "square_meters": 62,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 2,
+    "price": 58692
+  },
+  {
+    "square_meters": 82,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 7,
+    "price": 222915
+  },
+  {
+    "square_meters": 73,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 4,
+    "floor": 5,
+    "price": 105420
+  },
+  {
+    "square_meters": 114,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 9,
+    "price": 220573
+  },
+  {
+    "square_meters": 111,
+    "description": "small living room and renovated bathroom",
+    "rooms": 4,
+    "floor": 2,
+    "price": 204155
+  },
+  {
+    "square_meters": 77,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 2,
+    "floor": 4,
+    "price": 110063
+  },
+  {
+    "square_meters": 72,
+    "description": "small living room with big TV",
+    "rooms": 2,
+    "floor": 1,
+    "price": 262837
+  },
+  {
+    "square_meters": 59,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 5,
+    "floor": 2,
+    "price": 298272
+  },
+  {
+    "square_meters": 54,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 2,
+    "floor": 10,
+    "price": 64142
+  },
+  {
+    "square_meters": 66,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 4,
+    "floor": 2,
+    "price": 250854
+  },
+  {
+    "square_meters": 57,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 5,
+    "price": 192895
+  },
+  {
+    "square_meters": 97,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 3,
+    "price": 276802
+  },
+  {
+    "square_meters": 61,
+    "description": "renovated bathroom and small living room",
+    "rooms": 4,
+    "floor": 6,
+    "price": 249980
+  },
+  {
+    "square_meters": 67,
+    "description": "parking space and big bedroom",
+    "rooms": 4,
+    "floor": 3,
+    "price": 100996
+  },
+  {
+    "square_meters": 101,
+    "description": "renovated bathroom and small living room",
+    "rooms": 2,
+    "floor": 2,
+    "price": 91791
+  },
+  {
+    "square_meters": 104,
+    "description": "small living room and renovated bathroom",
+    "rooms": 4,
+    "floor": 8,
+    "price": 86932
+  },
+  {
+    "square_meters": 115,
+    "description": "large living room and parking space",
+    "rooms": 1,
+    "floor": 7,
+    "price": 212093
+  },
+  {
+    "square_meters": 118,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 1,
+    "floor": 1,
+    "price": 57354
+  },
+  {
+    "square_meters": 99,
+    "description": "small living room and renovated bathroom",
+    "rooms": 2,
+    "floor": 9,
+    "price": 70004
+  },
+  {
+    "square_meters": 53,
+    "description": "small living room and big TV",
+    "rooms": 3,
+    "floor": 7,
+    "price": 199760
+  },
+  {
+    "square_meters": 41,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 2,
+    "floor": 3,
+    "price": 259309
+  },
+  {
+    "square_meters": 69,
+    "description": "small living room, no balcony",
+    "rooms": 5,
+    "floor": 5,
+    "price": 191150
+  },
+  {
+    "square_meters": 66,
+    "description": "newly furnished with a big TV",
+    "rooms": 1,
+    "floor": 6,
+    "price": 221477
+  },
+  {
+    "square_meters": 119,
+    "description": "parking space and big bedroom",
+    "rooms": 2,
+    "floor": 8,
+    "price": 199395
+  },
+  {
+    "square_meters": 117,
+    "description": "small living room with big TV",
+    "rooms": 5,
+    "floor": 3,
+    "price": 159651
+  },
+  {
+    "square_meters": 110,
+    "description": "big bedroom with parking space",
+    "rooms": 1,
+    "floor": 6,
+    "price": 296646
+  },
+  {
+    "square_meters": 41,
+    "description": "parking space and big bedroom",
+    "rooms": 4,
+    "floor": 1,
+    "price": 183252
+  },
+  {
+    "square_meters": 85,
+    "description": "renovated bathroom and small living room",
+    "rooms": 3,
+    "floor": 10,
+    "price": 211508
+  },
+  {
+    "square_meters": 87,
+    "description": "small living room and renovated bathroom",
+    "rooms": 3,
+    "floor": 8,
+    "price": 176718
+  },
+  {
+    "square_meters": 116,
+    "description": "small living room and big bedroom",
+    "rooms": 3,
+    "floor": 3,
+    "price": 221932
+  },
+  {
+    "square_meters": 88,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 5,
+    "floor": 6,
+    "price": 112164
+  },
+  {
+    "square_meters": 84,
+    "description": "small living room and big bedroom",
+    "rooms": 2,
+    "floor": 8,
+    "price": 114953
+  },
+  {
+    "square_meters": 42,
+    "description": "large living room and balcony",
+    "rooms": 1,
+    "floor": 1,
+    "price": 145049
+  },
+  {
+    "square_meters": 62,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 1,
+    "floor": 7,
+    "price": 55143
+  },
+  {
+    "square_meters": 119,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 4,
+    "price": 258991
+  },
+  {
+    "square_meters": 112,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 2,
+    "price": 291669
+  },
+  {
+    "square_meters": 43,
+    "description": "renovated bathroom and small living room",
+    "rooms": 2,
+    "floor": 5,
+    "price": 278598
+  },
+  {
+    "square_meters": 104,
+    "description": "small living room with big TV",
+    "rooms": 1,
+    "floor": 4,
+    "price": 147956
+  },
+  {
+    "square_meters": 48,
+    "description": "large living room and parking space",
+    "rooms": 3,
+    "floor": 9,
+    "price": 173711
+  },
+  {
+    "square_meters": 110,
+    "description": "renovated bathroom and big TV",
+    "rooms": 1,
+    "floor": 3,
+    "price": 266353
+  },
+  {
+    "square_meters": 54,
+    "description": "big bedroom and parking space",
+    "rooms": 5,
+    "floor": 3,
+    "price": 128324
+  },
+  {
+    "square_meters": 80,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 5,
+    "price": 267231
+  },
+  {
+    "square_meters": 95,
+    "description": "small living room and big bedroom",
+    "rooms": 3,
+    "floor": 2,
+    "price": 56834
+  },
+  {
+    "square_meters": 81,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 3,
+    "floor": 6,
+    "price": 187050
+  },
+  {
+    "square_meters": 83,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 1,
+    "floor": 1,
+    "price": 260933
+  },
+  {
+    "square_meters": 100,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 4,
+    "floor": 6,
+    "price": 66829
+  },
+  {
+    "square_meters": 86,
+    "description": "small living room and big TV",
+    "rooms": 5,
+    "floor": 9,
+    "price": 96961
+  },
+  {
+    "square_meters": 99,
+    "description": "big bedroom with parking space",
+    "rooms": 5,
+    "floor": 2,
+    "price": 162173
+  },
+  {
+    "square_meters": 84,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 1,
+    "price": 263031
+  },
+  {
+    "square_meters": 119,
+    "description": "parking space and big bedroom",
+    "rooms": 1,
+    "floor": 3,
+    "price": 148583
+  },
+  {
+    "square_meters": 87,
+    "description": "small living room and renovated bathroom",
+    "rooms": 3,
+    "floor": 9,
+    "price": 280198
+  },
+  {
+    "square_meters": 107,
+    "description": "newly furnished with a big TV",
+    "rooms": 3,
+    "floor": 1,
+    "price": 97044
+  },
+  {
+    "square_meters": 84,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 5,
+    "floor": 10,
+    "price": 228391
+  },
+  {
+    "square_meters": 111,
+    "description": "big bedroom and parking space",
+    "rooms": 4,
+    "floor": 8,
+    "price": 284339
+  },
+  {
+    "square_meters": 120,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 4,
+    "price": 168962
+  },
+  {
+    "square_meters": 56,
+    "description": "big bedroom and parking space",
+    "rooms": 2,
+    "floor": 6,
+    "price": 89025
+  },
+  {
+    "square_meters": 45,
+    "description": "small living room and big TV",
+    "rooms": 4,
+    "floor": 10,
+    "price": 185287
+  },
+  {
+    "square_meters": 110,
+    "description": "parking space and big bedroom",
+    "rooms": 3,
+    "floor": 3,
+    "price": 199007
+  },
+  {
+    "square_meters": 42,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 7,
+    "price": 55701
+  },
+  {
+    "square_meters": 77,
+    "description": "renovated bathroom and big TV",
+    "rooms": 3,
+    "floor": 3,
+    "price": 128489
+  },
+  {
+    "square_meters": 107,
+    "description": "small living room and renovated bathroom",
+    "rooms": 4,
+    "floor": 7,
+    "price": 61531
+  },
+  {
+    "square_meters": 58,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 8,
+    "price": 202381
+  },
+  {
+    "square_meters": 86,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 2,
+    "floor": 3,
+    "price": 175863
+  },
+  {
+    "square_meters": 70,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 2,
+    "floor": 7,
+    "price": 231319
+  },
+  {
+    "square_meters": 84,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 2,
+    "floor": 9,
+    "price": 175806
+  },
+  {
+    "square_meters": 90,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 3,
+    "floor": 8,
+    "price": 258342
+  },
+  {
+    "square_meters": 113,
+    "description": "renovated bathroom and small living room",
+    "rooms": 3,
+    "floor": 2,
+    "price": 73012
+  },
+  {
+    "square_meters": 73,
+    "description": "newly furnished with a big TV",
+    "rooms": 5,
+    "floor": 2,
+    "price": 116240
+  },
+  {
+    "square_meters": 88,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 3,
+    "floor": 10,
+    "price": 87818
+  },
+  {
+    "square_meters": 115,
+    "description": "small living room with big TV",
+    "rooms": 2,
+    "floor": 1,
+    "price": 157162
+  },
+  {
+    "square_meters": 106,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 2,
+    "floor": 7,
+    "price": 164301
+  },
+  {
+    "square_meters": 78,
+    "description": "big bedroom with parking space",
+    "rooms": 2,
+    "floor": 4,
+    "price": 67219
+  },
+  {
+    "square_meters": 79,
+    "description": "small living room and big TV",
+    "rooms": 5,
+    "floor": 5,
+    "price": 160438
+  },
+  {
+    "square_meters": 52,
+    "description": "small living room, no balcony",
+    "rooms": 5,
+    "floor": 6,
+    "price": 239939
+  },
+  {
+    "square_meters": 105,
+    "description": "big bedroom and parking space",
+    "rooms": 4,
+    "floor": 8,
+    "price": 213903
+  },
+  {
+    "square_meters": 94,
+    "description": "small living room and renovated bathroom",
+    "rooms": 3,
+    "floor": 2,
+    "price": 210204
+  },
+  {
+    "square_meters": 80,
+    "description": "small living room and renovated bathroom",
+    "rooms": 5,
+    "floor": 4,
+    "price": 75440
+  },
+  {
+    "square_meters": 57,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 10,
+    "price": 178829
+  },
+  {
+    "square_meters": 100,
+    "description": "renovated bathroom and big TV",
+    "rooms": 4,
+    "floor": 6,
+    "price": 234038
+  },
+  {
+    "square_meters": 62,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 1,
+    "floor": 9,
+    "price": 237572
+  },
+  {
+    "square_meters": 105,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 4,
+    "floor": 6,
+    "price": 128068
+  },
+  {
+    "square_meters": 79,
+    "description": "small living room and big bedroom",
+    "rooms": 5,
+    "floor": 10,
+    "price": 83448
+  },
+  {
+    "square_meters": 75,
+    "description": "small living room and big bedroom",
+    "rooms": 5,
+    "floor": 6,
+    "price": 224362
+  },
+  {
+    "square_meters": 74,
+    "description": "newly furnished with a big TV",
+    "rooms": 3,
+    "floor": 3,
+    "price": 109818
+  },
+  {
+    "square_meters": 59,
+    "description": "small living room and big bedroom",
+    "rooms": 5,
+    "floor": 6,
+    "price": 255757
+  },
+  {
+    "square_meters": 54,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 1,
+    "floor": 9,
+    "price": 183591
+  },
+  {
+    "square_meters": 88,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 5,
+    "floor": 1,
+    "price": 189665
+  },
+  {
+    "square_meters": 52,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 6,
+    "price": 59788
+  },
+  {
+    "square_meters": 78,
+    "description": "small living room and renovated bathroom",
+    "rooms": 5,
+    "floor": 6,
+    "price": 65628
+  },
+  {
+    "square_meters": 75,
+    "description": "large living room and parking space",
+    "rooms": 5,
+    "floor": 8,
+    "price": 62537
+  },
+  {
+    "square_meters": 105,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 2,
+    "floor": 8,
+    "price": 122054
+  },
+  {
+    "square_meters": 79,
+    "description": "small living room and renovated bathroom",
+    "rooms": 3,
+    "floor": 2,
+    "price": 240488
+  },
+  {
+    "square_meters": 98,
+    "description": "large living room and parking space",
+    "rooms": 5,
+    "floor": 9,
+    "price": 109786
+  },
+  {
+    "square_meters": 84,
+    "description": "renovated bathroom and big TV",
+    "rooms": 5,
+    "floor": 9,
+    "price": 248949
+  },
+  {
+    "square_meters": 67,
+    "description": "parking space and big bedroom",
+    "rooms": 2,
+    "floor": 7,
+    "price": 298450
+  },
+  {
+    "square_meters": 118,
+    "description": "renovated bathroom and small living room",
+    "rooms": 1,
+    "floor": 1,
+    "price": 169021
+  },
+  {
+    "square_meters": 63,
+    "description": "small living room and big TV",
+    "rooms": 3,
+    "floor": 3,
+    "price": 51591
+  },
+  {
+    "square_meters": 86,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 2,
+    "floor": 10,
+    "price": 53824
+  },
+  {
+    "square_meters": 110,
+    "description": "large living room and parking space",
+    "rooms": 5,
+    "floor": 4,
+    "price": 142234
+  },
+  {
+    "square_meters": 86,
+    "description": "parking space and big bedroom",
+    "rooms": 3,
+    "floor": 2,
+    "price": 196888
+  },
+  {
+    "square_meters": 91,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 3,
+    "floor": 4,
+    "price": 184829
+  },
+  {
+    "square_meters": 50,
+    "description": "big bedroom with parking space",
+    "rooms": 1,
+    "floor": 7,
+    "price": 236196
+  },
+  {
+    "square_meters": 68,
+    "description": "parking space and big bedroom",
+    "rooms": 3,
+    "floor": 8,
+    "price": 299323
+  },
+  {
+    "square_meters": 73,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 5,
+    "floor": 3,
+    "price": 95902
+  },
+  {
+    "square_meters": 89,
+    "description": "newly furnished with a big TV",
+    "rooms": 4,
+    "floor": 6,
+    "price": 239550
+  },
+  {
+    "square_meters": 68,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 1,
+    "floor": 10,
+    "price": 200131
+  },
+  {
+    "square_meters": 96,
+    "description": "renovated bathroom and big TV",
+    "rooms": 1,
+    "floor": 1,
+    "price": 226264
+  },
+  {
+    "square_meters": 60,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 4,
+    "floor": 1,
+    "price": 267811
+  },
+  {
+    "square_meters": 49,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 2,
+    "floor": 10,
+    "price": 249667
+  },
+  {
+    "square_meters": 101,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 2,
+    "floor": 3,
+    "price": 90247
+  },
+  {
+    "square_meters": 99,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 5,
+    "floor": 10,
+    "price": 161056
+  },
+  {
+    "square_meters": 114,
+    "description": "large living room and balcony",
+    "rooms": 4,
+    "floor": 5,
+    "price": 284246
+  },
+  {
+    "square_meters": 59,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 9,
+    "price": 134743
+  },
+  {
+    "square_meters": 75,
+    "description": "big bedroom and parking space",
+    "rooms": 5,
+    "floor": 6,
+    "price": 214283
+  },
+  {
+    "square_meters": 91,
+    "description": "renovated bathroom and small living room",
+    "rooms": 4,
+    "floor": 2,
+    "price": 157045
+  },
+  {
+    "square_meters": 51,
+    "description": "small living room and big bedroom",
+    "rooms": 4,
+    "floor": 5,
+    "price": 249302
+  },
+  {
+    "square_meters": 63,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 3,
+    "floor": 3,
+    "price": 254689
+  },
+  {
+    "square_meters": 74,
+    "description": "big bedroom and parking space",
+    "rooms": 4,
+    "floor": 8,
+    "price": 83969
+  },
+  {
+    "square_meters": 77,
+    "description": "big bedroom and parking space",
+    "rooms": 3,
+    "floor": 6,
+    "price": 195908
+  },
+  {
+    "square_meters": 85,
+    "description": "renovated bathroom and big TV",
+    "rooms": 3,
+    "floor": 9,
+    "price": 168964
+  },
+  {
+    "square_meters": 115,
+    "description": "small living room and big bedroom",
+    "rooms": 2,
+    "floor": 10,
+    "price": 281423
+  },
+  {
+    "square_meters": 66,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 7,
+    "price": 236423
+  },
+  {
+    "square_meters": 78,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 1,
+    "floor": 5,
+    "price": 226572
+  },
+  {
+    "square_meters": 85,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 5,
+    "floor": 10,
+    "price": 71151
+  },
+  {
+    "square_meters": 73,
+    "description": "small living room and renovated bathroom",
+    "rooms": 3,
+    "floor": 6,
+    "price": 226127
+  },
+  {
+    "square_meters": 68,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 2,
+    "floor": 8,
+    "price": 60518
+  },
+  {
+    "square_meters": 53,
+    "description": "newly furnished with a big TV",
+    "rooms": 5,
+    "floor": 3,
+    "price": 175161
+  },
+  {
+    "square_meters": 46,
+    "description": "renovated bathroom and small living room",
+    "rooms": 3,
+    "floor": 10,
+    "price": 147463
+  },
+  {
+    "square_meters": 64,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 4,
+    "price": 176733
+  },
+  {
+    "square_meters": 67,
+    "description": "large living room and balcony",
+    "rooms": 5,
+    "floor": 3,
+    "price": 52076
+  },
+  {
+    "square_meters": 101,
+    "description": "small living room and big TV",
+    "rooms": 2,
+    "floor": 6,
+    "price": 116564
+  },
+  {
+    "square_meters": 105,
+    "description": "small living room and renovated bathroom",
+    "rooms": 1,
+    "floor": 1,
+    "price": 119760
+  },
+  {
+    "square_meters": 112,
+    "description": "small living room with big TV",
+    "rooms": 1,
+    "floor": 4,
+    "price": 102281
+  },
+  {
+    "square_meters": 62,
+    "description": "renovated bathroom and big TV",
+    "rooms": 4,
+    "floor": 10,
+    "price": 159944
+  },
+  {
+    "square_meters": 43,
+    "description": "small living room, no balcony",
+    "rooms": 3,
+    "floor": 5,
+    "price": 160598
+  },
+  {
+    "square_meters": 55,
+    "description": "large living room and parking space",
+    "rooms": 1,
+    "floor": 7,
+    "price": 140102
+  },
+  {
+    "square_meters": 93,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 10,
+    "price": 54862
+  },
+  {
+    "square_meters": 49,
+    "description": "newly furnished with a big TV",
+    "rooms": 5,
+    "floor": 9,
+    "price": 237114
+  },
+  {
+    "square_meters": 111,
+    "description": "small living room and renovated bathroom",
+    "rooms": 4,
+    "floor": 1,
+    "price": 226067
+  },
+  {
+    "square_meters": 61,
+    "description": "small living room with big TV",
+    "rooms": 4,
+    "floor": 9,
+    "price": 174853
+  },
+  {
+    "square_meters": 67,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 4,
+    "floor": 4,
+    "price": 169695
+  },
+  {
+    "square_meters": 68,
+    "description": "renovated bathroom and big TV",
+    "rooms": 5,
+    "floor": 5,
+    "price": 160404
+  },
+  {
+    "square_meters": 44,
+    "description": "renovated bathroom and small living room",
+    "rooms": 3,
+    "floor": 1,
+    "price": 272643
+  },
+  {
+    "square_meters": 71,
+    "description": "renovated bathroom and small living room",
+    "rooms": 1,
+    "floor": 9,
+    "price": 86259
+  },
+  {
+    "square_meters": 106,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 4,
+    "floor": 3,
+    "price": 81275
+  },
+  {
+    "square_meters": 44,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 4,
+    "floor": 8,
+    "price": 154485
+  },
+  {
+    "square_meters": 103,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 1,
+    "floor": 10,
+    "price": 279621
+  },
+  {
+    "square_meters": 118,
+    "description": "big bedroom with parking space",
+    "rooms": 2,
+    "floor": 8,
+    "price": 281961
+  },
+  {
+    "square_meters": 76,
+    "description": "small living room and renovated bathroom",
+    "rooms": 3,
+    "floor": 7,
+    "price": 69175
+  },
+  {
+    "square_meters": 93,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 1,
+    "price": 268992
+  },
+  {
+    "square_meters": 78,
+    "description": "renovated bathroom and big TV",
+    "rooms": 3,
+    "floor": 6,
+    "price": 90534
+  },
+  {
+    "square_meters": 60,
+    "description": "small living room and big bedroom",
+    "rooms": 5,
+    "floor": 6,
+    "price": 177490
+  },
+  {
+    "square_meters": 48,
+    "description": "parking space and big bedroom",
+    "rooms": 5,
+    "floor": 10,
+    "price": 123965
+  },
+  {
+    "square_meters": 66,
+    "description": "renovated bathroom and small living room",
+    "rooms": 5,
+    "floor": 5,
+    "price": 273804
+  },
+  {
+    "square_meters": 40,
+    "description": "renovated bathroom and big TV",
+    "rooms": 1,
+    "floor": 5,
+    "price": 95739
+  },
+  {
+    "square_meters": 115,
+    "description": "small living room and big bedroom",
+    "rooms": 3,
+    "floor": 6,
+    "price": 261214
+  },
+  {
+    "square_meters": 74,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 5,
+    "floor": 4,
+    "price": 284086
+  },
+  {
+    "square_meters": 83,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 2,
+    "floor": 10,
+    "price": 171977
+  },
+  {
+    "square_meters": 87,
+    "description": "small living room and renovated bathroom",
+    "rooms": 3,
+    "floor": 10,
+    "price": 259361
+  },
+  {
+    "square_meters": 107,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 5,
+    "floor": 5,
+    "price": 293838
+  },
+  {
+    "square_meters": 93,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 9,
+    "price": 161914
+  },
+  {
+    "square_meters": 60,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 2,
+    "floor": 1,
+    "price": 240454
+  },
+  {
+    "square_meters": 95,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 2,
+    "floor": 9,
+    "price": 90133
+  },
+  {
+    "square_meters": 68,
+    "description": "renovated bathroom and small living room",
+    "rooms": 2,
+    "floor": 8,
+    "price": 239065
+  },
+  {
+    "square_meters": 113,
+    "description": "small living room and big bedroom",
+    "rooms": 5,
+    "floor": 3,
+    "price": 198021
+  },
+  {
+    "square_meters": 95,
+    "description": "newly furnished with a big TV",
+    "rooms": 5,
+    "floor": 10,
+    "price": 107616
+  },
+  {
+    "square_meters": 111,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 10,
+    "price": 277434
+  },
+  {
+    "square_meters": 109,
+    "description": "newly furnished with a big TV",
+    "rooms": 4,
+    "floor": 9,
+    "price": 239078
+  },
+  {
+    "square_meters": 72,
+    "description": "newly furnished with a big TV",
+    "rooms": 5,
+    "floor": 2,
+    "price": 230380
+  },
+  {
+    "square_meters": 55,
+    "description": "renovated bathroom and small living room",
+    "rooms": 3,
+    "floor": 2,
+    "price": 287108
+  },
+  {
+    "square_meters": 48,
+    "description": "small living room and big TV",
+    "rooms": 5,
+    "floor": 8,
+    "price": 225119
+  },
+  {
+    "square_meters": 94,
+    "description": "parking space and big bedroom",
+    "rooms": 5,
+    "floor": 2,
+    "price": 138113
+  },
+  {
+    "square_meters": 49,
+    "description": "large living room and balcony",
+    "rooms": 1,
+    "floor": 1,
+    "price": 277235
+  },
+  {
+    "square_meters": 65,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 4,
+    "floor": 4,
+    "price": 105448
+  },
+  {
+    "square_meters": 103,
+    "description": "small living room with big TV",
+    "rooms": 2,
+    "floor": 6,
+    "price": 182241
+  },
+  {
+    "square_meters": 112,
+    "description": "renovated bathroom and small living room",
+    "rooms": 3,
+    "floor": 9,
+    "price": 187980
+  },
+  {
+    "square_meters": 89,
+    "description": "big bedroom with parking space",
+    "rooms": 4,
+    "floor": 9,
+    "price": 65119
+  },
+  {
+    "square_meters": 92,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 3,
+    "floor": 4,
+    "price": 207231
+  },
+  {
+    "square_meters": 50,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 2,
+    "floor": 4,
+    "price": 176172
+  },
+  {
+    "square_meters": 119,
+    "description": "renovated bathroom and big TV",
+    "rooms": 5,
+    "floor": 4,
+    "price": 117795
+  },
+  {
+    "square_meters": 52,
+    "description": "newly furnished with a big TV",
+    "rooms": 4,
+    "floor": 7,
+    "price": 229299
+  },
+  {
+    "square_meters": 80,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 2,
+    "price": 224674
+  },
+  {
+    "square_meters": 102,
+    "description": "renovated bathroom and big TV",
+    "rooms": 3,
+    "floor": 9,
+    "price": 129599
+  },
+  {
+    "square_meters": 75,
+    "description": "large living room and balcony",
+    "rooms": 5,
+    "floor": 6,
+    "price": 220737
+  },
+  {
+    "square_meters": 116,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 5,
+    "floor": 5,
+    "price": 199524
+  },
+  {
+    "square_meters": 54,
+    "description": "newly furnished with a big TV",
+    "rooms": 2,
+    "floor": 2,
+    "price": 195863
+  },
+  {
+    "square_meters": 84,
+    "description": "small living room and renovated bathroom",
+    "rooms": 3,
+    "floor": 7,
+    "price": 137524
+  },
+  {
+    "square_meters": 85,
+    "description": "small living room and big bedroom",
+    "rooms": 4,
+    "floor": 9,
+    "price": 123497
+  },
+  {
+    "square_meters": 64,
+    "description": "renovated bathroom and big TV",
+    "rooms": 4,
+    "floor": 3,
+    "price": 108806
+  },
+  {
+    "square_meters": 55,
+    "description": "small living room and big TV",
+    "rooms": 4,
+    "floor": 1,
+    "price": 214339
+  },
+  {
+    "square_meters": 56,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 5,
+    "floor": 10,
+    "price": 286408
+  },
+  {
+    "square_meters": 67,
+    "description": "large living room and parking space",
+    "rooms": 3,
+    "floor": 3,
+    "price": 97115
+  },
+  {
+    "square_meters": 56,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 9,
+    "price": 296385
+  },
+  {
+    "square_meters": 70,
+    "description": "large living room and balcony",
+    "rooms": 5,
+    "floor": 2,
+    "price": 245748
+  },
+  {
+    "square_meters": 96,
+    "description": "small living room and big bedroom",
+    "rooms": 5,
+    "floor": 4,
+    "price": 111607
+  },
+  {
+    "square_meters": 90,
+    "description": "large living room and balcony",
+    "rooms": 2,
+    "floor": 6,
+    "price": 257424
+  },
+  {
+    "square_meters": 79,
+    "description": "newly furnished with a big TV",
+    "rooms": 5,
+    "floor": 10,
+    "price": 259412
+  },
+  {
+    "square_meters": 94,
+    "description": "large living room and parking space",
+    "rooms": 1,
+    "floor": 6,
+    "price": 297346
+  },
+  {
+    "square_meters": 49,
+    "description": "parking space and big bedroom",
+    "rooms": 4,
+    "floor": 5,
+    "price": 195810
+  },
+  {
+    "square_meters": 88,
+    "description": "large living room and balcony",
+    "rooms": 1,
+    "floor": 4,
+    "price": 203363
+  },
+  {
+    "square_meters": 71,
+    "description": "big bedroom and parking space",
+    "rooms": 5,
+    "floor": 5,
+    "price": 68362
+  },
+  {
+    "square_meters": 112,
+    "description": "big bedroom with parking space",
+    "rooms": 2,
+    "floor": 7,
+    "price": 177085
+  },
+  {
+    "square_meters": 113,
+    "description": "large living room and balcony",
+    "rooms": 1,
+    "floor": 7,
+    "price": 162638
+  },
+  {
+    "square_meters": 105,
+    "description": "small living room and big bedroom",
+    "rooms": 2,
+    "floor": 4,
+    "price": 191323
+  },
+  {
+    "square_meters": 96,
+    "description": "small living room, no balcony",
+    "rooms": 2,
+    "floor": 7,
+    "price": 272747
+  },
+  {
+    "square_meters": 100,
+    "description": "newly furnished with a big TV",
+    "rooms": 2,
+    "floor": 4,
+    "price": 245954
+  },
+  {
+    "square_meters": 45,
+    "description": "parking space and big bedroom",
+    "rooms": 1,
+    "floor": 3,
+    "price": 147160
+  },
+  {
+    "square_meters": 46,
+    "description": "parking space and big bedroom",
+    "rooms": 3,
+    "floor": 9,
+    "price": 232183
+  },
+  {
+    "square_meters": 79,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 3,
+    "price": 290892
+  },
+  {
+    "square_meters": 107,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 4,
+    "floor": 4,
+    "price": 134843
+  },
+  {
+    "square_meters": 120,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 3,
+    "price": 170584
+  },
+  {
+    "square_meters": 46,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 1,
+    "floor": 9,
+    "price": 254997
+  },
+  {
+    "square_meters": 94,
+    "description": "small living room with big TV",
+    "rooms": 4,
+    "floor": 5,
+    "price": 162335
+  },
+  {
+    "square_meters": 54,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 1,
+    "floor": 4,
+    "price": 229134
+  },
+  {
+    "square_meters": 68,
+    "description": "renovated bathroom and small living room",
+    "rooms": 1,
+    "floor": 7,
+    "price": 293314
+  },
+  {
+    "square_meters": 51,
+    "description": "small living room and big TV",
+    "rooms": 5,
+    "floor": 4,
+    "price": 150061
+  },
+  {
+    "square_meters": 41,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 1,
+    "floor": 9,
+    "price": 241136
+  },
+  {
+    "square_meters": 50,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 2,
+    "price": 199224
+  },
+  {
+    "square_meters": 43,
+    "description": "small living room and big bedroom",
+    "rooms": 2,
+    "floor": 4,
+    "price": 253046
+  },
+  {
+    "square_meters": 52,
+    "description": "renovated bathroom and small living room",
+    "rooms": 5,
+    "floor": 4,
+    "price": 111756
+  },
+  {
+    "square_meters": 59,
+    "description": "small living room and big bedroom",
+    "rooms": 4,
+    "floor": 4,
+    "price": 292035
+  },
+  {
+    "square_meters": 101,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 4,
+    "floor": 5,
+    "price": 258938
+  },
+  {
+    "square_meters": 109,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 5,
+    "floor": 5,
+    "price": 144686
+  },
+  {
+    "square_meters": 66,
+    "description": "renovated bathroom and small living room",
+    "rooms": 5,
+    "floor": 10,
+    "price": 227578
+  },
+  {
+    "square_meters": 103,
+    "description": "big bedroom with parking space",
+    "rooms": 4,
+    "floor": 5,
+    "price": 160416
+  },
+  {
+    "square_meters": 115,
+    "description": "large living room and balcony",
+    "rooms": 2,
+    "floor": 5,
+    "price": 238386
+  },
+  {
+    "square_meters": 100,
+    "description": "small living room and big TV",
+    "rooms": 4,
+    "floor": 6,
+    "price": 117840
+  },
+  {
+    "square_meters": 89,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 7,
+    "price": 128516
+  },
+  {
+    "square_meters": 80,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 5,
+    "floor": 9,
+    "price": 221170
+  },
+  {
+    "square_meters": 104,
+    "description": "big bedroom and parking space",
+    "rooms": 1,
+    "floor": 8,
+    "price": 280967
+  },
+  {
+    "square_meters": 72,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 6,
+    "price": 184992
+  },
+  {
+    "square_meters": 110,
+    "description": "renovated bathroom and small living room",
+    "rooms": 3,
+    "floor": 3,
+    "price": 146077
+  },
+  {
+    "square_meters": 68,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 1,
+    "floor": 10,
+    "price": 146993
+  },
+  {
+    "square_meters": 51,
+    "description": "small living room and big TV",
+    "rooms": 4,
+    "floor": 8,
+    "price": 264153
+  },
+  {
+    "square_meters": 113,
+    "description": "newly furnished with a big TV",
+    "rooms": 5,
+    "floor": 1,
+    "price": 119972
+  },
+  {
+    "square_meters": 78,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 3,
+    "floor": 3,
+    "price": 227621
+  },
+  {
+    "square_meters": 67,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 3,
+    "floor": 1,
+    "price": 218773
+  },
+  {
+    "square_meters": 92,
+    "description": "big bedroom and parking space",
+    "rooms": 1,
+    "floor": 10,
+    "price": 136430
+  },
+  {
+    "square_meters": 41,
+    "description": "large living room and balcony",
+    "rooms": 5,
+    "floor": 9,
+    "price": 268093
+  },
+  {
+    "square_meters": 82,
+    "description": "newly furnished with a big TV",
+    "rooms": 4,
+    "floor": 1,
+    "price": 132709
+  },
+  {
+    "square_meters": 52,
+    "description": "big bedroom with parking space",
+    "rooms": 3,
+    "floor": 4,
+    "price": 146088
+  },
+  {
+    "square_meters": 45,
+    "description": "renovated bathroom and big TV",
+    "rooms": 1,
+    "floor": 8,
+    "price": 61787
+  },
+  {
+    "square_meters": 82,
+    "description": "renovated bathroom and small living room",
+    "rooms": 5,
+    "floor": 4,
+    "price": 176294
+  },
+  {
+    "square_meters": 97,
+    "description": "small living room and big TV",
+    "rooms": 2,
+    "floor": 10,
+    "price": 98857
+  },
+  {
+    "square_meters": 118,
+    "description": "large living room and parking space",
+    "rooms": 5,
+    "floor": 9,
+    "price": 126466
+  },
+  {
+    "square_meters": 113,
+    "description": "newly furnished with a big TV",
+    "rooms": 5,
+    "floor": 4,
+    "price": 234531
+  },
+  {
+    "square_meters": 108,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 8,
+    "price": 151230
+  },
+  {
+    "square_meters": 104,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 1,
+    "price": 144380
+  },
+  {
+    "square_meters": 66,
+    "description": "renovated bathroom and small living room",
+    "rooms": 4,
+    "floor": 3,
+    "price": 271260
+  },
+  {
+    "square_meters": 71,
+    "description": "big bedroom and parking space",
+    "rooms": 3,
+    "floor": 7,
+    "price": 122467
+  },
+  {
+    "square_meters": 41,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 1,
+    "floor": 9,
+    "price": 281410
+  },
+  {
+    "square_meters": 57,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 2,
+    "floor": 2,
+    "price": 170608
+  },
+  {
+    "square_meters": 51,
+    "description": "renovated bathroom and big TV",
+    "rooms": 2,
+    "floor": 10,
+    "price": 296166
+  },
+  {
+    "square_meters": 63,
+    "description": "big bedroom with parking space",
+    "rooms": 2,
+    "floor": 10,
+    "price": 193481
+  },
+  {
+    "square_meters": 55,
+    "description": "small living room and big bedroom",
+    "rooms": 3,
+    "floor": 7,
+    "price": 212811
+  },
+  {
+    "square_meters": 86,
+    "description": "big bedroom with parking space",
+    "rooms": 5,
+    "floor": 5,
+    "price": 121295
+  },
+  {
+    "square_meters": 99,
+    "description": "large living room and balcony",
+    "rooms": 5,
+    "floor": 4,
+    "price": 61133
+  },
+  {
+    "square_meters": 85,
+    "description": "small living room and renovated bathroom",
+    "rooms": 2,
+    "floor": 10,
+    "price": 257665
+  },
+  {
+    "square_meters": 67,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 4,
+    "floor": 5,
+    "price": 191378
+  },
+  {
+    "square_meters": 71,
+    "description": "small living room and big TV",
+    "rooms": 4,
+    "floor": 1,
+    "price": 73258
+  },
+  {
+    "square_meters": 65,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 10,
+    "price": 276729
+  },
+  {
+    "square_meters": 80,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 4,
+    "price": 274579
+  },
+  {
+    "square_meters": 53,
+    "description": "small living room and big TV",
+    "rooms": 3,
+    "floor": 2,
+    "price": 116186
+  },
+  {
+    "square_meters": 76,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 2,
+    "price": 248002
+  },
+  {
+    "square_meters": 118,
+    "description": "large living room and parking space",
+    "rooms": 2,
+    "floor": 3,
+    "price": 60379
+  },
+  {
+    "square_meters": 108,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 3,
+    "floor": 9,
+    "price": 87327
+  },
+  {
+    "square_meters": 53,
+    "description": "large living room and balcony",
+    "rooms": 4,
+    "floor": 1,
+    "price": 57165
+  },
+  {
+    "square_meters": 75,
+    "description": "newly furnished with a big TV",
+    "rooms": 2,
+    "floor": 10,
+    "price": 162469
+  },
+  {
+    "square_meters": 113,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 5,
+    "floor": 9,
+    "price": 120697
+  },
+  {
+    "square_meters": 62,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 4,
+    "floor": 7,
+    "price": 59503
+  },
+  {
+    "square_meters": 41,
+    "description": "parking space and big bedroom",
+    "rooms": 4,
+    "floor": 3,
+    "price": 62978
+  },
+  {
+    "square_meters": 69,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 10,
+    "price": 190289
+  },
+  {
+    "square_meters": 81,
+    "description": "small living room with big TV",
+    "rooms": 5,
+    "floor": 3,
+    "price": 55922
+  },
+  {
+    "square_meters": 84,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 8,
+    "price": 168717
+  },
+  {
+    "square_meters": 119,
+    "description": "large living room and balcony",
+    "rooms": 1,
+    "floor": 3,
+    "price": 297402
+  },
+  {
+    "square_meters": 52,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 4,
+    "floor": 5,
+    "price": 99187
+  },
+  {
+    "square_meters": 59,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 5,
+    "floor": 9,
+    "price": 118496
+  },
+  {
+    "square_meters": 72,
+    "description": "small living room, no balcony",
+    "rooms": 2,
+    "floor": 3,
+    "price": 200031
+  },
+  {
+    "square_meters": 94,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 1,
+    "floor": 1,
+    "price": 207884
+  },
+  {
+    "square_meters": 113,
+    "description": "parking space and big bedroom",
+    "rooms": 3,
+    "floor": 2,
+    "price": 223256
+  },
+  {
+    "square_meters": 120,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 10,
+    "price": 251923
+  },
+  {
+    "square_meters": 87,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 1,
+    "floor": 4,
+    "price": 269884
+  },
+  {
+    "square_meters": 97,
+    "description": "big bedroom and parking space",
+    "rooms": 5,
+    "floor": 5,
+    "price": 145903
+  },
+  {
+    "square_meters": 68,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 9,
+    "price": 134279
+  },
+  {
+    "square_meters": 119,
+    "description": "big bedroom and parking space",
+    "rooms": 4,
+    "floor": 4,
+    "price": 109267
+  },
+  {
+    "square_meters": 42,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 7,
+    "price": 179770
+  },
+  {
+    "square_meters": 107,
+    "description": "small living room and big bedroom",
+    "rooms": 5,
+    "floor": 5,
+    "price": 72039
+  },
+  {
+    "square_meters": 74,
+    "description": "large living room and parking space",
+    "rooms": 1,
+    "floor": 10,
+    "price": 218642
+  },
+  {
+    "square_meters": 108,
+    "description": "large living room and parking space",
+    "rooms": 5,
+    "floor": 5,
+    "price": 130094
+  },
+  {
+    "square_meters": 106,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 1,
+    "floor": 10,
+    "price": 219369
+  },
+  {
+    "square_meters": 85,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 5,
+    "price": 89293
+  },
+  {
+    "square_meters": 115,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 5,
+    "floor": 9,
+    "price": 289866
+  },
+  {
+    "square_meters": 95,
+    "description": "large living room and parking space",
+    "rooms": 4,
+    "floor": 5,
+    "price": 87775
+  },
+  {
+    "square_meters": 92,
+    "description": "big bedroom with parking space",
+    "rooms": 1,
+    "floor": 4,
+    "price": 198113
+  },
+  {
+    "square_meters": 41,
+    "description": "renovated bathroom and big TV",
+    "rooms": 5,
+    "floor": 4,
+    "price": 63691
+  },
+  {
+    "square_meters": 90,
+    "description": "small living room and big bedroom",
+    "rooms": 4,
+    "floor": 8,
+    "price": 246526
+  },
+  {
+    "square_meters": 118,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 2,
+    "floor": 5,
+    "price": 117985
+  },
+  {
+    "square_meters": 100,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 10,
+    "price": 223576
+  },
+  {
+    "square_meters": 71,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 5,
+    "floor": 8,
+    "price": 98084
+  },
+  {
+    "square_meters": 97,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 5,
+    "price": 142335
+  },
+  {
+    "square_meters": 42,
+    "description": "small living room and big bedroom",
+    "rooms": 2,
+    "floor": 7,
+    "price": 221908
+  },
+  {
+    "square_meters": 110,
+    "description": "small living room and big TV",
+    "rooms": 3,
+    "floor": 7,
+    "price": 111227
+  },
+  {
+    "square_meters": 64,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 5,
+    "floor": 7,
+    "price": 189823
+  },
+  {
+    "square_meters": 51,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 5,
+    "floor": 4,
+    "price": 131122
+  },
+  {
+    "square_meters": 48,
+    "description": "small living room, no balcony",
+    "rooms": 2,
+    "floor": 10,
+    "price": 97621
+  },
+  {
+    "square_meters": 86,
+    "description": "big bedroom and parking space",
+    "rooms": 4,
+    "floor": 3,
+    "price": 191287
+  },
+  {
+    "square_meters": 114,
+    "description": "big bedroom and parking space",
+    "rooms": 2,
+    "floor": 1,
+    "price": 211167
+  },
+  {
+    "square_meters": 64,
+    "description": "small living room, no balcony",
+    "rooms": 1,
+    "floor": 6,
+    "price": 284741
+  },
+  {
+    "square_meters": 56,
+    "description": "parking space and big bedroom",
+    "rooms": 4,
+    "floor": 1,
+    "price": 227275
+  },
+  {
+    "square_meters": 40,
+    "description": "small living room and renovated bathroom",
+    "rooms": 1,
+    "floor": 7,
+    "price": 75887
+  },
+  {
+    "square_meters": 83,
+    "description": "small living room and big bedroom",
+    "rooms": 3,
+    "floor": 8,
+    "price": 279686
+  },
+  {
+    "square_meters": 85,
+    "description": "renovated bathroom and small living room",
+    "rooms": 4,
+    "floor": 9,
+    "price": 236309
+  },
+  {
+    "square_meters": 43,
+    "description": "small living room and big TV",
+    "rooms": 3,
+    "floor": 9,
+    "price": 295748
+  },
+  {
+    "square_meters": 106,
+    "description": "small living room, no balcony",
+    "rooms": 2,
+    "floor": 4,
+    "price": 251347
+  },
+  {
+    "square_meters": 85,
+    "description": "small living room, no balcony",
+    "rooms": 2,
+    "floor": 1,
+    "price": 71001
+  },
+  {
+    "square_meters": 89,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 1,
+    "price": 78922
+  },
+  {
+    "square_meters": 91,
+    "description": "small living room and big bedroom",
+    "rooms": 3,
+    "floor": 5,
+    "price": 119878
+  },
+  {
+    "square_meters": 87,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 3,
+    "floor": 8,
+    "price": 232691
+  },
+  {
+    "square_meters": 68,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 2,
+    "floor": 3,
+    "price": 165296
+  },
+  {
+    "square_meters": 103,
+    "description": "small living room, no balcony",
+    "rooms": 1,
+    "floor": 9,
+    "price": 57499
+  },
+  {
+    "square_meters": 109,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 1,
+    "floor": 4,
+    "price": 149484
+  },
+  {
+    "square_meters": 74,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 6,
+    "price": 199662
+  },
+  {
+    "square_meters": 109,
+    "description": "small living room, no balcony",
+    "rooms": 1,
+    "floor": 1,
+    "price": 75574
+  },
+  {
+    "square_meters": 65,
+    "description": "large living room and balcony",
+    "rooms": 1,
+    "floor": 8,
+    "price": 102196
+  },
+  {
+    "square_meters": 62,
+    "description": "small living room and big TV",
+    "rooms": 3,
+    "floor": 8,
+    "price": 66150
+  },
+  {
+    "square_meters": 117,
+    "description": "small living room, no balcony",
+    "rooms": 3,
+    "floor": 4,
+    "price": 184721
+  },
+  {
+    "square_meters": 49,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 3,
+    "floor": 8,
+    "price": 96412
+  },
+  {
+    "square_meters": 44,
+    "description": "small living room and big TV",
+    "rooms": 5,
+    "floor": 8,
+    "price": 209178
+  },
+  {
+    "square_meters": 99,
+    "description": "large living room and balcony",
+    "rooms": 2,
+    "floor": 10,
+    "price": 292793
+  },
+  {
+    "square_meters": 59,
+    "description": "big bedroom and parking space",
+    "rooms": 4,
+    "floor": 6,
+    "price": 56339
+  },
+  {
+    "square_meters": 70,
+    "description": "large living room and balcony",
+    "rooms": 4,
+    "floor": 8,
+    "price": 236440
+  },
+  {
+    "square_meters": 116,
+    "description": "small living room and big bedroom",
+    "rooms": 4,
+    "floor": 9,
+    "price": 143916
+  },
+  {
+    "square_meters": 105,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 1,
+    "price": 281522
+  },
+  {
+    "square_meters": 73,
+    "description": "renovated bathroom and small living room",
+    "rooms": 1,
+    "floor": 5,
+    "price": 195487
+  },
+  {
+    "square_meters": 114,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 10,
+    "price": 286049
+  },
+  {
+    "square_meters": 88,
+    "description": "big bedroom with parking space",
+    "rooms": 4,
+    "floor": 2,
+    "price": 53062
+  },
+  {
+    "square_meters": 107,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 5,
+    "floor": 1,
+    "price": 250450
+  },
+  {
+    "square_meters": 47,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 3,
+    "floor": 10,
+    "price": 85904
+  },
+  {
+    "square_meters": 81,
+    "description": "renovated bathroom and small living room",
+    "rooms": 2,
+    "floor": 10,
+    "price": 105957
+  },
+  {
+    "square_meters": 91,
+    "description": "small living room and big bedroom",
+    "rooms": 4,
+    "floor": 9,
+    "price": 212931
+  },
+  {
+    "square_meters": 114,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 2,
+    "floor": 10,
+    "price": 289940
+  },
+  {
+    "square_meters": 68,
+    "description": "parking space and big bedroom",
+    "rooms": 3,
+    "floor": 2,
+    "price": 221643
+  },
+  {
+    "square_meters": 94,
+    "description": "large living room and balcony",
+    "rooms": 3,
+    "floor": 1,
+    "price": 88920
+  },
+  {
+    "square_meters": 96,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 4,
+    "floor": 8,
+    "price": 182533
+  },
+  {
+    "square_meters": 91,
+    "description": "newly furnished with a big TV",
+    "rooms": 1,
+    "floor": 5,
+    "price": 296540
+  },
+  {
+    "square_meters": 111,
+    "description": "big bedroom with parking space",
+    "rooms": 4,
+    "floor": 1,
+    "price": 58709
+  },
+  {
+    "square_meters": 48,
+    "description": "big bedroom with parking space",
+    "rooms": 1,
+    "floor": 8,
+    "price": 284378
+  },
+  {
+    "square_meters": 116,
+    "description": "renovated bathroom and big TV",
+    "rooms": 5,
+    "floor": 8,
+    "price": 228605
+  },
+  {
+    "square_meters": 85,
+    "description": "parking space and big bedroom",
+    "rooms": 4,
+    "floor": 2,
+    "price": 256576
+  },
+  {
+    "square_meters": 69,
+    "description": "parking space and big bedroom",
+    "rooms": 1,
+    "floor": 10,
+    "price": 152005
+  },
+  {
+    "square_meters": 114,
+    "description": "large living room and parking space",
+    "rooms": 1,
+    "floor": 5,
+    "price": 170908
+  },
+  {
+    "square_meters": 48,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 2,
+    "floor": 2,
+    "price": 232367
+  },
+  {
+    "square_meters": 87,
+    "description": "small living room, no balcony",
+    "rooms": 2,
+    "floor": 4,
+    "price": 134720
+  },
+  {
+    "square_meters": 73,
+    "description": "parking space and big bedroom",
+    "rooms": 2,
+    "floor": 3,
+    "price": 291918
+  },
+  {
+    "square_meters": 117,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 6,
+    "price": 160261
+  },
+  {
+    "square_meters": 92,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 2,
+    "price": 241793
+  },
+  {
+    "square_meters": 112,
+    "description": "big bedroom with parking space",
+    "rooms": 5,
+    "floor": 3,
+    "price": 184461
+  },
+  {
+    "square_meters": 59,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 1,
+    "price": 136358
+  },
+  {
+    "square_meters": 105,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 10,
+    "price": 293981
+  },
+  {
+    "square_meters": 54,
+    "description": "small living room and big bedroom",
+    "rooms": 4,
+    "floor": 7,
+    "price": 96046
+  },
+  {
+    "square_meters": 53,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 2,
+    "price": 89091
+  },
+  {
+    "square_meters": 89,
+    "description": "newly furnished with a big TV",
+    "rooms": 2,
+    "floor": 8,
+    "price": 133825
+  },
+  {
+    "square_meters": 112,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 3,
+    "price": 51700
+  },
+  {
+    "square_meters": 82,
+    "description": "big bedroom with parking space",
+    "rooms": 5,
+    "floor": 7,
+    "price": 172680
+  },
+  {
+    "square_meters": 79,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 1,
+    "floor": 10,
+    "price": 206860
+  },
+  {
+    "square_meters": 94,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 3,
+    "floor": 5,
+    "price": 287207
+  },
+  {
+    "square_meters": 92,
+    "description": "big bedroom with parking space",
+    "rooms": 2,
+    "floor": 7,
+    "price": 140603
+  },
+  {
+    "square_meters": 82,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 3,
+    "floor": 4,
+    "price": 192854
+  },
+  {
+    "square_meters": 89,
+    "description": "renovated bathroom and big TV",
+    "rooms": 5,
+    "floor": 8,
+    "price": 119154
+  },
+  {
+    "square_meters": 74,
+    "description": "newly furnished with a big TV",
+    "rooms": 3,
+    "floor": 10,
+    "price": 286589
+  },
+  {
+    "square_meters": 70,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 3,
+    "floor": 9,
+    "price": 298245
+  },
+  {
+    "square_meters": 85,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 6,
+    "price": 250019
+  },
+  {
+    "square_meters": 110,
+    "description": "small living room and big TV",
+    "rooms": 4,
+    "floor": 5,
+    "price": 220423
+  },
+  {
+    "square_meters": 80,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 1,
+    "floor": 8,
+    "price": 123056
+  },
+  {
+    "square_meters": 63,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 1,
+    "price": 292975
+  },
+  {
+    "square_meters": 59,
+    "description": "parking space and big bedroom",
+    "rooms": 3,
+    "floor": 9,
+    "price": 209108
+  },
+  {
+    "square_meters": 106,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 5,
+    "price": 160575
+  },
+  {
+    "square_meters": 110,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 4,
+    "floor": 1,
+    "price": 103491
+  },
+  {
+    "square_meters": 59,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 5,
+    "price": 154135
+  },
+  {
+    "square_meters": 48,
+    "description": "small living room and big bedroom",
+    "rooms": 3,
+    "floor": 6,
+    "price": 203559
+  },
+  {
+    "square_meters": 46,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 5,
+    "floor": 7,
+    "price": 208571
+  },
+  {
+    "square_meters": 57,
+    "description": "renovated bathroom and big TV",
+    "rooms": 1,
+    "floor": 8,
+    "price": 199872
+  },
+  {
+    "square_meters": 78,
+    "description": "big bedroom and parking space",
+    "rooms": 2,
+    "floor": 6,
+    "price": 287463
+  },
+  {
+    "square_meters": 95,
+    "description": "renovated bathroom and small living room",
+    "rooms": 4,
+    "floor": 6,
+    "price": 267749
+  },
+  {
+    "square_meters": 61,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 2,
+    "floor": 8,
+    "price": 257373
+  },
+  {
+    "square_meters": 100,
+    "description": "renovated bathroom and big TV",
+    "rooms": 2,
+    "floor": 7,
+    "price": 112778
+  },
+  {
+    "square_meters": 73,
+    "description": "large living room and parking space",
+    "rooms": 3,
+    "floor": 4,
+    "price": 268652
+  },
+  {
+    "square_meters": 114,
+    "description": "small living room, no balcony",
+    "rooms": 5,
+    "floor": 2,
+    "price": 116151
+  },
+  {
+    "square_meters": 56,
+    "description": "renovated bathroom and small living room",
+    "rooms": 3,
+    "floor": 9,
+    "price": 202078
+  },
+  {
+    "square_meters": 116,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 1,
+    "floor": 6,
+    "price": 203299
+  },
+  {
+    "square_meters": 69,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 3,
+    "floor": 3,
+    "price": 249323
+  },
+  {
+    "square_meters": 120,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 2,
+    "price": 293238
+  },
+  {
+    "square_meters": 55,
+    "description": "big bedroom and parking space",
+    "rooms": 3,
+    "floor": 10,
+    "price": 50285
+  },
+  {
+    "square_meters": 59,
+    "description": "small living room with big TV",
+    "rooms": 2,
+    "floor": 9,
+    "price": 229930
+  },
+  {
+    "square_meters": 115,
+    "description": "renovated bathroom and small living room",
+    "rooms": 1,
+    "floor": 3,
+    "price": 182762
+  },
+  {
+    "square_meters": 53,
+    "description": "small living room and big TV",
+    "rooms": 2,
+    "floor": 4,
+    "price": 268733
+  },
+  {
+    "square_meters": 46,
+    "description": "small living room and big bedroom",
+    "rooms": 1,
+    "floor": 2,
+    "price": 96976
+  },
+  {
+    "square_meters": 78,
+    "description": "renovated bathroom and big TV",
+    "rooms": 2,
+    "floor": 5,
+    "price": 76642
+  },
+  {
+    "square_meters": 83,
+    "description": "large living room and balcony",
+    "rooms": 4,
+    "floor": 1,
+    "price": 188186
+  },
+  {
+    "square_meters": 69,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 4,
+    "floor": 1,
+    "price": 62242
+  },
+  {
+    "square_meters": 119,
+    "description": "small living room, no balcony",
+    "rooms": 2,
+    "floor": 5,
+    "price": 78348
+  },
+  {
+    "square_meters": 101,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 3,
+    "floor": 1,
+    "price": 135390
+  },
+  {
+    "square_meters": 118,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 4,
+    "floor": 5,
+    "price": 277545
+  },
+  {
+    "square_meters": 118,
+    "description": "large living room and parking space",
+    "rooms": 1,
+    "floor": 7,
+    "price": 224788
+  },
+  {
+    "square_meters": 104,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 1,
+    "floor": 3,
+    "price": 165151
+  },
+  {
+    "square_meters": 84,
+    "description": "small living room and renovated bathroom",
+    "rooms": 1,
+    "floor": 4,
+    "price": 143910
+  },
+  {
+    "square_meters": 52,
+    "description": "big bedroom and parking space",
+    "rooms": 3,
+    "floor": 6,
+    "price": 152243
+  },
+  {
+    "square_meters": 73,
+    "description": "big bedroom with parking space",
+    "rooms": 1,
+    "floor": 5,
+    "price": 174947
+  },
+  {
+    "square_meters": 84,
+    "description": "renovated bathroom and big TV",
+    "rooms": 5,
+    "floor": 7,
+    "price": 133473
+  },
+  {
+    "square_meters": 90,
+    "description": "renovated bathroom and small living room",
+    "rooms": 1,
+    "floor": 7,
+    "price": 141270
+  },
+  {
+    "square_meters": 60,
+    "description": "small living room and big TV",
+    "rooms": 1,
+    "floor": 3,
+    "price": 157231
+  },
+  {
+    "square_meters": 100,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 1,
+    "floor": 6,
+    "price": 202188
+  },
+  {
+    "square_meters": 49,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 1,
+    "floor": 6,
+    "price": 201176
+  },
+  {
+    "square_meters": 41,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 5,
+    "floor": 7,
+    "price": 114341
+  },
+  {
+    "square_meters": 86,
+    "description": "large living room and balcony",
+    "rooms": 2,
+    "floor": 5,
+    "price": 157030
+  },
+  {
+    "square_meters": 40,
+    "description": "small living room and renovated bathroom",
+    "rooms": 1,
+    "floor": 4,
+    "price": 252145
+  },
+  {
+    "square_meters": 117,
+    "description": "newly furnished with a big TV",
+    "rooms": 1,
+    "floor": 7,
+    "price": 182563
+  },
+  {
+    "square_meters": 41,
+    "description": "large living room and parking space",
+    "rooms": 3,
+    "floor": 6,
+    "price": 232011
+  },
+  {
+    "square_meters": 94,
+    "description": "big bedroom and parking space",
+    "rooms": 4,
+    "floor": 6,
+    "price": 82420
+  },
+  {
+    "square_meters": 102,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 2,
+    "floor": 2,
+    "price": 67802
+  },
+  {
+    "square_meters": 64,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 1,
+    "floor": 6,
+    "price": 267197
+  },
+  {
+    "square_meters": 99,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 2,
+    "floor": 4,
+    "price": 234342
+  },
+  {
+    "square_meters": 41,
+    "description": "small living room and renovated bathroom",
+    "rooms": 2,
+    "floor": 1,
+    "price": 218576
+  },
+  {
+    "square_meters": 113,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 3,
+    "price": 66228
+  },
+  {
+    "square_meters": 99,
+    "description": "large living room and parking space",
+    "rooms": 2,
+    "floor": 1,
+    "price": 89237
+  },
+  {
+    "square_meters": 115,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 2,
+    "floor": 1,
+    "price": 263664
+  },
+  {
+    "square_meters": 111,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 9,
+    "price": 205345
+  },
+  {
+    "square_meters": 104,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 3,
+    "price": 295502
+  },
+  {
+    "square_meters": 55,
+    "description": "big bedroom with parking space",
+    "rooms": 3,
+    "floor": 10,
+    "price": 63514
+  },
+  {
+    "square_meters": 107,
+    "description": "newly furnished with a big TV",
+    "rooms": 2,
+    "floor": 8,
+    "price": 251228
+  },
+  {
+    "square_meters": 62,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 8,
+    "price": 148058
+  },
+  {
+    "square_meters": 105,
+    "description": "small living room and big bedroom",
+    "rooms": 3,
+    "floor": 10,
+    "price": 92885
+  },
+  {
+    "square_meters": 46,
+    "description": "renovated bathroom and small living room",
+    "rooms": 4,
+    "floor": 6,
+    "price": 143845
+  },
+  {
+    "square_meters": 100,
+    "description": "big bedroom with parking space",
+    "rooms": 5,
+    "floor": 10,
+    "price": 131524
+  },
+  {
+    "square_meters": 109,
+    "description": "large living room and parking space",
+    "rooms": 3,
+    "floor": 1,
+    "price": 122898
+  },
+  {
+    "square_meters": 63,
+    "description": "renovated bathroom and big TV",
+    "rooms": 4,
+    "floor": 1,
+    "price": 186051
+  },
+  {
+    "square_meters": 47,
+    "description": "renovated bathroom and big TV",
+    "rooms": 1,
+    "floor": 6,
+    "price": 130706
+  },
+  {
+    "square_meters": 91,
+    "description": "small living room and big TV",
+    "rooms": 4,
+    "floor": 9,
+    "price": 193638
+  },
+  {
+    "square_meters": 94,
+    "description": "small living room, no balcony",
+    "rooms": 3,
+    "floor": 1,
+    "price": 261774
+  },
+  {
+    "square_meters": 79,
+    "description": "big bedroom with parking space",
+    "rooms": 5,
+    "floor": 4,
+    "price": 154240
+  },
+  {
+    "square_meters": 58,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 10,
+    "price": 177326
+  },
+  {
+    "square_meters": 72,
+    "description": "renovated bathroom and big TV",
+    "rooms": 3,
+    "floor": 8,
+    "price": 236761
+  },
+  {
+    "square_meters": 67,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 8,
+    "price": 95395
+  },
+  {
+    "square_meters": 88,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 3,
+    "price": 114795
+  },
+  {
+    "square_meters": 66,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 5,
+    "floor": 4,
+    "price": 262940
+  },
+  {
+    "square_meters": 59,
+    "description": "small living room and big bedroom",
+    "rooms": 4,
+    "floor": 3,
+    "price": 221030
+  },
+  {
+    "square_meters": 91,
+    "description": "large living room and parking space",
+    "rooms": 4,
+    "floor": 6,
+    "price": 221439
+  },
+  {
+    "square_meters": 105,
+    "description": "renovated bathroom and small living room",
+    "rooms": 5,
+    "floor": 7,
+    "price": 91064
+  },
+  {
+    "square_meters": 102,
+    "description": "newly furnished with a big TV",
+    "rooms": 4,
+    "floor": 5,
+    "price": 87146
+  },
+  {
+    "square_meters": 63,
+    "description": "renovated bathroom and big TV",
+    "rooms": 5,
+    "floor": 10,
+    "price": 298155
+  },
+  {
+    "square_meters": 65,
+    "description": "small living room and big bedroom",
+    "rooms": 1,
+    "floor": 8,
+    "price": 287417
+  },
+  {
+    "square_meters": 82,
+    "description": "small living room and big TV",
+    "rooms": 4,
+    "floor": 2,
+    "price": 78158
+  },
+  {
+    "square_meters": 64,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 1,
+    "price": 144924
+  },
+  {
+    "square_meters": 110,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 7,
+    "price": 255077
+  },
+  {
+    "square_meters": 95,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 5,
+    "floor": 5,
+    "price": 108517
+  },
+  {
+    "square_meters": 99,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 1,
+    "price": 129890
+  },
+  {
+    "square_meters": 91,
+    "description": "small living room and big bedroom",
+    "rooms": 1,
+    "floor": 9,
+    "price": 75988
+  },
+  {
+    "square_meters": 73,
+    "description": "renovated bathroom and big TV",
+    "rooms": 2,
+    "floor": 4,
+    "price": 168223
+  },
+  {
+    "square_meters": 58,
+    "description": "small living room and renovated bathroom",
+    "rooms": 5,
+    "floor": 8,
+    "price": 186383
+  },
+  {
+    "square_meters": 70,
+    "description": "large living room and balcony",
+    "rooms": 3,
+    "floor": 9,
+    "price": 285264
+  },
+  {
+    "square_meters": 57,
+    "description": "small living room and big TV",
+    "rooms": 4,
+    "floor": 2,
+    "price": 206898
+  },
+  {
+    "square_meters": 54,
+    "description": "big bedroom and parking space",
+    "rooms": 2,
+    "floor": 10,
+    "price": 113138
+  },
+  {
+    "square_meters": 104,
+    "description": "small living room, no balcony",
+    "rooms": 1,
+    "floor": 6,
+    "price": 81189
+  },
+  {
+    "square_meters": 44,
+    "description": "renovated bathroom and big TV",
+    "rooms": 4,
+    "floor": 10,
+    "price": 98953
+  },
+  {
+    "square_meters": 102,
+    "description": "renovated bathroom and small living room",
+    "rooms": 4,
+    "floor": 9,
+    "price": 262328
+  },
+  {
+    "square_meters": 100,
+    "description": "parking space and big bedroom",
+    "rooms": 3,
+    "floor": 6,
+    "price": 138352
+  },
+  {
+    "square_meters": 54,
+    "description": "big bedroom with parking space",
+    "rooms": 1,
+    "floor": 5,
+    "price": 154896
+  },
+  {
+    "square_meters": 80,
+    "description": "renovated bathroom and small living room",
+    "rooms": 2,
+    "floor": 10,
+    "price": 103880
+  },
+  {
+    "square_meters": 120,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 3,
+    "price": 228438
+  },
+  {
+    "square_meters": 105,
+    "description": "large living room and balcony",
+    "rooms": 4,
+    "floor": 7,
+    "price": 203648
+  },
+  {
+    "square_meters": 94,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 1,
+    "floor": 2,
+    "price": 70233
+  },
+  {
+    "square_meters": 115,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 1,
+    "floor": 3,
+    "price": 220808
+  },
+  {
+    "square_meters": 68,
+    "description": "small living room with big TV",
+    "rooms": 2,
+    "floor": 7,
+    "price": 259000
+  },
+  {
+    "square_meters": 79,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 5,
+    "floor": 8,
+    "price": 172603
+  },
+  {
+    "square_meters": 73,
+    "description": "large living room and parking space",
+    "rooms": 2,
+    "floor": 9,
+    "price": 104597
+  },
+  {
+    "square_meters": 110,
+    "description": "small living room and big TV",
+    "rooms": 2,
+    "floor": 10,
+    "price": 259363
+  },
+  {
+    "square_meters": 109,
+    "description": "big bedroom with parking space",
+    "rooms": 2,
+    "floor": 3,
+    "price": 268436
+  },
+  {
+    "square_meters": 117,
+    "description": "renovated bathroom and big TV",
+    "rooms": 3,
+    "floor": 6,
+    "price": 117346
+  },
+  {
+    "square_meters": 49,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 7,
+    "price": 267795
+  },
+  {
+    "square_meters": 95,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 3,
+    "floor": 10,
+    "price": 291951
+  },
+  {
+    "square_meters": 112,
+    "description": "small living room and big TV",
+    "rooms": 3,
+    "floor": 3,
+    "price": 271575
+  },
+  {
+    "square_meters": 70,
+    "description": "renovated bathroom and big TV",
+    "rooms": 3,
+    "floor": 4,
+    "price": 171738
+  },
+  {
+    "square_meters": 60,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 7,
+    "price": 228200
+  },
+  {
+    "square_meters": 108,
+    "description": "small living room and big bedroom",
+    "rooms": 3,
+    "floor": 2,
+    "price": 274033
+  },
+  {
+    "square_meters": 113,
+    "description": "small living room and renovated bathroom",
+    "rooms": 4,
+    "floor": 9,
+    "price": 285489
+  },
+  {
+    "square_meters": 47,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 10,
+    "price": 168718
+  },
+  {
+    "square_meters": 71,
+    "description": "large living room and parking space",
+    "rooms": 4,
+    "floor": 2,
+    "price": 146645
+  },
+  {
+    "square_meters": 115,
+    "description": "parking space and big bedroom",
+    "rooms": 3,
+    "floor": 3,
+    "price": 213719
+  },
+  {
+    "square_meters": 112,
+    "description": "big bedroom with parking space",
+    "rooms": 1,
+    "floor": 6,
+    "price": 186041
+  },
+  {
+    "square_meters": 61,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 9,
+    "price": 115187
+  },
+  {
+    "square_meters": 88,
+    "description": "large living room and parking space",
+    "rooms": 3,
+    "floor": 6,
+    "price": 202316
+  },
+  {
+    "square_meters": 59,
+    "description": "small living room with big TV",
+    "rooms": 5,
+    "floor": 4,
+    "price": 129660
+  },
+  {
+    "square_meters": 72,
+    "description": "big bedroom and parking space",
+    "rooms": 3,
+    "floor": 1,
+    "price": 62771
+  },
+  {
+    "square_meters": 76,
+    "description": "big bedroom with parking space",
+    "rooms": 5,
+    "floor": 4,
+    "price": 117756
+  },
+  {
+    "square_meters": 76,
+    "description": "small living room and renovated bathroom",
+    "rooms": 5,
+    "floor": 7,
+    "price": 287760
+  },
+  {
+    "square_meters": 120,
+    "description": "small living room with big TV",
+    "rooms": 4,
+    "floor": 10,
+    "price": 209489
+  },
+  {
+    "square_meters": 106,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 7,
+    "price": 176057
+  },
+  {
+    "square_meters": 58,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 3,
+    "floor": 7,
+    "price": 221782
+  },
+  {
+    "square_meters": 110,
+    "description": "small living room and renovated bathroom",
+    "rooms": 4,
+    "floor": 1,
+    "price": 141229
+  },
+  {
+    "square_meters": 78,
+    "description": "small living room and renovated bathroom",
+    "rooms": 2,
+    "floor": 9,
+    "price": 271100
+  },
+  {
+    "square_meters": 94,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 5,
+    "floor": 4,
+    "price": 182580
+  },
+  {
+    "square_meters": 64,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 2,
+    "price": 58637
+  },
+  {
+    "square_meters": 57,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 4,
+    "price": 119727
+  },
+  {
+    "square_meters": 102,
+    "description": "newly furnished with a big TV",
+    "rooms": 3,
+    "floor": 4,
+    "price": 245077
+  },
+  {
+    "square_meters": 70,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 2,
+    "floor": 10,
+    "price": 212567
+  },
+  {
+    "square_meters": 114,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 1,
+    "floor": 6,
+    "price": 253252
+  },
+  {
+    "square_meters": 85,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 2,
+    "floor": 7,
+    "price": 159465
+  },
+  {
+    "square_meters": 114,
+    "description": "renovated bathroom and small living room",
+    "rooms": 5,
+    "floor": 4,
+    "price": 255921
+  },
+  {
+    "square_meters": 110,
+    "description": "small living room and renovated bathroom",
+    "rooms": 5,
+    "floor": 8,
+    "price": 250374
+  },
+  {
+    "square_meters": 77,
+    "description": "renovated bathroom and small living room",
+    "rooms": 2,
+    "floor": 10,
+    "price": 262670
+  },
+  {
+    "square_meters": 109,
+    "description": "large living room and parking space",
+    "rooms": 5,
+    "floor": 2,
+    "price": 60085
+  },
+  {
+    "square_meters": 65,
+    "description": "big bedroom with parking space",
+    "rooms": 1,
+    "floor": 2,
+    "price": 254373
+  },
+  {
+    "square_meters": 61,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 2,
+    "price": 208495
+  },
+  {
+    "square_meters": 77,
+    "description": "small living room and big TV",
+    "rooms": 3,
+    "floor": 8,
+    "price": 286231
+  },
+  {
+    "square_meters": 85,
+    "description": "renovated bathroom and small living room",
+    "rooms": 3,
+    "floor": 7,
+    "price": 194685
+  },
+  {
+    "square_meters": 78,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 1,
+    "floor": 4,
+    "price": 106087
+  },
+  {
+    "square_meters": 111,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 5,
+    "floor": 10,
+    "price": 62560
+  },
+  {
+    "square_meters": 111,
+    "description": "newly furnished, balcony, and parking space",
+    "rooms": 5,
+    "floor": 4,
+    "price": 138427
+  },
+  {
+    "square_meters": 83,
+    "description": "renovated bathroom and small living room",
+    "rooms": 5,
+    "floor": 10,
+    "price": 204505
+  },
+  {
+    "square_meters": 117,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 9,
+    "price": 251041
+  },
+  {
+    "square_meters": 54,
+    "description": "big bedroom with parking space",
+    "rooms": 2,
+    "floor": 2,
+    "price": 201211
+  },
+  {
+    "square_meters": 111,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 1,
+    "floor": 3,
+    "price": 140649
+  },
+  {
+    "square_meters": 118,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 4,
+    "floor": 8,
+    "price": 126648
+  },
+  {
+    "square_meters": 70,
+    "description": "small living room with big TV",
+    "rooms": 2,
+    "floor": 8,
+    "price": 156044
+  },
+  {
+    "square_meters": 60,
+    "description": "small living room and renovated bathroom",
+    "rooms": 5,
+    "floor": 7,
+    "price": 285664
+  },
+  {
+    "square_meters": 104,
+    "description": "small living room and big bedroom",
+    "rooms": 4,
+    "floor": 7,
+    "price": 55717
+  },
+  {
+    "square_meters": 76,
+    "description": "small living room, no balcony",
+    "rooms": 4,
+    "floor": 9,
+    "price": 211020
+  },
+  {
+    "square_meters": 52,
+    "description": "small living room with big TV",
+    "rooms": 2,
+    "floor": 6,
+    "price": 112930
+  },
+  {
+    "square_meters": 41,
+    "description": "small living room and renovated bathroom",
+    "rooms": 5,
+    "floor": 1,
+    "price": 237732
+  },
+  {
+    "square_meters": 49,
+    "description": "small living room, no balcony",
+    "rooms": 2,
+    "floor": 3,
+    "price": 251359
+  },
+  {
+    "square_meters": 42,
+    "description": "renovated bathroom and small living room",
+    "rooms": 1,
+    "floor": 3,
+    "price": 230890
+  },
+  {
+    "square_meters": 69,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 3,
+    "price": 101953
+  },
+  {
+    "square_meters": 80,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 4,
+    "floor": 8,
+    "price": 106673
+  },
+  {
+    "square_meters": 99,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 3,
+    "floor": 2,
+    "price": 247288
+  },
+  {
+    "square_meters": 106,
+    "description": "renovated bathroom and big TV",
+    "rooms": 1,
+    "floor": 9,
+    "price": 98743
+  },
+  {
+    "square_meters": 75,
+    "description": "small living room, no balcony",
+    "rooms": 5,
+    "floor": 5,
+    "price": 129838
+  },
+  {
+    "square_meters": 45,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 5,
+    "floor": 7,
+    "price": 126360
+  },
+  {
+    "square_meters": 94,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 1,
+    "floor": 1,
+    "price": 181443
+  },
+  {
+    "square_meters": 105,
+    "description": "newly furnished with a big TV",
+    "rooms": 5,
+    "floor": 2,
+    "price": 59628
+  },
+  {
+    "square_meters": 106,
+    "description": "small living room and renovated bathroom",
+    "rooms": 5,
+    "floor": 1,
+    "price": 239018
+  },
+  {
+    "square_meters": 68,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 4,
+    "floor": 3,
+    "price": 87168
+  },
+  {
+    "square_meters": 81,
+    "description": "small living room and big TV",
+    "rooms": 5,
+    "floor": 7,
+    "price": 296868
+  },
+  {
+    "square_meters": 102,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 7,
+    "price": 97948
+  },
+  {
+    "square_meters": 63,
+    "description": "large living room, newly furnished, balcony",
+    "rooms": 5,
+    "floor": 1,
+    "price": 252321
+  },
+  {
+    "square_meters": 93,
+    "description": "large living room and balcony",
+    "rooms": 3,
+    "floor": 10,
+    "price": 175291
+  },
+  {
+    "square_meters": 112,
+    "description": "newly furnished apartment with a renovated bathroom",
+    "rooms": 1,
+    "floor": 4,
+    "price": 179350
+  },
+  {
+    "square_meters": 85,
+    "description": "small living room with big TV",
+    "rooms": 3,
+    "floor": 7,
+    "price": 198818
+  },
+  {
+    "square_meters": 75,
+    "description": "large living room and balcony",
+    "rooms": 5,
+    "floor": 6,
+    "price": 210103
+  },
+  {
+    "square_meters": 42,
+    "description": "large living room, big bedroom, and balcony",
+    "rooms": 2,
+    "floor": 3,
+    "price": 235332
+  },
+  {
+    "square_meters": 73,
+    "description": "big bedroom and parking space",
+    "rooms": 5,
+    "floor": 8,
+    "price": 224531
+  },
+  {
+    "square_meters": 54,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 4,
+    "floor": 5,
+    "price": 243412
+  },
+  {
+    "square_meters": 84,
+    "description": "small living room and big bedroom",
+    "rooms": 4,
+    "floor": 5,
+    "price": 74465
+  },
+  {
+    "square_meters": 95,
+    "description": "small living room, no balcony",
+    "rooms": 1,
+    "floor": 1,
+    "price": 292457
+  },
+  {
+    "square_meters": 81,
+    "description": "small living room and big bedroom",
+    "rooms": 3,
+    "floor": 3,
+    "price": 151999
+  },
+  {
+    "square_meters": 97,
+    "description": "renovated bathroom and big TV",
+    "rooms": 2,
+    "floor": 2,
+    "price": 87445
+  },
+  {
+    "square_meters": 43,
+    "description": "small living room and big TV",
+    "rooms": 2,
+    "floor": 5,
+    "price": 109719
+  },
+  {
+    "square_meters": 62,
+    "description": "big bedroom with a big TV and parking space",
+    "rooms": 2,
+    "floor": 1,
+    "price": 98932
+  },
+  {
+    "square_meters": 78,
+    "description": "newly furnished apartment with a large living room and a balcony",
+    "rooms": 2,
+    "floor": 2,
+    "price": 232025
+  },
+  {
+    "square_meters": 59,
+    "description": "big bedroom and parking space",
+    "rooms": 3,
+    "floor": 6,
+    "price": 224640
+  }
+]

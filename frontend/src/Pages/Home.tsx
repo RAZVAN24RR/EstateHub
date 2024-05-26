@@ -20,6 +20,7 @@ const Home: React.FC<{}> = () => {
     updatedAt: "",
     isAdmin: false,
     image: "",
+    adsFav: [],
   });
   const [ads, setAds] = useState<AdsInterface[]>();
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -88,8 +89,30 @@ const Home: React.FC<{}> = () => {
     }
   };
 
-  const handleAdFavorite = () => {
-    setShowAlertSuccess(true);
+  const handleAdFavorite = async (
+    adId: number,
+    image: string,
+    name: string,
+    price: string
+  ) => {
+    try {
+      setLoading(true);
+      const response = await axiosInstanceToApi.post("/fav/create", {
+        adId,
+        userId: localStorage.getItem("jwt"),
+        image,
+        name,
+        price,
+      });
+      if (response.status === 200) {
+        setShowAlertSuccess(true);
+      } else {
+        setShowAlertError(true);
+      }
+      setLoading(false);
+    } catch (err) {
+      console.log(err);
+    }
   };
 
   const handleSearch = async (e: FormEvent<HTMLFormElement>) => {
@@ -282,17 +305,21 @@ const Home: React.FC<{}> = () => {
                 </div>
               </div>
               <div className="mt-6 flex justify-between">
-                {user?.isAdmin && (
-                  <button
-                    onClick={() => handleDelete(item.id)}
-                    className="px-4 py-2 text-white bg-red-600 rounded-md hover:bg-red-700"
-                  >
-                    Delete
-                  </button>
-                )}
+                <button
+                  onClick={() =>
+                    navigate(
+                      `/AddDetail/${item.id}/${localStorage.getItem("jwt")}`
+                    )
+                  }
+                  className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700"
+                >
+                  Details
+                </button>
                 <button
                   className="relative px-4 py-2 rounded-md text-pink-600  hover:text-pink-700  group transition duration-1000"
-                  onClick={handleAdFavorite}
+                  onClick={() =>
+                    handleAdFavorite(item.id, item.image, item.name, item.price)
+                  }
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -310,16 +337,14 @@ const Home: React.FC<{}> = () => {
                   </svg>
                 </button>
 
-                <button
-                  onClick={() =>
-                    navigate(
-                      `/AddDetail/${item.id}/${localStorage.getItem("jwt")}`
-                    )
-                  }
-                  className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700"
-                >
-                  Details
-                </button>
+                {user?.isAdmin && (
+                  <button
+                    onClick={() => handleDelete(item.id)}
+                    className="px-4 py-2 text-white bg-red-600 rounded-md hover:bg-red-700"
+                  >
+                    Delete
+                  </button>
+                )}
               </div>
             </section>
           );

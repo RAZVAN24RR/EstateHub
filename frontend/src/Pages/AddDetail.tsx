@@ -7,9 +7,11 @@ import axiosInstanceToApi from "../api/networking";
 import AddDetailInterface from "../Interfaces/AdDetailInterface";
 import { useNavigate } from "react-router-dom";
 import Alert from "../Components/Alert";
+import Loader from "../Components/Loader";
 
 const AddDetail: React.FC<{}> = () => {
   const { id } = useParams();
+  const [loading, setLoading] = useState<Boolean>(false);
   const [showAlertError, setShowAlertError] = useState<Boolean>(false);
   const [showAlertSuccess, setShowAlertSuccess] = useState<Boolean>(false);
   const navigate = useNavigate();
@@ -40,8 +42,25 @@ const AddDetail: React.FC<{}> = () => {
     fetchData();
   }, [id]);
 
-  const handleAdFavorite = () => {
-    setShowAlertSuccess(true);
+  const handleAdFavorite = async () => {
+    try {
+      setLoading(true);
+      const response = await axiosInstanceToApi.post("/fav/create", {
+        adId: id,
+        userId: localStorage.getItem("jwt"),
+        image: adDetail.image,
+        name: adDetail.name,
+        price: adDetail.price,
+      });
+      if (response.status === 200) {
+        setShowAlertSuccess(true);
+      } else {
+        setShowAlertError(true);
+      }
+      setLoading(false);
+    } catch (err) {
+      console.log(err);
+    }
   };
 
   const handleViewOwner = () => {
@@ -51,6 +70,8 @@ const AddDetail: React.FC<{}> = () => {
     setShowAlertSuccess(false);
     navigate(`/Account/${localStorage.getItem("jwt")}`);
   };
+
+  if (loading) return <Loader />;
 
   return (
     <>
@@ -62,7 +83,7 @@ const AddDetail: React.FC<{}> = () => {
       />
       <section className="py-10 bg-gray-100 sm:py-16 lg:py-24">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-          <div className="max-w-2xl mx-auto text-center">
+          <div className="max-w-2xl   mx-auto text-center">
             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
               Ad Detail
             </h2>
@@ -86,7 +107,7 @@ const AddDetail: React.FC<{}> = () => {
             className="container bg-gray-100 mx-auto p-4"
             style={{ marginTop: "5%" }}
           >
-            <div className="flex flex-col md:flex-row bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+            <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-lg overflow-hidden">
               {/* Colțul Stâng: Imaginea */}
               <div className="md:w-1/2 p-4 flex justify-center items-center">
                 <img

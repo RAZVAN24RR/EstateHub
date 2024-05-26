@@ -14,7 +14,6 @@ interface AdAttributes {
   price: string;
   createdAt?: Date;
   updatedAt?: Date;
-  deletedAt?: Date;
 }
 
 export interface AdInput extends Optional<AdAttributes, "id"> {}
@@ -35,7 +34,6 @@ class Ad extends Model<AdAttributes, AdInput> implements AdAttributes {
   // timestamps!
   public readonly createdAt!: Date;
   public readonly updatedAt!: Date;
-  public readonly deletedAt!: Date;
 }
 
 Ad.init(
@@ -85,7 +83,7 @@ Ad.init(
   {
     timestamps: true,
     sequelize: sequelizeDB,
-    paranoid: true,
+    paranoid: false,
   }
 );
 

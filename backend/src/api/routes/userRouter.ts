@@ -14,9 +14,9 @@ userRouter.get("/:id", async (req: Request, res: Response) => {
     name: result.name,
     email: result.email,
     createdAt: dataFormat(result.createdAt),
-    updatedAt: dataFormat(result.updatedAt),
     isAdmin: result.isAdmin,
     image: result.image,
+    adsFav: result.adsFav,
   });
 });
 userRouter.delete("/:id", async (req: Request, res: Response) => {

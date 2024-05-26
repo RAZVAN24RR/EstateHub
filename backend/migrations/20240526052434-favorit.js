@@ -2,32 +2,31 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable("Ads", {
+    await queryInterface.createTable("Favorits", {
       id: {
         type: Sequelize.INTEGER.UNSIGNED,
         autoIncrement: true,
         primaryKey: true,
       },
-      name: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
       userId: {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
-      m2: {
+      adId: {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
-      address: {
+      price: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      isAdmin: {
-        type: Sequelize.BOOLEAN,
+      image: {
         allowNull: false,
-        defaultValue: false,
+        type: Sequelize.TEXT("long"),
+      },
+      name: {
+        type: Sequelize.STRING,
+        allowNull: false,
       },
       createdAt: {
         type: Sequelize.DATE,
@@ -39,30 +38,10 @@ module.exports = {
         allowNull: false,
         defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
       },
-      image: {
-        allowNull: false,
-        type: Sequelize.TEXT("long"),
-      },
-      description: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
-      floor: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
-      rooms: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
-      price: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
     });
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable("Ads");
+    await queryInterface.dropTable("Favorits");
   },
 };

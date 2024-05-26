@@ -30,10 +30,6 @@ module.exports = {
         allowNull: false,
         type: Sequelize.DATE,
       },
-      deletedAt: {
-        allowNull: true,
-        type: Sequelize.DATE,
-      },
       isAdmin: {
         allowNull: false,
         type: Sequelize.BOOLEAN,

@@ -1,6 +1,7 @@
 import * as userDal from "../../db/dal/user";
 import { GetAllUsersFilters } from "../../db/dal/types";
 import User, { UserInput, UserOutput } from "../../db/models/User";
+import UserDataOut from "../../db/dal/user";
 import { SALT_ROUNDS } from "../../konst";
 const bcrypt = require("bcrypt");
 
@@ -17,7 +18,7 @@ const createAdmin = (payload: UserInput): Promise<UserOutput> => {
   return ok;
 };
 
-const getById = async (id: number): Promise<UserOutput> => {
+const getById = async (id: number): Promise<UserDataOut> => {
   const ok = await userDal.getById(id);
   return ok;
 };

@@ -8,7 +8,6 @@ interface UserAttributes {
   password: string;
   createdAt?: Date;
   updatedAt?: Date;
-  deletedAt?: Date;
   isAdmin: boolean; // Make isAdmin non-optional
   image: string;
 }
@@ -27,7 +26,6 @@ class User extends Model<UserAttributes, UserInput> implements UserAttributes {
   // timestamps!
   public readonly createdAt!: Date;
   public readonly updatedAt!: Date;
-  public readonly deletedAt!: Date;
 }
 
 User.init(
@@ -61,7 +59,7 @@ User.init(
   {
     timestamps: true,
     sequelize: sequelizeDB,
-    paranoid: true,
+    paranoid: false,
   }
 );
 

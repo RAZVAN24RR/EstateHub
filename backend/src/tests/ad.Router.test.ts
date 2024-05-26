@@ -1,13 +1,9 @@
 import supertest from "supertest";
 import app from "..";
 import { Server } from "http";
-var jwt = require("jsonwebtoken");
 import { AddressInfo } from "net";
 
 let server: Server;
-const validToken = jwt.sign({ userId: 2 }, "private.key", {
-  expiresIn: "1h",
-});
 
 jest.setTimeout(20000);
 
@@ -32,17 +28,13 @@ afterAll((done) => {
 
 describe("Ad get", () => {
   it("should get ads", async () => {
-    const response = await supertest(app)
-      .get("/api/v1/ad/ads")
-      .set("Authorization", `Bearer ${validToken}`);
+    const response = await supertest(app).get("/api/v1/ad/ads");
 
     expect(response.status).toBe(200);
   });
 
   it("should get ads with trailing slash", async () => {
-    const response = await supertest(app)
-      .get("/api/v1/ad/ads/")
-      .set("Authorization", `Bearer ${validToken}`);
+    const response = await supertest(app).get("/api/v1/ad/ads/");
 
     expect(response.status).toBe(200);
   });

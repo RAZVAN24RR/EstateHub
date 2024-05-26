@@ -24,7 +24,6 @@ class Favorit
   price!: string;
   image!: string;
 
-  // timestamps!
   public readonly createdAt!: Date;
   public readonly updatedAt!: Date;
 }

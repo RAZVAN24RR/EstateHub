@@ -7,7 +7,7 @@ interface AdAttributes {
   userId: number;
   m2: number;
   address: string;
-  image: string; // Adăugăm câmpul `image`
+  image: string;
   description: string;
   rooms: string;
   floor: string;
@@ -27,7 +27,7 @@ class Ad extends Model<AdAttributes, AdInput> implements AdAttributes {
   public address!: string;
   public floor!: string;
   public rooms!: string;
-  public image!: string; // Adăugăm câmpul `image`
+  public image!: string;
   public description!: string;
   public price!: string;
 

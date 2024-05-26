@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../assets/Estatehub.webp";
 import Footer from "../Components/Footer";
 import Back from "../assets/back.png";
 import Nav from "../Components/Nav";

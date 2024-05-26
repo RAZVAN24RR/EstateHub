@@ -1,6 +1,5 @@
 import React, { useState, ChangeEvent } from "react";
 import Footer from "../Components/Footer";
-import LogoImg from "../assets/Estatehub.webp";
 import Nav from "../Components/Nav";
 import { useNavigate } from "react-router-dom";
 import RegisterUserInterface from "../Interfaces/RegisterUserInterface";

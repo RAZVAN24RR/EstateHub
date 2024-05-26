@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Footer from "../Components/Footer";
-import LogoImg from "../assets/Estatehub.webp";
 import Nav from "../Components/Nav";
 import axiosInstanceToApi from "../api/networking";
 import DataUserInterface from "../Interfaces/DataUserInterface";

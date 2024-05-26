@@ -4,8 +4,8 @@ const sequelizeDB = new Sequelize({
   username: "razvan",
   password: "razvan",
   host: "localhost",
-  dialect: "mysql", // sau altul, în funcție de baza de date folosită
-  models: ["/models"], // specifică locația modelelor Sequelize
+  dialect: "mysql",
+  models: ["/models"],
 });
 
 export default sequelizeDB;

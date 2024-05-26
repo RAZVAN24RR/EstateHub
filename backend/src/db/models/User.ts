@@ -8,7 +8,7 @@ interface UserAttributes {
   password: string;
   createdAt?: Date;
   updatedAt?: Date;
-  isAdmin: boolean; // Make isAdmin non-optional
+  isAdmin: boolean;
   image: string;
 }
 
@@ -20,7 +20,7 @@ class User extends Model<UserAttributes, UserInput> implements UserAttributes {
   public name!: string;
   public email!: string;
   public password!: string;
-  public isAdmin!: boolean; // Make isAdmin non-optional
+  public isAdmin!: boolean;
   public image!: string;
 
   // timestamps!

@@ -27,7 +27,6 @@ app.get("/hi", (req, res) => {
 });
 
 if (process.env.NODE_ENV !== "test") {
-  // Pornește serverul doar dacă nu suntem în mediu de test
   app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
   });

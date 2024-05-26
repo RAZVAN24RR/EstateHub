@@ -37,7 +37,7 @@ const Nav: React.FC<NavProps> = (type) => {
                       HOME{" "}
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="/About"
                       title=""
@@ -46,8 +46,8 @@ const Nav: React.FC<NavProps> = (type) => {
                       {" "}
                       About{" "}
                     </a>
-                  </li>
-
+                  </li> */}
+                  {/* 
                   <li>
                     <a
                       href="/PrivacyPolicy"
@@ -57,7 +57,7 @@ const Nav: React.FC<NavProps> = (type) => {
                       {" "}
                       Privacy Policy{" "}
                     </a>
-                  </li>
+                  </li> */}
 
                   <li>
                     <a
@@ -177,7 +177,7 @@ const Nav: React.FC<NavProps> = (type) => {
                       Log in{" "}
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="/About"
                       title=""
@@ -186,8 +186,8 @@ const Nav: React.FC<NavProps> = (type) => {
                       {" "}
                       About{" "}
                     </a>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <a
                       href="/PrivacyPolicy"
                       title=""
@@ -196,7 +196,7 @@ const Nav: React.FC<NavProps> = (type) => {
                       {" "}
                       Privacy Policy{" "}
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
 
                 <div className="w-full h-px mt-8 mb-5 xl:w-px xl:m-0 xl:h-6 bg-gray-50/20"></div>

@@ -6,7 +6,8 @@ const helmet = require("helmet");
 import router from "./api/routes";
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
+
 const baseApp = `/api/v1`;
 
 app.use(
@@ -25,8 +26,11 @@ app.get("/hi", (req, res) => {
   res.status(200).send("hi");
 });
 
-app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
-});
+if (process.env.NODE_ENV !== "test") {
+  // Pornește serverul doar dacă nu suntem în mediu de test
+  app.listen(port, () => {
+    console.log(`Server running on http://localhost:${port}`);
+  });
+}
 
 export default app;

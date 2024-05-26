@@ -107,7 +107,7 @@ const AddDetail: React.FC<{}> = () => {
             className="container bg-gray-100 mx-auto p-4"
             style={{ marginTop: "5%" }}
           >
-            <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="flex flex-col md:flex-row bg-white p-20 rounded-lg shadow-lg overflow-hidden">
               {/* Colțul Stâng: Imaginea */}
               <div className="md:w-1/2 p-4 flex justify-center items-center">
                 <img
@@ -119,7 +119,7 @@ const AddDetail: React.FC<{}> = () => {
 
               {/* Colțul Drept: Detalii Anunț */}
               <div
-                className="md:w-1/2 p-6"
+                className="md:w-1/2 p-6 pl-20"
                 style={{ margin: "auto", width: "80%" }}
               >
                 <div
